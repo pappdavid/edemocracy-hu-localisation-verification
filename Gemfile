@@ -30,7 +30,7 @@ gem "font-awesome-sass", "~> 5.15.1" # Remember to update vendor/assets/images/f
 gem "globalize", "~> 7.1.1"
 gem "globalize-accessors", "~> 0.3.0"
 gem "googleauth", "~> 1.16.2"
-gem "graphiql-rails", "~> 1.8.0"
+gem "graphiql-rails", "~> 1.10.5"
 gem "graphql", "~> 2.6.1"
 gem "groupdate", "~> 6.7.0"
 gem "image_processing", "~> 1.14.0"
