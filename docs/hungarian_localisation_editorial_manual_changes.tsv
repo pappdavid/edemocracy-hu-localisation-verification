@@ -1,0 +1,412 @@
+file	key	previous_hungarian	revised_hungarian	english_source	method
+budgets.yml	budgets.ballots.show.title	A szavazólapod	Az Ön szavazólapja	Your ballot	human editorial revision
+budgets.yml	budgets.ballots.show.amount_available.knapsack	Továbbra is elérhető az Ön számára: <span>%{count}</span>	Még felhasználható: <span>%{count}</span>	Still available to you <span>%{count}</span>	human editorial revision
+budgets.yml	budgets.ballots.show.amount_available.approval.zero	Még mindig <span>%{count}</span> szavazatot adhat le.	Még <span>%{count}</span> szavazatot adhat le.	You can still cast <span>%{count}</span> votes.	human editorial revision
+budgets.yml	budgets.ballots.show.amount_available.approval.one	Még mindig <span>%{count}</span> szavazatot adhat le.	Még <span>%{count}</span> szavazatot adhat le.	You can still cast <span>%{count}</span> vote.	human editorial revision
+budgets.yml	budgets.ballots.show.amount_available.approval.other	Még mindig <span>%{count}</span> szavazatot adhat le.	Még <span>%{count}</span> szavazatot adhat le.	You can still cast <span>%{count}</span> votes.	human editorial revision
+budgets.yml	budgets.ballots.show.amount_limit.approval.one	Szavazhat <span>1</span> projektre	Legfeljebb <span>1</span> projektre szavazhat.	You can vote <span>1</span> project	human editorial revision
+budgets.yml	budgets.ballots.show.amount_limit.approval.other	Legfeljebb <span>%{count}</span> projektre szavazhat	Legfeljebb <span>%{count}</span> projektre szavazhat.	You can vote up to <span>%{count}</span> projects	human editorial revision
+budgets.yml	budgets.ballots.show.no_balloted_group_yet	Még nem szavazott erre a csoportra, menjen szavazni!	Ebben a kategóriában még nem szavazott. Adja le szavazatát most!	You have not voted on this group yet, go vote!	human editorial revision
+budgets.yml	budgets.ballots.show.remove_label	Távolítsa el szavazatát %{investment}	Szavazat eltávolítása: %{investment}	Remove your vote for %{investment}	human editorial revision
+budgets.yml	budgets.ballots.show.voted.one	Ön <span>egy</span> befektetésre szavazott.	Ön <span>egy</span> beruházási projektre szavazott.	You have voted <span>one</span> investment.	human editorial revision
+budgets.yml	budgets.ballots.show.voted.other	Ön <span>%{count}</span> befektetésre szavazott.	Ön <span>%{count}</span> beruházási projektre szavazott.	You have voted <span>%{count}</span> investments.	human editorial revision
+budgets.yml	budgets.ballots.show.voted_info	Szavazásod megerősítésre került!	Szavazata megerősítést nyert.	Your ballot is confirmed!	human editorial revision
+budgets.yml	budgets.ballots.show.voted_info_2	De bármikor megváltoztathatja szavazatát, amíg ez a szakasz le nem zárul.	Szavazatát a szakasz lezárásáig bármikor módosíthatja.	But you can change your vote at any time until this phase is closed.	human editorial revision
+budgets.yml	budgets.ballots.reasons_for_not_balloting.not_verified	Csak ellenőrzött felhasználók szavazhatnak a befektetésekre; %{verify_account}.	Beruházási projektekre csak ellenőrzött felhasználók szavazhatnak; %{verify_account}.	Only verified users can vote on investments; %{verify_account}.	human editorial revision
+budgets.yml	budgets.ballots.reasons_for_not_balloting.not_selected	A ki nem választott beruházási projektek nem támogathatók	A végső szavazásra ki nem választott beruházási projektek nem támogathatók.	Unselected investment projects can not be supported	human editorial revision
+budgets.yml	budgets.ballots.reasons_for_not_balloting.not_enough_money	Már hozzárendelte a rendelkezésre álló költségkeretet.<br><small>Ne feledje, hogy bármikor %{change_ballot}-t tehet</small>	Már felhasználta a rendelkezésre álló költségkeretet.<br><small>Ne feledje: bármikor %{change_ballot}.</small>	You have already assigned the available budget.<br><small>Remember you can %{change_ballot} at any time</small>	human editorial revision
+budgets.yml	budgets.ballots.reasons_for_not_balloting.no_ballots_allowed	A kiválasztási fázis lezárult	A kiválasztási szakasz lezárult.	Selecting phase is closed	human editorial revision
+budgets.yml	budgets.ballots.reasons_for_not_balloting.different_heading_assigned	Már szavazott egy másik címsorra: %{heading_link}	Már egy másik kategóriában szavazott: %{heading_link}.	You have already voted a different heading: %{heading_link}	human editorial revision
+budgets.yml	budgets.ballots.reasons_for_not_balloting.not_enough_available_votes	Elérte a szavazatok maximális számát	Elérte a leadható szavazatok maximális számát.	You have reached the maximum number of votes allowed	human editorial revision
+budgets.yml	budgets.ballots.reasons_for_not_balloting.change_ballot	változtassa meg a szavazatait	módosíthatja szavazatait	change your votes	human editorial revision
+budgets.yml	budgets.ballots.reasons_for_not_balloting.casted_offline	Már offline is részt vett	Ön már személyesen is részt vett a szavazásban.	You have already participated offline	human editorial revision
+budgets.yml	budgets.groups.show.title	Válasszon egy címsort	Válasszon kategóriát	Select a heading	human editorial revision
+budgets.yml	budgets.phase.drafting	Piszkozat (Nyilvánosan nem látható)	Piszkozat (nyilvánosan nem látható)	Draft (Not visible to the public)	human editorial revision
+budgets.yml	budgets.phase.informing	Információ	Tájékoztatás	Information	human editorial revision
+budgets.yml	budgets.phase.publishing_prices	Kiadói projektek árai	A projektek költségének közzététele	Publishing projects prices	human editorial revision
+budgets.yml	budgets.phase.balloting	Szavazási projektek	Szavazás a projektekről	Voting projects	human editorial revision
+budgets.yml	budgets.phase.reviewing_ballots	Szavazás felülvizsgálata	A szavazás ellenőrzése	Reviewing voting	human editorial revision
+budgets.yml	budgets.phase.finished	Kész költségvetés	Lezárt költségvetés	Finished budget	human editorial revision
+budgets.yml	budgets.index.title	közösségi költségvetések	Közösségi költségvetések	Participatory budgets	human editorial revision
+budgets.yml	budgets.index.section_header.icon_alt	közösségi költségvetések ikonra	Közösségi költségvetés ikon	Participatory budgets icon	human editorial revision
+budgets.yml	budgets.index.section_header.title	közösségi költségvetések	Közösségi költségvetések	Participatory budgets	human editorial revision
+budgets.yml	budgets.index.next_phase	Következő fázis	Következő szakasz	Next phase	human editorial revision
+budgets.yml	budgets.index.prev_phase	Előző fázis	Előző szakasz	Previous phase	human editorial revision
+budgets.yml	budgets.index.current_phase	Aktuális fázis	Aktuális szakasz	Current phase	human editorial revision
+budgets.yml	budgets.index.map	A költségvetési beruházási javaslatok földrajzi elhelyezkedésűek	Beruházási javaslatok a térképen	Budget investments' proposals located geographically	human editorial revision
+budgets.yml	budgets.index.finished_budgets	Elkészült a közösségi költségvetés	Lezárt közösségi költségvetések	Finished participatory budgets	human editorial revision
+budgets.yml	budgets.index.section_footer.description	A közösségi költségvetéssel a polgárok döntik el, hogy mely projektekre szánják a költségvetés egy részét.	A közösségi költségvetésben a polgárok döntenek arról, hogy a költségvetés egy részét mely projektekre fordítsák.	With the participatory budgets the citizens decide to which projects is destined a part of the budget.	human editorial revision
+budgets.yml	budgets.investments.form.title	Hozzon létre egy költségvetési befektetést	Beruházási projekt létrehozása	Create a budget investment	human editorial revision
+budgets.yml	budgets.investments.form.tags_instructions	Jelölje meg ezt az ajánlatot. Választhat a javasolt kategóriák közül, vagy hozzáadhat sajátot	Címkézze fel ezt a javaslatot. Választhat a javasolt kategóriák közül, vagy saját címkét is hozzáadhat.	Tag this proposal. You can choose from proposed categories or add your own	human editorial revision
+budgets.yml	budgets.investments.form.tags_placeholder	Adja meg a használni kívánt címkéket, vesszővel (',') elválasztva.	Adja meg a használni kívánt címkéket vesszővel (',') elválasztva.	Enter the tags you would like to use, separated by commas (',')	human editorial revision
+budgets.yml	budgets.investments.index.title	közösségi költségvetés	Közösségi költségvetés	Participatory budgeting	human editorial revision
+budgets.yml	budgets.investments.index.unfeasible	Megvalósíthatatlan beruházási projektek	Nem megvalósítható beruházási projektek	Unfeasible investment projects	human editorial revision
+budgets.yml	budgets.investments.index.unfeasible_text	A beruházásoknak számos kritériumnak kell megfelelniük (törvényesség, konkrétság, nem léphetik túl a költségvetési keretet), hogy életképessé nyilvánítsák és a zárószavazás stádiumába kerüljenek. Minden olyan beruházás, amely nem felel meg ezeknek a kritériumoknak, kivitelezhetetlennek van jelölve, és a megvalósíthatatlansági jelentéssel együtt a következő listában közzéteszi.	A beruházási projekteknek több feltételnek is meg kell felelniük – jogszerűnek és kellően konkrétnak kell lenniük, valamint nem léphetik túl a költségvetési keretet –, hogy a végső szavazás szakaszába kerüljenek. Azok a projektek, amelyek nem felelnek meg ezeknek a feltételeknek, nem megvalósíthatóként, indoklással együtt jelennek meg az alábbi listában.	The investments must meet a number of criteria (legality, concreteness, not exceed the limit of the budget) to be declared viable and reach the stage of final vote. All investments don't meet these criteria are marked as unfeasible and published in the following list, along with its report of infeasibility.	human editorial revision
+budgets.yml	budgets.investments.index.by_heading	Beruházási projektek hatókörrel: %{heading}	Beruházási projektek ebben a kategóriában: %{heading}	Investment projects with scope: %{heading}	human editorial revision
+budgets.yml	budgets.investments.index.search_form.placeholder	Beruházási projektek keresése...	Beruházási projektek keresése…	Search investment projects...	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.my_ballot	Az én szavazólapom	Az Ön szavazólapja	My ballot	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.voted_info.knapsack.one	<strong>Egy olyan ajánlatot szavazott meg, amelynek költsége %{amount_spent}</strong>	<strong>Ön egy %{amount_spent} értékű javaslatra szavazott.</strong>	<strong>You voted one proposal with a cost of %{amount_spent}</strong>	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.voted_info.knapsack.other	<strong>Ön %{count} javaslatot szavazott meg, amelynek költsége %{amount_spent}</strong>	<strong>Ön %{count} javaslatra szavazott, összesen %{amount_spent} értékben.</strong>	<strong>You voted %{count} proposals with a cost of %{amount_spent}</strong>	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.voted_info.approval.one	<strong>Egy javaslatot szavazott meg</strong>	<strong>Ön egy javaslatra szavazott.</strong>	<strong>You voted one proposal</strong>	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.voted_info.approval.other	<strong>Ön %{count} javaslatra szavazott</strong>	<strong>Ön %{count} javaslatra szavazott.</strong>	<strong>You voted %{count} proposals</strong>	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.change_vote_info.knapsack	Az %{link}-et %{phase_end_date}-ig bármikor elvégezheti. Nem kell minden rendelkezésre álló pénzt elkölteni.	Szavazatát %{phase_end_date}-ig bármikor %{link}. Nem szükséges elköltenie a teljes rendelkezésre álló összeget.	You can %{link} at any time until %{phase_end_date}. No need to spend all the money available.	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.change_vote_info.approval	Az %{link}-et %{phase_end_date}-ig bármikor elvégezheti.	Szavazatát %{phase_end_date}-ig bármikor %{link}.	You can %{link} at any time until %{phase_end_date}.	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.change_vote_link	változtasd meg a szavazatodat	módosíthatja	change your vote	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.different_heading_assigned	Aktív szavazatai vannak egy másik rovatban: %{heading_link}	Másik kategóriában is vannak aktív szavazatai: %{heading_link}.	You have active votes in another heading: %{heading_link}	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.change_ballot	Ha meggondolja magát, eltávolíthatja szavazatait az %{check_ballot}-ban, és újrakezdheti.	Ha meggondolja magát, a %{check_ballot} oldalon eltávolíthatja szavazatait, majd újrakezdheti.	If you change your mind you can remove your votes in %{check_ballot} and start again.	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.check_ballot_link	ellenőrizze a szavazataimat	ellenőrizze szavazatait	check my votes	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.zero	Nem szavazott egyetlen befektetési projektet sem ebben a csoportban.	Ebben a kategóriában még egyetlen beruházási projektre sem szavazott.	You have not voted any investment project in this group.	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.verified_only	Új költségvetési beruházás létrehozásához %{verify}.	Új beruházási projekt létrehozásához %{verify}.	To create a new budget investment %{verify}.	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.create	Hozzon létre egy költségvetési befektetést	Beruházási projekt létrehozása	Create a budget investment	human editorial revision
+budgets.yml	budgets.investments.index.sidebar.not_logged_in	Új költségvetési befektetés létrehozásához %{sign_in} vagy %{sign_up} szükséges.	Új beruházási projekt létrehozásához %{sign_in} vagy %{sign_up} szükséges.	To create a new budget investment you must %{sign_in} or %{sign_up}.	human editorial revision
+budgets.yml	budgets.investments.index.filter	Projektek szűrése a következő szerint	Projektek szűrése	Filtering projects by	human editorial revision
+budgets.yml	budgets.investments.index.filters.unfeasible	Megvalósíthatatlan	Nem megvalósítható	Unfeasible	human editorial revision
+budgets.yml	budgets.investments.index.filters.unselected	Nem választották ki a végső szavazásra	A végső szavazásra ki nem választott	Not selected for the final voting	human editorial revision
+budgets.yml	budgets.investments.index.orders.confidence_score	legmagasabb minősítésű	Legmagasabb értékelés	highest rated	human editorial revision
+budgets.yml	budgets.investments.share.message	Az %{title} beruházási projektet %{handle}-ben hoztam létre. Hozz létre befektetési projektet is!	A(z) %{title} beruházási projektet itt hoztam létre: %{handle}. Hozzon létre Ön is beruházási projektet!	I created the investment project %{title} in %{handle}. Create an investment project too!	human editorial revision
+budgets.yml	budgets.investments.show.price_explanation	Ár magyarázat	Az ár magyarázata	Price explanation	human editorial revision
+budgets.yml	budgets.investments.show.organization_name	Javasolt a következő nevében: <strong>%{name}</strong>	Javaslattevő szervezet: <strong>%{name}</strong>	Proposed on behalf of: <strong>%{name}</strong>	human editorial revision
+budgets.yml	budgets.investments.show.share	Részesedés	Megosztás	Share	human editorial revision
+budgets.yml	budgets.investments.show.supports	Támogatja	Támogatások	Supports	human editorial revision
+budgets.yml	budgets.investments.show.project_unfeasible	Ezt a beruházási projektet <strong> nem megvalósíthatónak</strong> jelölték meg, és nem kerül szavazási szakaszba.	Ez a beruházási projekt <strong>nem megvalósítható</strong>, ezért nem kerül a szavazási szakaszba.	This investment project <strong>has been marked as not feasible</strong> and will not go to balloting phase.	human editorial revision
+budgets.yml	budgets.investments.show.project_selected	Ezt a beruházási projektet <strong> kiválasztották</strong> a szavazási szakaszra.	Ezt a beruházási projektet <strong>kiválasztották</strong> a szavazási szakaszra.	This investment project <strong>has been selected</strong> for balloting phase.	human editorial revision
+budgets.yml	budgets.investments.investment.already_added	Ön már hozzáadta ezt a beruházási projektet	Ön már hozzáadta ezt a beruházási projektet.	You have already added this investment project	human editorial revision
+budgets.yml	budgets.investments.investment.support_title	Támogassa ezt a projektet	A projekt támogatása	Support this project	human editorial revision
+budgets.yml	budgets.investments.investment.supports.other	%{count} támogatja	%{count} támogatás	%{count} supports	human editorial revision
+budgets.yml	budgets.investments.header.check_ballot	Ellenőrizze a szavazataimat	Szavazataim ellenőrzése	Check my votes	human editorial revision
+budgets.yml	budgets.investments.header.different_heading_assigned	Aktív szavazatai vannak egy másik rovatban: %{heading_link}	Másik kategóriában is vannak aktív szavazatai: %{heading_link}.	You have active votes in another heading: %{heading_link}	human editorial revision
+budgets.yml	budgets.investments.header.change_ballot	Ha meggondolja magát, eltávolíthatja szavazatait az %{check_ballot}-ban, és újrakezdheti.	Ha meggondolja magát, a %{check_ballot} oldalon eltávolíthatja szavazatait, majd újrakezdheti.	If you change your mind you can remove your votes in %{check_ballot} and start again.	human editorial revision
+budgets.yml	budgets.investments.header.check_ballot_link	ellenőrizze a szavazataimat	ellenőrizze szavazatait	check my votes	human editorial revision
+budgets.yml	budgets.investments.header.price	Teljes költségvetés	Teljes költségkeret	Total budget	human editorial revision
+budgets.yml	budgets.investments.votes.confirm_group.one	Csak az %{count} kerületben lehet beruházásokat támogatni. Ha folytatja, nem módosíthatja a körzetének választását. Biztos vagy benne?	Beruházási projekteket csak a(z) %{count}. kerületben támogathat. Ha folytatja, később nem módosíthatja ezt a választást. Biztos benne?	You can only support investments in %{count} district. If you continue you cannot change the election of your district. Are you sure?	human editorial revision
+budgets.yml	budgets.investments.votes.confirm_group.other	Csak az %{count} körzetekben lehet beruházásokat támogatni. Ha folytatja, nem módosíthatja a körzetének választását. Biztos vagy benne?	Beruházási projekteket csak a következő kerületekben támogathatja: %{count}. Ha folytatja, később nem módosíthatja ezt a választást. Biztos benne?	You can only support investments in %{count} districts. If you continue you cannot change the election of your district. Are you sure?	human editorial revision
+budgets.yml	budgets.investments.votes.remove_support_label	Távolítsa el az %{investment} támogatását	%{investment} támogatásának eltávolítása	Remove your support to %{investment}	human editorial revision
+budgets.yml	budgets.investments_list.investment.read_more	Olvass tovább	További részletek	Read more	human editorial revision
+budgets.yml	budgets.investments_list.investment.supports	Támogatja	Támogatások	Supports	human editorial revision
+budgets.yml	budgets.investments_list.see_all	Tekintse meg az összes befektetést	Az összes beruházási projekt megtekintése	See all investments	human editorial revision
+budgets.yml	budgets.investments_list.title	A befektetések listája	Beruházási projektek listája	List of investments	human editorial revision
+budgets.yml	budgets.supports_info.next	Támogassa azokat a projekteket, amelyekkel a következő fázisba szeretne lépni.	Támogassa azokat a projekteket, amelyeket szeretne a következő szakaszba juttatni.	Support the projects you would like to see move on to the next phase.	human editorial revision
+budgets.yml	budgets.supports_info.scrolling	Az összes ötlet megtekintéséhez görgessen tovább	Görgessen tovább az összes ötlet megtekintéséhez.	Keep scrolling to see all ideas	human editorial revision
+budgets.yml	budgets.supports_info.share	Megoszthatja a támogatott projektjeit a közösségi médián keresztül, és több figyelmet és támogatást vonhat magára!	Ossza meg a támogatott projekteket a közösségi médiában, hogy több figyelmet és támogatást kapjanak!	You can share the projects you have supported on through social media and attract more attention and support to them!	human editorial revision
+budgets.yml	budgets.supports_info.supported.other	Eddig az <strong>%{count} projekteket</strong> támogatta.	Eddig <strong>%{count} projektet</strong> támogatott.	So far you've supported <strong>%{count} projects</strong>.	human editorial revision
+budgets.yml	budgets.supports_info.supported_not_logged_in	Jelentkezzen be az <strong>támogató projektek</strong> elindításához.	Jelentkezzen be, hogy <strong>támogathassa a projekteket</strong>.	Log in to start <strong>supporting projects</strong>.	human editorial revision
+budgets.yml	budgets.supports_info.time	Még van idő a projektek támogatására %{phase_end_date}-ig.	%{phase_end_date}-ig még támogathat projekteket.	There's still time until %{phase_end_date} to support projects.	human editorial revision
+budgets.yml	budgets.supports_info.title	Ideje <strong>támogatni</strong> projekteket!	Itt az idő, hogy <strong>támogassa</strong> a projekteket!	It's time to <strong>support</strong> projects!	human editorial revision
+budgets.yml	budgets.results.heading	közösségi költségvetés eredményei	A közösségi költségvetés eredményei	Participatory budget results	human editorial revision
+budgets.yml	budgets.results.heading_selection_title	kerület szerint	Kerület szerint	By district	human editorial revision
+budgets.yml	budgets.results.hide_discarded_link	Elvetett elrejtés	Elvetettek elrejtése	Hide discarded	human editorial revision
+budgets.yml	budgets.results.accepted	Elfogadott befektetés:	Elfogadott beruházási projekt:	Accepted investment: 	human editorial revision
+budgets.yml	budgets.results.discarded	Eldobott befektetés:	Elvetett beruházási projekt:	Discarded investment: 	human editorial revision
+budgets.yml	budgets.results.unfeasible_investment_proyects	Az összes megvalósíthatatlan beruházási projekt listája	Nem megvalósítható beruházási projektek listája	List of all unfeasible investment projects	human editorial revision
+budgets.yml	budgets.results.not_selected_investment_proyects	A szavazásra nem kiválasztott beruházási projektek listája	A szavazásra ki nem választott beruházási projektek listája	List of all investment projects not selected for balloting	human editorial revision
+budgets.yml	budgets.executions.page_title	%{budget} - Mérföldkövek	%{budget} – mérföldkövek	%{budget} - Milestones	human editorial revision
+budgets.yml	budgets.executions.heading	közösségi költségvetés Mérföldkövek	A közösségi költségvetés mérföldkövei	Participatory budget Milestones	human editorial revision
+budgets.yml	budgets.executions.heading_selection_title	kerület szerint	Kerület szerint	By district	human editorial revision
+budgets.yml	budgets.executions.no_winner_investments	Ebben az állapotban nincs nyertes befektetés	Ebben az állapotban nincs nyertes beruházási projekt.	No winner investments in this state	human editorial revision
+budgets.yml	budgets.executions.filters.milestone_tag.label	Mérföldkő címke	Mérföldkőcímke	Milestone tag	human editorial revision
+budgets.yml	budgets.phases.errors.dates_range_invalid	A kezdő dátum nem lehet egyenlő vagy későbbi, mint a Befejezés dátuma	A kezdő dátum nem lehet azonos a záró dátummal, és nem lehet annál későbbi sem.	Start date can't be equal or later than End date	human editorial revision
+budgets.yml	budgets.phases.errors.prev_phase_dates_invalid	A kezdő dátumnak későbbinek kell lennie, mint az előző engedélyezett fázis kezdő dátuma (%{phase_name})	A kezdő dátumnak későbbinek kell lennie, mint az előző engedélyezett szakasz kezdő dátuma (%{phase_name}).	Start date must be later than the start date of the previous enabled phase (%{phase_name})	human editorial revision
+budgets.yml	budgets.phases.errors.next_phase_dates_invalid	A befejezés dátumának korábbinak kell lennie, mint a következő engedélyezett fázis (%{phase_name}) befejezési dátuma.	A záró dátumnak korábbinak kell lennie, mint a következő engedélyezett szakasz záró dátuma (%{phase_name}).	End date must be earlier than the end date of the next enabled phase (%{phase_name})	human editorial revision
+devise_views.yml	devise_views.confirmations.new.submit	Küldje el újra az utasításokat	Megerősítési utasítások újbóli elküldése	Re-send instructions	human editorial revision
+devise_views.yml	devise_views.confirmations.new.title	Küldje el újra a megerősítő utasításokat	Megerősítési utasítások újbóli elküldése	Re-send confirmation instructions	human editorial revision
+devise_views.yml	devise_views.confirmations.show.instructions	A fiók megerősítése e-mailben %{email}	Erősítse meg fiókját a(z) %{email} e-mail-címen keresztül.	Confirming the account with email %{email}	human editorial revision
+devise_views.yml	devise_views.confirmations.show.new_password_confirmation_label	Ismételje meg a hozzáférési jelszót	Új jelszó megerősítése	Repeat access password	human editorial revision
+devise_views.yml	devise_views.confirmations.show.new_password_label	Új hozzáférési jelszó	Új jelszó	New access password	human editorial revision
+devise_views.yml	devise_views.confirmations.show.please_set_password	Kérjük, válassza ki az új jelszavát (ez lehetővé teszi a bejelentkezéshez a fenti e-mail címmel)	Kérjük, adja meg új jelszavát. Ezzel a fenti e-mail-címmel is bejelentkezhet majd.	Please choose your new pasword (it will allow you to login with the email above)	human editorial revision
+devise_views.yml	devise_views.confirmations.show.submit	Erősítse meg	Fiók megerősítése	Confirm	human editorial revision
+devise_views.yml	devise_views.confirmations.show.title	Erősítse meg fiókomat	Fiók megerősítése	Confirm my account	human editorial revision
+devise_views.yml	devise_views.mailer.confirmation_instructions.confirm_link	Erősítse meg fiókomat	Fiókom megerősítése	Confirm my account	human editorial revision
+devise_views.yml	devise_views.mailer.confirmation_instructions.text	Az alábbi linken erősítheti meg e-mail fiókját:	Az alábbi hivatkozásra kattintva erősítheti meg e-mail-címét:	You can confirm your email account at the following link:	human editorial revision
+devise_views.yml	devise_views.mailer.reset_password_instructions.change_link	Változtasd meg a jelszavamat	Jelszavam módosítása	Change my password	human editorial revision
+devise_views.yml	devise_views.mailer.reset_password_instructions.hello	Helló	Üdvözöljük	Hello	human editorial revision
+devise_views.yml	devise_views.mailer.reset_password_instructions.ignore_text	Ha nem kérte a jelszó megváltoztatását, figyelmen kívül hagyhatja ezt az e-mailt.	Ha nem Ön kezdeményezte a jelszó módosítását, hagyja figyelmen kívül ezt az e-mailt.	If you did not request a password change, you can ignore this email.	human editorial revision
+devise_views.yml	devise_views.mailer.reset_password_instructions.info_text	Jelszava csak akkor módosul, ha hozzáfér a linkhez és nem módosítja azt.	Jelszava csak akkor változik meg, ha megnyitja a hivatkozást és új jelszót ad meg.	Your password will not be changed unless you access the link and edit it.	human editorial revision
+devise_views.yml	devise_views.mailer.reset_password_instructions.text	Jelszava megváltoztatására vonatkozó kérést kaptunk. Ezt az alábbi linken teheti meg:	Jelszó-visszaállítási kérelmet kaptunk. Az alábbi hivatkozásra kattintva adhat meg új jelszót:	We have received a request to change your password. You can do this at the following link:	human editorial revision
+devise_views.yml	devise_views.mailer.reset_password_instructions.title	Változtassa meg jelszavát	Jelszó módosítása	Change your password	human editorial revision
+devise_views.yml	devise_views.mailer.unlock_instructions.hello	Helló	Üdvözöljük	Hello	human editorial revision
+devise_views.yml	devise_views.mailer.unlock_instructions.info_text	Fiókját a túl sok sikertelen bejelentkezési kísérlet miatt blokkoltuk.	Fiókját túl sok sikertelen bejelentkezési kísérlet miatt zároltuk.	Your account has been blocked due to an excessive number of failed sign-in attempts.	human editorial revision
+devise_views.yml	devise_views.mailer.unlock_instructions.instructions_text	Kérjük, kattintson erre a linkre a fiók feloldásához:	Fiókja feloldásához kattintson az alábbi hivatkozásra:	Please click on this link to unlock your account:	human editorial revision
+devise_views.yml	devise_views.mailer.unlock_instructions.title	Fiókját zároltuk	Fiókja zárolva van	Your account has been locked	human editorial revision
+devise_views.yml	devise_views.mailer.unlock_instructions.unlock_link	Oldja fel a fiókom zárolását	Fiókom feloldása	Unlock my account	human editorial revision
+devise_views.yml	devise_views.menu.login_items.login	Jelentkezzen be	Bejelentkezés	Sign in	human editorial revision
+devise_views.yml	devise_views.menu.login_items.logout	Jelentkezzen ki	Kijelentkezés	Sign out	human editorial revision
+devise_views.yml	devise_views.menu.login_items.signup	Nyilvántartás	Regisztráció	Register	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.new.password_confirmation_label	Erősítse meg a jelszót	Jelszó megerősítése	Confirm password	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.new.responsible_name_note	Ez az a személy lenne, aki azt az egyesületet/kollektívát képviseli, akinek a nevében a javaslatokat előterjesztik	Adja meg annak a személynek a nevét, aki a szervezetet vagy közösséget képviseli, és a nevében javaslatokat nyújt be.	This would be the person representing the association/collective in whose name the proposals are presented	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.new.submit	Nyilvántartás	Regisztráció	Register	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.new.title	Regisztráljon szervezetként vagy kollektívaként	Regisztráció szervezetként vagy közösségként	Register as an organisation or collective	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.success.back_to_index	értem; vissza a főoldalra	Értem, vissza a főoldalra	I understand; go back to main page	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.success.instructions_1	<strong>Hamarosan felvesszük Önnel a kapcsolatot</strong>, hogy ellenőrizzük, valóban képviseli-e ezt a kollektívát.	<strong>Hamarosan felvesszük Önnel a kapcsolatot</strong>, hogy ellenőrizzük képviseleti jogosultságát.	<strong>We will contact you soon</strong> to verify that you do in fact represent this collective.	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.success.instructions_2	Amíg <strong>e-mailje ellenőrzés alatt áll</strong>, küldtünk egy <strong>linket, amellyel megerősítheti fiókját</strong>.	Amíg <strong>a szervezet ellenőrzése folyamatban van</strong>, küldtünk egy <strong>fiókmegerősítő hivatkozást</strong>.	While your <strong>email is reviewed</strong>, we have sent you a <strong>link to confirm your account</strong>.	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.success.instructions_3	A megerősítést követően megkezdheti a részvételt nem ellenőrzött kollektívaként.	A megerősítés után nem ellenőrzött szervezetként is részt vehet a folyamatokban.	Once confirmed, you may begin to participate as an unverified collective.	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.success.thank_you	Köszönjük, hogy regisztrálta kollektíváját a weboldalon. Jelenleg <strong>ellenőrzésre vár</strong>.	Köszönjük, hogy regisztrálta szervezetét vagy közösségét. A regisztráció jelenleg <strong>ellenőrzés alatt áll</strong>.	Thank you for registering your collective on the website. It is now <strong>pending verification</strong>.	human editorial revision
+devise_views.yml	devise_views.organizations.registrations.success.title	Szervezet / kollektív regisztráció	Szervezet vagy közösség regisztrációja	Registration of organisation / collective	human editorial revision
+devise_views.yml	devise_views.passwords.edit.change_submit	Változtasd meg a jelszavamat	Jelszó módosítása	Change my password	human editorial revision
+devise_views.yml	devise_views.passwords.edit.password_confirmation_label	Erősítse meg az új jelszót	Új jelszó megerősítése	Confirm new password	human editorial revision
+devise_views.yml	devise_views.passwords.edit.title	Változtassa meg jelszavát	Jelszó módosítása	Change your password	human editorial revision
+devise_views.yml	devise_views.passwords.new.send_submit	Küldje el az utasításokat	Utasítások elküldése	Send instructions	human editorial revision
+devise_views.yml	devise_views.passwords.new.title	Elfelejtett jelszó?	Elfelejtette a jelszavát?	Forgotten password?	human editorial revision
+devise_views.yml	devise_views.sessions.new.remember_me	Emlékezz rám	Emlékezzen rám	Remember me	human editorial revision
+devise_views.yml	devise_views.sessions.new.submit	Enter	Bejelentkezés	Enter	human editorial revision
+devise_views.yml	devise_views.sessions.new.title	Jelentkezzen be	Bejelentkezés	Sign in	human editorial revision
+devise_views.yml	devise_views.shared.links.login	Enter	Bejelentkezés	Enter	human editorial revision
+devise_views.yml	devise_views.shared.links.new_confirmation	Nem kapott utasítást fiókja aktiválásához?	Nem kapta meg a fiók aktiválásához szükséges utasításokat?	Haven't received instructions to activate your account?	human editorial revision
+devise_views.yml	devise_views.shared.links.new_password	Elfelejtette jelszavát?	Elfelejtette a jelszavát?	Forgotten your password?	human editorial revision
+devise_views.yml	devise_views.shared.links.new_unlock	Nem kapott feloldási utasítást?	Nem kapta meg a fiók feloldásához szükséges utasításokat?	Haven't received unlocking instructions?	human editorial revision
+devise_views.yml	devise_views.shared.links.signup	Nincs fiókja? %{signup_link}	Nincs még fiókja? %{signup_link}	Don't have an account? %{signup_link}	human editorial revision
+devise_views.yml	devise_views.unlocks.new.email_label	Email	E-mail-cím	Email	human editorial revision
+devise_views.yml	devise_views.unlocks.new.submit	Küldje el újra a feloldási utasításokat	Feloldási utasítások újbóli elküldése	Re-send unlocking instructions	human editorial revision
+devise_views.yml	devise_views.unlocks.new.title	Újra elküldte a feloldási utasításokat	Feloldási utasítások újbóli elküldése	Re-sent unlocking instructions	human editorial revision
+devise_views.yml	devise_views.users.registrations.delete_form.erase_reason_label	Ok	Indok	Reason	human editorial revision
+devise_views.yml	devise_views.users.registrations.delete_form.info	Ez a művelet nem vonható vissza. Kérjük, győződjön meg róla, hogy ezt szeretné.	Ez a művelet nem vonható vissza. Kérjük, csak akkor folytassa, ha biztos a döntésében.	This action can not be undone. Please make sure this is what you want.	human editorial revision
+devise_views.yml	devise_views.users.registrations.delete_form.info_reason	Ha szeretné, adjon meg egy okot (nem kötelező)	Ha szeretné, megadhatja a törlés okát is; ez nem kötelező.	If you want, leave us a reason (optional)	human editorial revision
+devise_views.yml	devise_views.users.registrations.delete_form.submit	Törölje a fiókomat	Fiókom törlése	Erase my account	human editorial revision
+devise_views.yml	devise_views.users.registrations.edit.email_label	Email	E-mail-cím	Email	human editorial revision
+devise_views.yml	devise_views.users.registrations.edit.leave_blank	Ha nem kívánja módosítani, hagyja üresen	Hagyja üresen, ha nem kívánja módosítani.	Leave blank if you do not wish to modify	human editorial revision
+devise_views.yml	devise_views.users.registrations.edit.need_current	A módosítások megerősítéséhez szükségünk van jelenlegi jelszavára	A módosítások mentéséhez adja meg jelenlegi jelszavát.	We need your current password to confirm the changes	human editorial revision
+devise_views.yml	devise_views.users.registrations.edit.password_confirmation_label	Erősítse meg az új jelszót	Új jelszó megerősítése	Confirm new password	human editorial revision
+devise_views.yml	devise_views.users.registrations.edit.update_submit	Frissítés	Módosítások mentése	Update	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.cancel	Bejelentkezés megszakítása	Regisztráció megszakítása	Cancel login	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.organization_signup	Szervezetet vagy kollektívát képvisel? %{signup_link}	Szervezetet vagy közösséget képvisel? %{signup_link}	Do you represent an organisation or collective? %{signup_link}	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.password_confirmation_label	Erősítse meg a jelszót	Jelszó megerősítése	Confirm password	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.submit	Nyilvántartás	Regisztráció	Register	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.terms	A regisztrációval elfogadja az %{terms}	A regisztrációval elfogadja a(z) %{terms}.	By registering you accept the %{terms}	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.terms_link	felhasználási feltételek	felhasználási feltételeket	terms and conditions of use	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.title	Nyilvántartás	Regisztráció	Register	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.username_is_available	Felhasználónév elérhető	A felhasználónév elérhető.	Username available	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.username_is_not_available	A felhasználónév már használatban van	Ez a felhasználónév már foglalt.	Username already in use	human editorial revision
+devise_views.yml	devise_views.users.registrations.new.username_note	A bejegyzések mellett megjelenő név	Ez a név jelenik meg a hozzászólásai mellett.	Name that appears next to your posts	human editorial revision
+devise_views.yml	devise_views.users.registrations.success.back_to_index	értem; vissza a főoldalra	Értem, vissza a főoldalra	I understand; go back to main page	human editorial revision
+devise_views.yml	devise_views.users.registrations.success.instructions_1	Kérjük, <b>nézze meg e-mailjét</b> – küldtünk egy <b>linket a fiókjának megerősítéséhez</b>.	Kérjük, ellenőrizze e-mailjeit: küldtünk egy <b>fiókmegerősítő hivatkozást</b>.	Please <b>check your email</b> - we have sent you a <b>link to confirm your account</b>.	human editorial revision
+devise_views.yml	devise_views.users.registrations.success.instructions_2	A megerősítést követően megkezdheti a részvételt.	Az e-mail-cím megerősítése után megkezdheti a részvételt.	Once confirmed, you may begin participation.	human editorial revision
+devise_views.yml	devise_views.users.registrations.success.thank_you	Köszönjük, hogy regisztrált a weboldalra. Most <b> kell megerősítenie e-mail címét</b>.	Köszönjük a regisztrációját. A folytatáshoz <b>erősítse meg e-mail-címét</b>.	Thank you for registering for the website. You must now <b>confirm your email address</b>.	human editorial revision
+devise_views.yml	devise_views.users.registrations.success.title	Erősítse meg e-mail címét	E-mail-cím megerősítése	Confirm your email address	human editorial revision
+verification.yml	verification.back	Vissza a fiókomhoz	Vissza a Saját fiókhoz	Return to my account	human editorial revision
+verification.yml	verification.email.create.alert.failure	Hiba történt az e-mail fiókba küldésekor	Nem sikerült megerősítő e-mailt küldeni a fiókjához.	There was a problem with sending an email to your account	human editorial revision
+verification.yml	verification.email.create.flash.success	Megerősítő e-mailt küldtünk a fiókjába: %{email}	Megerősítő e-mailt küldtünk a következő címre: %{email}.	We have sent a confirmation email to your account: %{email}	human editorial revision
+verification.yml	verification.email.show.alert.failure	Az ellenőrző kód helytelen	A megerősítő kód hibás.	Verification code incorrect	human editorial revision
+verification.yml	verification.email.show.flash.success	Ön ellenőrzött felhasználó	Fiókja ellenőrzött státuszú.	You are a verified user	human editorial revision
+verification.yml	verification.letter.alert.unconfirmed_code	Még nem adta meg a megerősítő kódot	Még nem adta meg a megerősítő kódot.	You have not yet entered the confirmation code	human editorial revision
+verification.yml	verification.letter.create.flash.success	Köszönjük, hogy elkérte <b>maximális biztonsági kódját (csak a végső szavazáshoz szükséges)</b>. Néhány napon belül elküldjük a nyilvántartásunkban lévő adatok között szereplő címre. Kérjük, ne feledje, hogy ha úgy tetszik, bármelyik állampolgári támogatási irodától beszerezheti kódját.	Köszönjük, hogy igényelte <b>maximális biztonsági kódját (ez csak a végső szavazásokhoz szükséges)</b>. Néhány napon belül elküldjük a nyilvántartásunkban szereplő címre. Ha szeretné, személyesen is átveheti a kódot bármelyik ügyfélszolgálati irodában.	Thank you for requesting your <b>maximum security code (only required for the final votes)</b>. In a few days we will send it to the address featuring in the data we have on file. Please remember that, if you prefer, you can collect your code from any of the Citizen Support Offices.	human editorial revision
+verification.yml	verification.letter.edit.title	Kért levél	Levél igényelve	Letter requested	human editorial revision
+verification.yml	verification.letter.errors.incorrect_code	Az ellenőrző kód helytelen	A megerősítő kód hibás.	Verification code incorrect	human editorial revision
+verification.yml	verification.letter.new.explanation	A költségvetési projektekre való szavazáshoz:	A költségvetési projektekre történő szavazáshoz a következő lehetőségek állnak rendelkezésre:	In order to vote for budget projects you can:	human editorial revision
+verification.yml	verification.letter.new.office	Ellenőrizze bármely állampolgári támogatási irodában	Személyes ellenőrzés ügyfélszolgálati irodában	Verify in any Citizen Support Offices	human editorial revision
+verification.yml	verification.letter.new.send_letter	Küldj egy levelet a kóddal	Kérem a kódot tartalmazó levelet	Send me a letter with the code	human editorial revision
+verification.yml	verification.letter.new.title	Gratulálok!	Gratulálunk!	Congratulations!	human editorial revision
+verification.yml	verification.letter.new.user_permission_info	Fiókjával...	Fiókjával a következőket teheti:	With your account you can...	human editorial revision
+verification.yml	verification.letter.update.flash.success	A kód helyes. Fiókja ellenőrzése megtörtént	A kód helyes. Fiókja ellenőrzése sikeres.	Code correct. Your account is now verified	human editorial revision
+verification.yml	verification.redirect_notices.already_verified	Fiókja már igazolva van	Fiókja már ellenőrzött.	Your account is already verified	human editorial revision
+verification.yml	verification.redirect_notices.email_already_sent	Már küldtünk egy e-mailt egy megerősítő linkkel. Ha nem találja az e-mailt, itt kérheti az újrakiadást	Már küldtünk egy megerősítő hivatkozást e-mailben. Ha nem találja az üzenetet, itt újra kérheti.	We have already sent an email with a confirmation link. If you cannot locate the email, you can request a reissue here	human editorial revision
+verification.yml	verification.residence.alert.unconfirmed_residency	A lakóhely-ellenőrzést még nem erősítette meg.	A lakóhely ellenőrzése még nem történt meg.	You have not yet confirmed your residency	human editorial revision
+verification.yml	verification.residence.create.flash.success	Lakóhelye ellenőrzése sikeres.	Lakóhelyének ellenőrzése sikeresen megtörtént.	Residence verified	human editorial revision
+verification.yml	verification.residence.new.document_number_help_title	Súgó	Okmányszám formátuma	Help	human editorial revision
+verification.yml	verification.residence.new.error_not_allowed_age	Nem érte el a részvételhez szükséges életkort.	Nem érte el a részvételhez szükséges alsó korhatárt.	You don't have the required age to participate	human editorial revision
+verification.yml	verification.residence.new.error_not_allowed_postal_code	Az Ön irányítószáma nem jogosít részvételre.	Az irányítószáma alapján nem jogosult a részvételre.	Citizens from this postal code cannot participate	human editorial revision
+verification.yml	verification.residence.new.error_verifying_census	A névjegyzék alapján nem sikerült ellenőrizni az adatait. Kérjük, ellenőrizze az adatokat, majd forduljon az önkormányzathoz vagy az ügyfélszolgálathoz.	A nyilvántartás alapján nem sikerült ellenőrizni az adatait. Kérjük, ellenőrizze az adatokat, majd szükség esetén forduljon az önkormányzathoz vagy az ügyfélszolgálathoz.	The Census was unable to verify your information. Please confirm that your census details are correct by calling to City Council or visit one Citizen Support Office.	human editorial revision
+verification.yml	verification.residence.new.postal_code_note	A fiók ellenőrzéséhez a lakóhelye irányítószámát kell megadnia.	A fiók ellenőrzéséhez adja meg lakóhelyének irányítószámát.	To verify your account you must be registered	human editorial revision
+verification.yml	verification.sms.create.flash.success	Adja meg az SMS-ben elküldött megerősítő kódot.	Adja meg az SMS-ben kapott megerősítő kódot.	Enter the confirmation code sent to you by text message	human editorial revision
+verification.yml	verification.sms.edit.resend_sms_link	Kattintson ide az újbóli elküldéshez	SMS újbóli elküldése	Click here to send it again	human editorial revision
+verification.yml	verification.sms.edit.submit_button	Küldés	Kód ellenőrzése	Send	human editorial revision
+verification.yml	verification.sms.edit.title	Biztonsági kód megerősítése	Megerősítő kód megadása	Security code confirmation	human editorial revision
+verification.yml	verification.sms.new.phone	Adja meg mobiltelefonszámát a kód fogadásához	Adja meg mobiltelefonszámát a kód fogadásához.	Enter your mobile phone number to receive the code	human editorial revision
+verification.yml	verification.sms.new.phone_note	A telefonszámát kizárólag a kód elküldéséhez használjuk, kapcsolatfelvételre nem.	Telefonszámát kizárólag a kód elküldésére használjuk; kapcsolatfelvétel céljára nem.	We only use your phone to send you a code, never to contact you.	human editorial revision
+verification.yml	verification.sms.new.submit_button	Küldés	Kód küldése	Send	human editorial revision
+verification.yml	verification.sms.update.error	Hibás megerősítő kód	A megerősítő kód hibás.	Incorrect confirmation code	human editorial revision
+verification.yml	verification.sms.update.flash.level_three.success	A kód helyes. A fiókja ellenőrzött.	A kód helyes. Fiókja ellenőrzött státuszú.	Code correct. Your account is now verified	human editorial revision
+verification.yml	verification.user_permission_info	Az adatok ellenőrzésével Ön képes lesz...	Az adatok ellenőrzésével a következőket teheti:	Verifying your information you'll be able to...	human editorial revision
+verification.yml	verification.verified_user.show.email_title	E-mailek	E-mail-címek	Emails	human editorial revision
+verification.yml	verification.verified_user.show.explanation	Jelenleg az alábbi adatokat tartjuk nyilván a nyilvántartásban; kérjük, válassza ki a megerősítő kód elküldésének módját.	A nyilvántartásban az alábbi adatok szerepelnek. Kérjük, válassza ki, hogyan szeretné megkapni a megerősítő kódot.	We currently hold the following details on the Register; please select a method for your confirmation code to be sent.	human editorial revision
+verification.yml	verification.verified_user.show.title	Elérhető információk	Rendelkezésre álló adatok	Available information	human editorial revision
+verification.yml	verification.verified_user.show.use_another_phone	Használjon másik telefont	Másik telefonszám használata	Use other phone	human editorial revision
+general.yml	account.show.last_sign_in	Utolsó bejelentkezés: %{last_sign_in_at} az IP-ről %{last_sign_in_ip}	Utolsó bejelentkezés: %{last_sign_in_at}; IP-cím: %{last_sign_in_ip}	Last login: %{last_sign_in_at} from IP %{last_sign_in_ip}	human editorial revision
+general.yml	account.show.change_credentials_link	Módosítsa a bejelentkezési adataimat	Bejelentkezési adatok módosítása	Change my login details	human editorial revision
+general.yml	account.show.erase_account_link	Törölje a fiókomat	Fiókom törlése	Erase my account	human editorial revision
+general.yml	account.show.finish_verification	Ellenőrzés befejezése	Ellenőrzés folytatása	Complete verification	human editorial revision
+general.yml	account.show.title	Az én fiókom	Saját fiók	My account	human editorial revision
+general.yml	account.show.user_permission_info	Fiókjával...	Fiókjával a következőket teheti:	With your account you can...	human editorial revision
+general.yml	account.show.user_permission_verify	Az összes művelet eléréséhez ellenőrizze a fiókját.	Az összes funkció eléréséhez ellenőrizze fiókját.	To perform all the actions verify your account.	human editorial revision
+general.yml	application.close	Közeli	Bezárás	Close	human editorial revision
+general.yml	comments.actions.confirm_delete	Biztos vagy benne? Ez a művelet törli ezt a megjegyzést. Ez a művelet nem vonható vissza.	Biztosan törli ezt a hozzászólást? A művelet nem vonható vissza.	Are you sure? This action will delete this comment. You can't undo this action.	human editorial revision
+general.yml	comments.actions.delete	Megjegyzés törlése	Hozzászólás törlése	Delete comment	human editorial revision
+general.yml	comments.comments_closed	A hozzászólások lezárva	A hozzászólások lezárultak.	Comments are closed	human editorial revision
+general.yml	comments.comment.deleted	Ezt a megjegyzést törölték	Ezt a hozzászólást törölték.	This comment has been deleted	human editorial revision
+general.yml	comments.comment.responses.other	%{count} válaszok	%{count} válasz	%{count} responses	human editorial revision
+general.yml	comments.comment.responses_show.one	1 válasz (show)	1 válasz megjelenítése	1 response (show)	human editorial revision
+general.yml	comments.comment.responses_show.other	%{count} válaszok (megjelenítés)	%{count} válasz megjelenítése	%{count} responses (show)	human editorial revision
+general.yml	comments.comment.responses_collapse.one	1 válasz (összecsukás)	1 válasz elrejtése	1 response (collapse)	human editorial revision
+general.yml	comments.comment.responses_collapse.other	%{count} válaszok (összecsukás)	%{count} válasz elrejtése	%{count} responses (collapse)	human editorial revision
+general.yml	comments.comment.votes.other	%{count} szavazatok	%{count} szavazat	%{count} votes	human editorial revision
+general.yml	comments.form.leave_comment	Hagyja meg észrevételét	Írjon hozzászólást	Leave your comment	human editorial revision
+general.yml	comments.orders.most_voted	A legtöbben szavaztak	Legtöbb szavazat	Most voted	human editorial revision
+general.yml	comments.orders.oldest	Először a legidősebb	Legrégebbi elöl	Oldest first	human editorial revision
+general.yml	comments.orders.most_commented	A legtöbb kommentált	Legtöbb hozzászólás	Most commented	human editorial revision
+general.yml	comments.show.return_to_commentable	Menj vissza ide	Vissza a tartalomhoz	Go back to 	human editorial revision
+general.yml	comments_helper.comment_button	Megjegyzés közzététele	Hozzászólás közzététele	Publish comment	human editorial revision
+general.yml	comments_helper.comment_link	Megjegyzés	Hozzászólás	Comment	human editorial revision
+general.yml	comments_helper.comments_title	Megjegyzések	Hozzászólások	Comments	human editorial revision
+general.yml	debates.debate.votes.other	%{count} szavazatok	%{count} szavazat	%{count} votes	human editorial revision
+general.yml	debates.form.tags_instructions	Jelölje meg ezt a vitát.	Címkézze fel ezt a vitát.	Tag this debate.	human editorial revision
+general.yml	debates.index.orders.confidence_score	legmagasabb minősítésű	Legmagasabb értékelés	highest rated	human editorial revision
+general.yml	debates.index.orders.relevance	relevanciáját	Legrelevánsabb	relevance	human editorial revision
+general.yml	debates.index.orders.recommendations	ajánlásokat	Ajánlott	recommendations	human editorial revision
+general.yml	debates.index.recommendations.without_results	Nincsenek viták az Ön érdeklődési körével kapcsolatban	Nincsenek az érdeklődési köréhez kapcsolódó viták.	There are no debates related to your interests	human editorial revision
+general.yml	debates.index.recommendations.without_interests	Kövesse a javaslatokat, hogy javaslatokat tudjunk adni	Kövesse az Önt érdeklő javaslatokat, hogy személyre szabott ajánlásokat adhassunk.	Follow proposals so we can give you recommendations	human editorial revision
+general.yml	debates.index.section_header.icon_alt	Viták ikonra	Viták ikon	Debates icon	human editorial revision
+general.yml	debates.index.section_header.help	Segítség a vitákban	Segítség a vitákhoz	Help with debates	human editorial revision
+general.yml	debates.index.section_footer.title	Segítség a vitákban	Segítség a vitákhoz	Help with debates	human editorial revision
+general.yml	debates.index.section_footer.help_text_1	A polgári viták tere mindenkit megcéloz, aki fel tudja fedni aggodalmát, illetve azokat, akik meg akarják osztani véleményüket másokkal.	A viták felületén bárki megoszthatja a települést érintő kérdésekkel kapcsolatos véleményét.	The space for citizen debates is aimed at anyone who can expose issues of their concern and those who want to share opinions with other people.	human editorial revision
+general.yml	debates.index.section_footer.help_text_2	A vita megnyitásához regisztrálnia kell az %{org} oldalon. A felhasználók megjegyzéseket fűzhetnek a nyílt vitákhoz, és értékelhetik azokat az „egyetértek” vagy a „nem értek egyet” gombokkal, amelyek mindegyikében találhatók.	Új vita indításához regisztrálnia kell az %{org} oldalon. A nyílt vitákhoz hozzászólhat, és az „egyetértek” vagy „nem értek egyet” gombbal értékelheti a bejegyzéseket.	"To open a debate you need to sign up on %{org}. Users can also comment on open debates and rate them with the ""I agree"" or ""I disagree"" buttons found in each of them."	human editorial revision
+general.yml	debates.new.recommendation_four	Élvezze ezt a teret és az azt betöltő hangokat. Ez is hozzád tartozik.	Használja szabadon ezt a felületet, és hallgassa meg mások véleményét is. Ez a tér Önnek is szól.	Enjoy this space and the voices that fill it. It belongs to you too.	human editorial revision
+general.yml	debates.new.recommendation_three	A kíméletlen kritikát nagyon szívesen fogadjuk. Ez a tere a reflexiónak. De azt javasoljuk, hogy ragaszkodjon az eleganciához és az intelligenciához. A világ jobb hely ezekkel az erényekkel.	A tárgyszerű kritikát szívesen fogadjuk. Kérjük, maradjon tiszteletteljes és építő jellegű.	Ruthless criticism is very welcome. This is a space for reflection. But we recommend that you stick to elegance and intelligence. The world is a better place with these virtues in it.	human editorial revision
+general.yml	debates.show.comments_title	Megjegyzések	Hozzászólások	Comments	human editorial revision
+general.yml	debates.show.share	Részesedés	Megosztás	Share	human editorial revision
+general.yml	form.accept_terms	Elfogadom az %{policy} és %{conditions}	Elfogadom a(z) %{policy} és a(z) %{conditions} dokumentumot.	I agree to the %{policy} and the %{conditions}	human editorial revision
+general.yml	form.errors	hibákat	hiba	errors	human editorial revision
+general.yml	form.not_saved	megakadályozta az %{resource} mentését. <br>Kérjük, ellenőrizze a megjelölt mezőket, hogy megtudja, hogyan javíthatja ki őket:	megakadályozta a(z) %{resource} mentését.<br>Kérjük, ellenőrizze a megjelölt mezőket.	prevented this %{resource} from being saved. <br>Please check the marked fields to know how to correct them:	human editorial revision
+general.yml	proposals.create.form.submit_button	Készítsen ajánlatot	Javaslat létrehozása	Create proposal	human editorial revision
+general.yml	proposals.created.preview_title	Így fog kinézni az ajánlata, amikor közzéteszi	Így fog kinézni javaslata közzététel után	This is how your proposal will look when you publish it	human editorial revision
+general.yml	proposals.edit.show_link	Ajánlat megtekintése	Javaslat megtekintése	View proposal	human editorial revision
+general.yml	proposals.retire_form.warning	Ha visszavonja az ajánlatot, továbbra is elfogadja a támogatásokat, de eltávolítja a fő listáról, és minden felhasználó számára megjelenik egy üzenet, amely szerint a szerző szerint a javaslatot nem kellene többé támogatni	A visszavont javaslat nem jelenik meg a fő listában, de a korábbi támogatások megmaradnak. A javaslat oldalán tájékoztatás jelenik meg arról, hogy a szerző már nem kéri további támogatását.	If you withdraw the proposal it will still accept supports, but will be removed from the main list and a message will be visible to all users stating that the author considers the proposal should not be supported anymore	human editorial revision
+general.yml	proposals.retire_options.duplicated	Megkettőzött	Duplikált	Duplicated	human editorial revision
+general.yml	proposals.form.tags_instructions	Jelölje meg ezt az ajánlatot. Választhat a javasolt kategóriák közül, vagy hozzáadhat sajátot	Címkézze fel ezt a javaslatot. Választhat a javasolt kategóriák közül, vagy saját címkét is hozzáadhat.	Tag this proposal. You can choose from proposed categories or add your own	human editorial revision
+general.yml	proposals.form.proposal_video_url_note	Hozzáadhat egy linket a YouTube-hoz vagy a Vimeóhoz	YouTube- vagy Vimeo-hivatkozást is hozzáadhat.	You may add a link to YouTube or Vimeo	human editorial revision
+general.yml	proposals.index.orders.confidence_score	legmagasabb minősítésű	Legmagasabb értékelés	highest rated	human editorial revision
+general.yml	proposals.index.orders.most_commented	legtöbbször kommentáltak	Legtöbb hozzászólás	most commented	human editorial revision
+general.yml	proposals.index.orders.relevance	relevanciáját	Legrelevánsabb	relevance	human editorial revision
+general.yml	proposals.index.orders.recommendations	ajánlásokat	Ajánlott	recommendations	human editorial revision
+general.yml	proposals.index.recommendations.without_results	Nincsenek az Ön érdeklődési köréhez kapcsolódó ajánlatok	Nincsenek az érdeklődési köréhez kapcsolódó javaslatok.	There are not proposals related to your interests	human editorial revision
+general.yml	proposals.index.recommendations.without_interests	Kövesse a javaslatokat, hogy javaslatokat tudjunk adni	Kövesse az Önt érdeklő javaslatokat, hogy személyre szabott ajánlásokat adhassunk.	Follow proposals so we can give you recommendations	human editorial revision
+general.yml	proposals.index.selected_proposals	Válogatott ajánlatok	Kiválasztott javaslatok	Selected proposals	human editorial revision
+general.yml	proposals.index.selected_proposals_link	A kiválasztott ajánlatok megtekintése	Kiválasztott javaslatok megtekintése	View selected proposals	human editorial revision
+general.yml	proposals.index.search_form.placeholder	Ajánlatok keresése...	Javaslatok keresése…	Search proposals...	human editorial revision
+general.yml	proposals.index.select_order_long	A következőképpen tekinti meg az ajánlatokat:	Javaslatok rendezése:	You are viewing proposals according to:	human editorial revision
+general.yml	proposals.index.start_proposal	Hozzon létre egy ajánlatot	Javaslat létrehozása	Create a proposal	human editorial revision
+general.yml	proposals.index.section_header.icon_alt	Javaslatok ikonra	Javaslatok ikon	Proposals icon	human editorial revision
+general.yml	proposals.index.section_header.help	Segítség javaslatokkal	Segítség a javaslatokhoz	Help with proposals	human editorial revision
+general.yml	proposals.index.section_footer.title	Segítség javaslatokkal	Segítség a javaslatokhoz	Help with proposals	human editorial revision
+general.yml	proposals.index.section_footer.description	A polgárok javaslatai lehetőséget adnak a szomszédok és a kollektívák számára, hogy közvetlenül eldöntsék, milyennek szeretnék városukat, miután elegendő támogatást kaptak és polgári szavazásra bocsátották őket.	A polgári javaslatok segítségével a lakosok és közösségek kezdeményezéseket nyújthatnak be. A kellő támogatást elérő javaslatok a helyi szabályok szerinti további eljárásba kerülhetnek.	Citizens' proposals are an opportunity for neighbours and collectives to decide directly how they want their city to be, after getting sufficient support and submitting to a citizens' vote.	human editorial revision
+general.yml	proposals.new.form.submit_button	Készítsen ajánlatot	Javaslat létrehozása	Create proposal	human editorial revision
+general.yml	proposals.new.recommendation_three	Élvezze ezt a teret és az azt betöltő hangokat. Ez is hozzád tartozik.	Használja szabadon ezt a felületet, és hallgassa meg mások véleményét is. Ez a tér Önnek is szól.	Enjoy this space and the voices that fill it. It belongs to you too.	human editorial revision
+general.yml	proposals.new.recommendations_title	Javaslatok az ajánlat elkészítéséhez	Útmutató javaslat létrehozásához	Recommendations for creating a proposal	human editorial revision
+general.yml	proposals.new.start_new	Új ajánlat létrehozása	Új javaslat létrehozása	Create new proposal	human editorial revision
+general.yml	proposals.proposal.created	Létrehozott egy ajánlatot!	Javaslata elkészült!	You've created a proposal!	human editorial revision
+general.yml	proposals.proposal.share.guide	Most megoszthatod, hogy az emberek elkezdhessék támogatni.	Most megoszthatja javaslatát, hogy mások is támogathassák.	Now you can share it so people can start supporting.	human editorial revision
+general.yml	proposals.proposal.share.view_proposal	Ne most, menjen az én javaslatomra	Nem most, javaslatom megtekintése	Not now, go to my proposal	human editorial revision
+general.yml	proposals.proposal.already_supported	Ön már támogatta ezt a javaslatot. Oszd meg!	Ön már támogatta ezt a javaslatot. Ossza meg másokkal is!	You have already supported this proposal. Share it!	human editorial revision
+general.yml	proposals.proposal.support_label	Támogatás %{proposal}	%{proposal} támogatása	Support %{proposal}	human editorial revision
+general.yml	proposals.proposal.supports.other	%{count} támogatja	%{count} támogatás	%{count} supports	human editorial revision
+general.yml	proposals.proposal.votes.other	%{count} szavazatok	%{count} szavazat	%{count} votes	human editorial revision
+general.yml	proposals.show.comments_tab	Megjegyzések	Hozzászólások	Comments	human editorial revision
+general.yml	proposals.show.dashboard_proposal_link	Műszerfal	Javaslatkezelő felület	Dashboard	human editorial revision
+general.yml	proposals.show.share	Részesedés	Megosztás	Share	human editorial revision
+general.yml	proposals.show.embed_video_title	Videó az %{proposal}-on	Videó a(z) %{proposal} javaslathoz	Video on %{proposal}	human editorial revision
+general.yml	proposals.show.draft	Javaslat tervezetben. Még nem kaphat támogatást, és nem is szerepel a javaslatok között.	Ez a javaslat még piszkozat. Nem kaphat támogatást, és nem jelenik meg a javaslatok között.	Proposal in draft. Cannot yet get supports, nor does it appear in the list of proposals.	human editorial revision
+general.yml	dashboard.menu.my_proposal	Szerkessze az ajánlatomat	Javaslatom szerkesztése	Edit my proposal	human editorial revision
+general.yml	dashboard.menu.progress	Előrehalad	Előrehaladás	Progress	human editorial revision
+general.yml	dashboard.menu.resources	Erőforrás	Erőforrások	Resources	human editorial revision
+general.yml	dashboard.menu.mailing	Email	E-mail	E-mail	human editorial revision
+general.yml	dashboard.menu.poster	Poszter	Plakát	Poster	human editorial revision
+general.yml	dashboard.menu.messages	Üzenet a felhasználóknak	Üzenetek a követőknek	Message to users	human editorial revision
+general.yml	dashboard.form.request	Kér	Igénylés	Request	human editorial revision
+general.yml	dashboard.progress.title	Grafikus	Előrehaladási diagram	Graphic	human editorial revision
+general.yml	dashboard.progress.supports	Támogatja	Támogatások	Supports	human editorial revision
+general.yml	dashboard.index.title	Kiadás	Javaslatkezelő felület	Edition	human editorial revision
+general.yml	dashboard.poster.index.title	Plakát előnézet	Plakát előnézete	Poster preview	human editorial revision
+general.yml	dashboard.mailer.forward.subtitle	Ha támogatsz, <br>el fogunk érni.	Ha támogatja, <br>megvalósíthatjuk.	If you support me, <br>we will achieve it.	human editorial revision
+general.yml	dashboard.mailer.forward.share_in	Oszd meg	Ossza meg	Share in	human editorial revision
+general.yml	dashboard.mailer.forward.hi	Helló!	Üdvözlöm!	Hello!	human editorial revision
+general.yml	polls.dates	%{open_at}-től %{closed_at}-ig	%{open_at}–%{closed_at}	From %{open_at} to %{closed_at}	human editorial revision
+general.yml	polls.final_date	Végső beszámolók/Eredmények	Végleges számlálás és eredmények	Final recounts/Results	human editorial revision
+general.yml	polls.form.maximum_exceeded	kiválasztottál %{given} választ, de a maximum %{maximum}	%{given} választ jelölt meg, de legfeljebb %{maximum} válasz jelölhető meg.	you've selected %{given} answers, but the maximum you can select is %{maximum}	human editorial revision
+general.yml	polls.index.geozone_restricted	kerületek	Kerületek	Districts	human editorial revision
+general.yml	polls.index.unverified	A részvételhez igazolnia kell fiókját	A részvételhez ellenőriznie kell fiókját.	You must verify your account to participate	human editorial revision
+general.yml	polls.index.cant_answer	Ez a szavazás nem érhető el az Ön geozónájában	Ez a szavazás az Ön földrajzi területén nem érhető el.	This poll is not available on your geozone	human editorial revision
+general.yml	polls.index.section_header.icon_alt	Szavazás ikonra	Szavazás ikon	Voting icon	human editorial revision
+general.yml	polls.index.section_footer.description	A polgári szavazások olyan részvételi mechanizmusok, amelyek révén a szavazati joggal rendelkező polgárok közvetlen döntéseket hozhatnak	A polgári szavazás olyan részvételi forma, amelyben a szavazati joggal rendelkező polgárok közvetlenül dönthetnek a feltett kérdésekről.	Citizens' polls are a participatory mechanism by which citizens with voting rights can make direct decisions	human editorial revision
+general.yml	polls.show.already_voted_in_booth	Ön már részt vett egy fizikai standon. Nem vehetsz részt újra.	Ön már személyesen részt vett a szavazásban, ezért nem szavazhat újra.	You have already participated in a physical booth. You can not participate again.	human editorial revision
+general.yml	polls.show.already_voted_in_web	Ön már részt vett ebben a szavazásban. Ha újra szavaz, az felül lesz írva.	Ön már részt vett ebben a szavazásban. Újabb szavazat leadásával a korábbi választ felülírja.	You have already participated in this poll. If you vote again it will be overwritten.	human editorial revision
+general.yml	polls.show.already_voted_blank_in_web	Ön már részt vett ebben a szavazásban egy üres szavazat leadásával. Ha újra szavaz, az felül lesz írva.	Ön már üres szavazatot adott le ebben a szavazásban. Újabb szavazat leadásával a korábbi választ felülírja.	You have already participated in this poll by casting a blank vote. If you vote again it will be overwritten.	human editorial revision
+general.yml	polls.show.comments_tab	Megjegyzések	Hozzászólások	Comments	human editorial revision
+general.yml	polls.show.cant_answer_verify	A válaszhoz %{verify_link} kell.	A válaszadáshoz %{verify_link}.	You must %{verify_link} in order to answer.	human editorial revision
+general.yml	polls.show.cant_answer_wrong_geozone	Ez a kérdés nem érhető el az Ön geozónáján.	Ez a kérdés az Ön földrajzi területén nem érhető el.	This question is not available on your geozone.	human editorial revision
+general.yml	polls.show.zoom_plus	Kép kibontása	Kép nagyítása	Expand image	human editorial revision
+general.yml	polls.show.read_more	További információ az %{answer}-ról	További információ: %{answer}	Read more about %{answer}	human editorial revision
+general.yml	polls.show.read_less	Olvasson kevesebbet az %{answer}-ról	Kevesebb információ: %{answer}	Read less about %{answer}	human editorial revision
+general.yml	polls.show.stats.total_votes	A leadott szavazatok összértéke	Leadott szavazatok száma	Total amount of given votes	human editorial revision
+general.yml	polls.show.stats.mail	FELAD	LEVÉL	MAIL	human editorial revision
+general.yml	polls.show.stats.booth	BÓDÉ	SZAVAZÓHELYISÉG	BOOTH	human editorial revision
+general.yml	polls.show.stats.total	TELJES	ÖSSZESEN	TOTAL	human editorial revision
+general.yml	polls.show.stats.white	Teljesen üres	Üres szavazat	Fully blank	human editorial revision
+general.yml	polls.poll_header.back_to_proposal	Vissza az ajánlathoz	Vissza a javaslathoz	Back to proposal	human editorial revision
+general.yml	proposal_notifications.new.info_about_receivers	Ezt az értesítést elküldjük <strong>%{count} személyeknek</strong>, és látható lesz az %{proposal_page}-ban.<br> Az értesítéseket nem küldjük el azonnal, a felhasználók rendszeresen kapnak egy e-mailt az ajánlatokról szóló értesítésekkel.	Ezt az értesítést <strong>%{count} személy</strong> kapja meg, és a(z) %{proposal_page} oldalon is megjelenik.<br>Az értesítéseket nem azonnal küldjük ki: a felhasználók rendszeres e-mailes összefoglalót kapnak a javaslataikról.	This notification will be sent to <strong>%{count} people</strong> and it will be visible in %{proposal_page}.<br> Notifications are not sent immediately, users will periodically receive an email with all proposal notifications.	human editorial revision
+general.yml	proposal_notifications.show.back	Menj vissza a tartalmamhoz	Vissza a tartalomhoz	Go back to my content	human editorial revision
+general.yml	shared.save	Megtakarítás	Mentés	Save	human editorial revision
+general.yml	shared.delete	Töröl	Törlés	Delete	human editorial revision
+general.yml	shared.advanced_search.date_placeholder	NN/HH/ÉÉÉÉ	ÉÉÉÉ/HH/NN	DD/MM/YYYY	human editorial revision
+general.yml	shared.advanced_search.date_range_blank	Válassz egy dátumot	Válasszon dátumot	Choose a date	human editorial revision
+general.yml	shared.advanced_search.from	Tól	Ettől	From	human editorial revision
+general.yml	shared.advanced_search.general	A szöveggel	Szöveg szerint	With the text	human editorial revision
+general.yml	shared.advanced_search.search	Szűrő	Keresés	Filter	human editorial revision
+general.yml	shared.advanced_search.to	To	Eddig	To	human editorial revision
+general.yml	shared.back	Menj vissza	Vissza	Go back	human editorial revision
+general.yml	shared.check_all	Válassza ki az összeset	Összes kijelölése	Select all	human editorial revision
+general.yml	shared.check_none	Válasszon egyet sem	Kijelölés megszüntetése	Select none	human editorial revision
+general.yml	shared.follow	Kövesd	Követés	Follow	human editorial revision
+general.yml	shared.following	Következő	Követés alatt	Following	human editorial revision
+general.yml	shared.followable.proposal.create.notice	Most követed ezt a polgári javaslatot! <br> Értesítjük Önt a változásokról, amint azok bekövetkeznek, hogy naprakészek legyenek.	Mostantól követi ezt a polgári javaslatot.<br>Értesítjük a változásokról.	Now you are following this citizen proposal! <br> We will notify you of changes as they occur so that you are up-to-date.	human editorial revision
+general.yml	shared.followable.proposal.destroy.notice	Ön nem követi ezt a polgári javaslatot! <br> A továbbiakban nem kap értesítéseket ezzel az ajánlattal kapcsolatban.	Már nem követi ezt a polgári javaslatot.<br>A továbbiakban nem kap értesítést a változásairól.	You have stopped following this citizen proposal! <br> You will no longer receive notifications related to this proposal.	human editorial revision
+general.yml	shared.show	Megmutat	Megtekintés	Show	human editorial revision
+general.yml	shared.share	Részesedés	Megosztás	Share	human editorial revision
+general.yml	shared.tags_cloud.districts	kerületek	Kerületek	Districts	human editorial revision
+general.yml	shared.tags_cloud.districts_list	A körzetek listája	Kerületek listája	Districts list	human editorial revision
+general.yml	shared.you_are_in	Benne vagy	Itt van:	You are in	human editorial revision
+general.yml	shared.unflag	Lobogózás	Megjelölés visszavonása	Unflag	human editorial revision
+general.yml	shared.translations.languages_in_use.other	%{count} nyelvek használatban	%{count} nyelv használatban	%{count} languages in use	human editorial revision
+general.yml	shared.comments.other	%{count} megjegyzései	%{count} hozzászólás	%{count} comments	human editorial revision
+general.yml	social.telegram	%{org} Távirat	%{org} Telegram	%{org} Telegram	human editorial revision
+general.yml	polls.index.filter		Szűrő	[upstream key omitted]	human editorial revision
+activemodel.yml	activemodel.attributes.verification.email.recipient	Email	E-mail-cím	Email	visible-label editorial revision
+activemodel.yml	activemodel.attributes.verification/letter.email	Email	E-mail-cím	Email	visible-label editorial revision
+activerecord.yml	attributes.email	Email	E-mail-cím	Email	visible-label editorial revision
+activerecord.yml	activerecord.models.link.one	Link	Hivatkozás	Link	visible-label editorial revision
+activerecord.yml	activerecord.attributes.budget/investment.feasibility_undecided	Undefined	Nincs meghatározva	Undefined	visible-label editorial revision
+activerecord.yml	activerecord.attributes.user.email	Email	E-mail-cím	Email	visible-label editorial revision
+activerecord.yml	activerecord.attributes.sdg/phase/kind.monitoring	Monitoring	Nyomon követés	Monitoring	visible-label editorial revision
+activerecord.yml	activerecord.attributes.site_customization/content_block.locale	locale	Nyelvi beállítás	locale	visible-label editorial revision
+activerecord.yml	activerecord.attributes.tenant.domain	Domain	Domainnév	Domain	visible-label editorial revision
+activerecord.yml	activerecord.attributes.banner.target_url	Link	Hivatkozás	Link	visible-label editorial revision
+activerecord.yml	activerecord.attributes.admin_notification.link	Link	Hivatkozás	Link	visible-label editorial revision
+activerecord.yml	activerecord.attributes.widget/card.link_url	Link URL	Hivatkozás URL-je	Link URL	visible-label editorial revision
+admin.yml	admin.budget_investments.show.undefined	Undefined	Nincs meghatározva	Undefined	visible-label editorial revision
+admin.yml	admin.budget_investments.edit.undefined	Undefined	Nincs meghatározva	Undefined	visible-label editorial revision
+admin.yml	admin.comments.index.table_link	Link	Hivatkozás	Link	visible-label editorial revision
+admin.yml	admin.dashboard.actions.index.default.email	Email	E-mail-cím	Email	visible-label editorial revision
+admin.yml	admin.hidden_users.show.email	Email:	E-mail-cím:	Email:	visible-label editorial revision
+admin.yml	admin.menu.geozones	Geozones	Földrajzi zónák	Geozones	visible-label editorial revision
+admin.yml	admin.admin_notifications.show.link	Link	Hivatkozás	Link	visible-label editorial revision
+admin.yml	admin.valuators.index.email	Email	E-mail-cím	Email	visible-label editorial revision
+admin.yml	admin.valuators.show.email	Email	E-mail-cím	Email	visible-label editorial revision
+admin.yml	admin.poll_officers.officer.email	Email	E-mail-cím	Email	visible-label editorial revision
+admin.yml	admin.poll_officer_assignments.index.table_email	Email	E-mail-cím	Email	visible-label editorial revision
+admin.yml	admin.poll_shifts.new.table_email	Email	E-mail-cím	Email	visible-label editorial revision
+admin.yml	admin.organizations.index.email	Email	E-mail-cím	Email	visible-label editorial revision
+admin.yml	admin.geozones.index.title	Geozone	Földrajzi zóna	Geozone	visible-label editorial revision
+admin.yml	admin.users.columns.email	Email	E-mail-cím	Email	visible-label editorial revision
+general.yml	polls.show.stats.web	WEB	ONLINE	WEB	visible-label editorial revision
+management.yml	management.account_info.email_label	Email:	E-mail-cím:	Email:	visible-label editorial revision
+rails.yml	number.human.storage_units.units.byte.one	Byte	bájt	Byte	visible-label editorial revision
+rails.yml	time.am	am	de.	am	visible-label editorial revision
+rails.yml	time.pm	pm	du.	pm	visible-label editorial revision
+sdg.yml	sdg.goals.goal_2.title	Zero Hunger	Az éhezés felszámolása	Zero Hunger	visible-label editorial revision
+sdg.yml	sdg.goals.goal_2.description	Zero Hunger.	Az éhezés felszámolása.	Zero Hunger.	visible-label editorial revision
+seeds.yml	seeds.polls.recounting_poll	Recounting Poll	Szavazatok újraszámlálása	Recounting Poll	visible-label editorial revision
+settings.yml	settings.twitter_hashtag	Twitter hashtag	Twitter-hashtag	Twitter hashtag	visible-label editorial revision
+settings.yml	settings.proposals.email_short_title	Email	E-mail	Email	visible-label editorial revision
+settings.yml	settings.analytics_url	Analytics URL	Analitikai URL	Analytics URL	visible-label editorial revision
+social_share_button.yml	social_share_button.email	Email	E-mail	Email	visible-label editorial revision
+stats.yml	stats.polls.web_percentage	%{percentage} Web	%{percentage} online	%{percentage} Web	visible-label editorial revision
+stats.yml	stats.polls.letter_percentage	%{percentage} Mail	%{percentage} levélben	%{percentage} Mail	visible-label editorial revision
+valuation.yml	valuation.budget_investments.show.undefined	Undefined	Nincs meghatározva	Undefined	visible-label editorial revision
+general.yml	omniauth.facebook.sign_in	Jelentkezz be a Facebookon	Jelentkezzen be a Facebookkal	Sign in with Facebook	human editorial revision
+general.yml	omniauth.facebook.sign_up	Regisztrálj a Facebookon	Regisztráljon a Facebookkal	Sign up with Facebook	human editorial revision

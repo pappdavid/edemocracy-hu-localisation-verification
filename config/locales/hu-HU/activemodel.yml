@@ -5,8 +5,8 @@ hu:
         residence: Lakóhely-ellenőrzés
         sms: SMS
       local_census_records/import:
-        one: Helyi népszámlálási nyilvántartás importja
-        other: Helyi népszámlálási adatok importja
+        one: Helyi népszámlálási rekord importálása
+        other: A helyi népszámlálás rögzíti az importot
     attributes:
       verification:
         residence:
@@ -18,14 +18,14 @@ hu:
           phone: Telefonszám
           confirmation_code: Megerősítő kód
         email:
-          recipient: E-mail
+          recipient: E-mail-cím
       verification/letter:
-        email: E-mail
+        email: E-mail-cím
         password: Jelszó
-        verification_code: A kódot levélben kapta.
+        verification_code: A levélben kapott kód
       verification/management/document:
-        document_type: 'A dokumentum típusa:'
-        document_number: Dokumentumszám
+        document_type: 'Dokumentum típusa:'
+        document_number: Iratszám
       verification/residence:
         date_of_birth: Születési dátum
         document_type: Okmány típusa
@@ -33,9 +33,9 @@ hu:
       verification/sms:
         confirmation_code: Adja meg a telefonjára kapott kódot
       officing/residence:
-        document_type: Dokumentumtípus
-        document_number: Dokumentum száma (betűkkel együtt)
-        year_of_birth: Született év
+        document_type: Dokumentum típusa
+        document_number: Iratszám (beleértve a betűket is)
+        year_of_birth: Születési év
       local_census_records/import:
         file: Fájl
       setting/locales_settings:
@@ -46,5 +46,5 @@ hu:
         local_census_records/import:
           attributes:
             file:
-              extension: A fájl formátuma hibás. Az engedélyezett fájlformátum:%{valid_extensions}.
-              headers: Mivel a fejlécek tévednek. A fájlfejléceknek a következő nevekkel kell rendelkezniük:%{required_headers}.
+              extension: 'A megadott fájlformátum rossz. Az engedélyezett fájlformátum: %{valid_extensions}.'
+              headers: 'Az adott fájlfejlécek hibásak. A fájlfejléceknek a következő nevekkel kell rendelkezniük: %{required_headers}.'

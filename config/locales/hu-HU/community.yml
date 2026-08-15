@@ -3,34 +3,34 @@ hu:
     sidebar:
       title: Közösség
       description:
-        proposal: Részt vesz a javaslat felhasználói közösségében.
-        investment: Részt venni ennek a beruházásnak a felhasználói közösségében.
-      button_to_access: A közösséghez való hozzáférés
+        proposal: Vegyen részt a javaslat felhasználói közösségében.
+        investment: Vegyen részt a befektetés felhasználói közösségében.
+      button_to_access: Hozzáférés a közösséghez
     show:
       title:
-        proposal: Javaslatközösség
-        investment: Költségvetési beruházási közösség
+        proposal: Javaslat közösség
+        investment: Költségvetési befektetési közösség
       description:
-        proposal: Részt venni a javaslat közösségében. Egy aktív közösség hozzájárulhat a javaslat tartalmának javításához
-          és terjesztésének fokozásához, hogy több javaslat támogatása.
-        investment: Részt venni ennek a költségvetési beruházásnak a közösségében. Egy aktív közösség hozzájárulhat a költségvetési
-          beruházások tartalmának javításához és terjesztésének ösztönzéséhez, hogy több támogatást kapjon.
+        proposal: Vegyen részt ennek a javaslatnak a közösségében. Egy aktív közösség segíthet a javaslat tartalmának javításában,
+          és elősegítheti annak terjesztését, hogy nagyobb támogatást kapjon.
+        investment: Vegyen részt ennek a költségvetési beruházásnak a közösségében. Egy aktív közösség segíthet a költségvetési
+          beruházás tartalmi fejlesztésében, és elősegítheti annak elterjedését a nagyobb támogatás érdekében.
       create_first_community_topic:
-        first_theme_not_logged_in: Nincs probléma elérhető, részt venni az első létrehozásában.
-        first_theme: Az első közösségi téma létrehozása
-        sub_first_theme: Egy téma létrehozásához meg kell %{sign_in} vagy %{sign_up}.
+        first_theme_not_logged_in: Nincs elérhető probléma, vegyen részt az első létrehozásában.
+        first_theme: Hozd létre az első közösségi témát
+        sub_first_theme: Téma létrehozásához %{sign_in} vagy %{sign_up} szükséges.
       tab:
-        participants: A résztvevők
+        participants: Résztvevők
       sidebar:
-        participate: Részvétel
+        participate: Részt vesz
         new_topic: Téma létrehozása
       topic:
         edit: Téma szerkesztése
-        destroy: A téma törlése
+        destroy: Téma törlése
       author: Szerző
-      back: Vissza a %{community}  %{proposal}
+      back: Vissza az %{community} %{proposal}
     topic:
-      create: Téma létrehozása
+      create: Hozzon létre egy témát
       edit: Téma szerkesztése
       form:
         new:
@@ -40,14 +40,14 @@ hu:
         create:
           submit_button: Téma létrehozása
         update:
-          submit_button: A téma frissítése
+          submit_button: Téma frissítése
       show:
         tab:
           comments_tab: Megjegyzések
       sidebar:
-        recommendations_title: Ajánlások egy téma létrehozására
-        recommendation_one: Ne írd a téma címét vagy egész mondatokat nagybetűkkel. Az interneten, amit kiabálásnak tekintenek.
-          És senki sem szereti, ha kiabálnak vele.
-        recommendation_two: Minden olyan téma vagy megjegyzés, amely jogellenes cselekvéssel jár, megszűnik, még azok is,
-          akik szabotálni kívánják a téma tereit, minden más megengedett.
-        recommendation_three: Élvezd ezt a helyet, a hangokat, amik betöltik, a tiéd is.
+        recommendations_title: Javaslatok téma létrehozásához
+        recommendation_one: Ne írja nagybetűvel a téma címét vagy egész mondatait. Az interneten kiabálásnak számít. És senki
+          sem szereti, ha kiabálnak vele.
+        recommendation_two: Minden olyan témát vagy megjegyzést, amely illegális cselekvésre utal, ki kell zárni, azokat is,
+          amelyek az alany tereit szabotálni kívánják, minden más megengedett.
+        recommendation_three: Élvezze ezt a teret, az azt betöltő hangokat, ez a tiéd is.

@@ -3,20 +3,20 @@ hu:
     page_entries_info:
       entry:
         one: Belépés
-        other: Bejegyzés
-        zero: Bejegyzés
+        other: Bejegyzések
+        zero: Bejegyzések
       more_pages:
-        display_entries: Megjelenítés <strong>%{first}& nbsp; - & nbsp;%{last}</strong> II. <strong>%{total}  %{entry_name}</strong>
+        display_entries: <strong>%{first} - %{last}</strong> / <strong>%{total} %{entry_name}</strong>
       one_page:
         display_entries:
           one: Van <strong>1 %{entry_name}</strong>
-          other: Vannak <strong>%{count}  %{entry_name}</strong>
+          other: Vannak <strong>%{count} %{entry_name}</strong>
           zero: '%{entry_name} nem található'
   views:
     pagination:
-      current: You 're on page
+      current: Az oldalon vagy
       first: Első
       last: Utolsó
       next: Következő
       previous: Előző
-      truncate: '& hellip;'
+      truncate: …

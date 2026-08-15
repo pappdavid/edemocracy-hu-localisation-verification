@@ -2,72 +2,73 @@ hu:
   devise:
     password_expired:
       expire_password: A jelszó lejárt
-      change_required: A jelszavad lejárt.
-      change_password: Jelszó megváltoztatása
+      change_required: A jelszava lejárt
+      change_password: Változtassa meg jelszavát
       new_password: Új jelszó
-      updated: A jelszót sikeresen frissítették
+      updated: A jelszó sikeresen frissítve
     confirmations:
-      confirmed: A fiókja megerősítve.
-      send_instructions: Néhány perc múlva kap egy e-mailt, amely útmutatást tartalmaz az e-mail cím megerősítéséről.
-      send_paranoid_instructions: Ha az e-mail cím létezik az adatbázisunkban, néhány perc múlva kap egy e-mail utasításokat,
-        hogyan lehet megerősíteni az e-mail címet.
+      confirmed: Fiókját megerősítették.
+      send_instructions: Néhány percen belül kapni fog egy e-mailt, amely tartalmazza az e-mail cím megerősítésére vonatkozó
+        utasításokat.
+      send_paranoid_instructions: Ha az Ön e-mail címe szerepel adatbázisunkban, néhány percen belül kapni fog egy e-mailt
+        az e-mail cím megerősítésével kapcsolatban.
     failure:
-      already_authenticated: Már be vagy jelentkezve.
-      inactive: A fiókját még nem aktiválták.
-      invalid: Érvénytelen %{authentication_keys} vagy jelszót.
-      locked: A számlád le van zárva.
-      last_attempt: Van még egy próbálkozása, mielőtt a fiókját lezárják.
-      not_found_in_database: Érvénytelen %{authentication_keys} vagy jelszót.
-      timeout: A foglalkozása lejárt. Kérem, jelentkezzen be újra, hogy folytassa.
-      unauthenticated: Be kell jelentkeznie, vagy regisztrálnia kell, hogy folytathassa.
-      unconfirmed: A folytatáshoz kattintson a visszaigazoló linkre, amelyet e-mailben küldtünk Önnek.
+      already_authenticated: Már bejelentkezett.
+      inactive: Fiókja még nincs aktiválva.
+      invalid: Érvénytelen %{authentication_keys} vagy jelszó.
+      locked: Fiókját zároltuk.
+      last_attempt: Még egy próbálkozása van hátra fiókja blokkolása előtt.
+      not_found_in_database: Érvénytelen %{authentication_keys} vagy jelszó.
+      timeout: A munkamenet lejárt. A folytatáshoz jelentkezzen be újra.
+      unauthenticated: A folytatáshoz be kell jelentkeznie vagy regisztrálnia kell.
+      unconfirmed: A folytatáshoz kattintson a megerősítő linkre, amelyet e-mailben küldtünk Önnek
     mailer:
       confirmation_instructions:
-        subject: Megerősítési utasítások
+        subject: Megerősítő utasítások
       reset_password_instructions:
         subject: Útmutató a jelszó visszaállításához
       unlock_instructions:
-        subject: Kioldási utasítások
+        subject: Feloldási utasítások
     omniauth_callbacks:
-      failure: Nem volt lehetséges engedélyezni, hogy %{kind} Mert "%{reason}".
-      success: 'Sikeresen azonosították: %{kind}.'
+      failure: Nem sikerült Önt %{kind}ként engedélyezni, mert "%{reason}".
+      success: Sikeresen azonosítva mint %{kind}.
     passwords:
-      no_token: Nem férhet hozzá ehhez az oldalhoz, kivéve egy jelszó-visszaállító linken keresztül. Ha egy jelszó-visszaállító
-        linken keresztül jutott hozzá, ellenőrizze, hogy az URL teljes-e.
-      send_instructions: Néhány perc múlva kap egy e-mailt, amely a jelszó visszaállítására vonatkozó utasításokat tartalmaz.
-      send_paranoid_instructions: Ha az e-mail címed benne van az adatbázisunkban, néhány perc múlva kapsz egy linket, amivel
-        visszaállíthatod a jelszavad.
-      updated: A jelszó sikeresen megváltozott. A hitelesítés sikeres.
-      updated_not_active: A jelszó sikeresen megváltozott.
+      no_token: Ezt az oldalt csak a jelszó-visszaállítási linken keresztül érheti el. Ha jelszó-visszaállítási linken keresztül
+        jutott el, ellenőrizze, hogy az URL teljes-e.
+      send_instructions: Néhány percen belül e-mailt fog kapni, amely tartalmazza a jelszó visszaállítására vonatkozó utasításokat.
+      send_paranoid_instructions: Ha e-mail címe szerepel adatbázisunkban, néhány percen belül kap egy linket, amellyel visszaállíthatja
+        jelszavát.
+      updated: Jelszava sikeresen megváltozott. A hitelesítés sikeres.
+      updated_not_active: Jelszava sikeresen megváltozott.
     registrations:
-      destroyed: Viszlát! A fiókját törölték. Reméljük, hamarosan újra látjuk.
-      signed_up: Üdvözlöm! Hitelesítették.
-      signed_up_but_inactive: A regisztráció sikeres volt, de nem lehetett aláírni, mert a fiók nem aktiválódott.
-      signed_up_but_locked: A regisztrációja sikeres volt, de nem írhatták alá, mert a fiókja le van zárva.
-      signed_up_but_unconfirmed: Küldtek önnek egy üzenetet, ami egy ellenőrző linket tartalmaz. Kérjük, kattintson erre a
-        linkre, hogy aktiválja fiókját.
-      update_needs_confirmation: A fiókját sikeresen frissítettük, de ellenőriznünk kell az új e-mail címét. Kérjük, ellenőrizze
-        az e-mail és kattintson a linkre, hogy teljes a visszaigazolás az új e-mail cím.
-      updated: A fiókját sikeresen frissítettük.
+      destroyed: Búcsú! Fiókját törölték. Reméljük hamarosan újra találkozunk.
+      signed_up: Üdvözöljük! Önt hitelesítették.
+      signed_up_but_inactive: A regisztráció sikeres volt, de nem tudott bejelentkezni, mert fiókja nincs aktiválva.
+      signed_up_but_locked: A regisztráció sikeres volt, de nem tudott bejelentkezni, mert fiókja zárolva van.
+      signed_up_but_unconfirmed: Ellenőrző linket tartalmazó üzenetet küldtek Önnek. Kérjük, kattintson erre a linkre fiókja
+        aktiválásához.
+      update_needs_confirmation: Fiókja sikeresen frissítve; azonban igazolnunk kell új e-mail címét. Kérjük, ellenőrizze
+        e-mailjét, és kattintson a linkre az új e-mail cím megerősítésének befejezéséhez.
+      updated: Fiókja sikeresen frissítve.
     sessions:
       signed_in: Sikeresen bejelentkezett.
-      signed_out: Sikerült kijelentkeznie.
-      already_signed_out: Sikerült kijelentkeznie.
+      signed_out: Sikeresen kijelentkezett.
+      already_signed_out: Sikeresen kijelentkezett.
     unlocks:
-      send_instructions: Néhány perc múlva kap egy e-mailt, amely tartalmazza a fiókjának feloldására vonatkozó utasításokat.
-      send_paranoid_instructions: Ha fiókja van, néhány percen belül kap egy e-mailt, amely tartalmazza a fiókjának feloldására
-        vonatkozó utasításokat.
-      unlocked: A fiókja nyitva van. Kérem, jelentkezzen be, hogy folytassa.
+      send_instructions: Néhány percen belül kapni fog egy e-mailt, amely a fiók feloldására vonatkozó utasításokat tartalmazza.
+      send_paranoid_instructions: Ha rendelkezik fiókkal, néhány percen belül e-mailt fog kapni, amely tartalmazza a fiók
+        feloldására vonatkozó utasításokat.
+      unlocked: Fiókját feloldottuk. Kérjük, jelentkezzen be a folytatáshoz.
   errors:
     messages:
-      already_confirmed: Már ellenőriztük, kérem, jelentkezzen be.
-      confirmation_period_expired: Meg kell vizsgálni belül %{period}Kérem, ismételje meg a kérését.
-      expired: lejárt; kérjük, ismételje meg a kérelmet.
+      already_confirmed: Önt már ellenőrizték; kérjük, próbáljon meg bejelentkezni.
+      confirmation_period_expired: Ellenőrizni kell %{period}; kérem ismételje meg.
+      expired: lejárt; kérem ismételje meg.
       not_found: nem található.
-      not_locked: Nem volt bezárva.
+      not_locked: nem volt zárva.
       not_saved:
-        one: '1 hiba megakadályozta ezt %{resource} hogy megmentsenek. Kérjük, ellenőrizze a kijelölt mezőket, hogy tudja,
-          hogyan kell kijavítani őket:'
-        other: '%{count} a hibák megakadályozták ezt %{resource} hogy megmentsenek. Kérjük, ellenőrizze a kijelölt mezőket,
-          hogy tudja, hogyan kell kijavítani őket:'
-      equal_to_current_password: más, mint a jelenlegi jelszó.
+        one: '1 hiba akadályozta meg az %{resource} mentését. Kérjük, ellenőrizze a megjelölt mezőket, hogy megtudja, hogyan
+          javíthatja ki őket:'
+        other: 'Az %{count} hibák megakadályozták az %{resource} mentését. Kérjük, ellenőrizze a megjelölt mezőket, hogy megtudja,
+          hogyan javíthatja ki őket:'
+      equal_to_current_password: különböznie kell a jelenlegi jelszótól.

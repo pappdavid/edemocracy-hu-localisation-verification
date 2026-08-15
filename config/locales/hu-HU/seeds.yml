@@ -1,30 +1,57 @@
 hu:
   seeds:
-    cards:
-      header:
-        label: Üdv a
-        title: FOGYASZTOTT DEMOKRÁCIA
-        description: Ingyenes szoftver a polgárok részvételéhez.
-        link_text: További információk
-      proposal:
-        title: Hogyan működnek a polgárok javaslatai?
-        description: Egy hely mindenkinek, hogy létrehozza a polgárok javaslatát és támogatást kérjen. Megszavazzuk azokat
-          a javaslatokat, amelyek elegendő támogatást nyújtanak, és így közösen dönthetünk a számunkra fontos kérdésekről.
-        link_text: Bővebben a javaslatokról
-        label: Polgári javaslatok
+    admin_notifications:
       budget:
-        title: Hogyan működik a részvételi költségvetés?
-        description: A részvételi költségvetések lehetővé teszik a polgárok számára, hogy javaslatokat tegyenek és közvetlenül
-          döntsenek arról, hogyan költsék el a költségvetés egy részét, figyelemmel kísérve és szigorúan értékelve a javaslatokat.
-          Maximális hatékonyság és ellenőrzés mindenki számára kielégítő.
-        link_text: Bővebben a részvételi költségvetésről
-        label: Közösségi költségvetések
+        title: Lezárjuk a közösségi költségvetést!
+        body: Siess, és készíts egy ajánlatot, mielőtt az a következő napokban véget ér!
+      help:
+        title: Segítsen nekünk a Consul Democracy fordításában
+        body: Ha jártas egy nyelvben, kérjük, segítsen nekünk lefordítani a Consul demokráciát!
+      map:
+        title: Mostantól földrajzi helymeghatározhatja az ajánlatokat és a befektetéseket
+        body: Amikor ajánlatot vagy befektetést hoz létre, most megadhat egy pontot a térképen.
+      proposal:
+        title: Van javaslata?
+        body: Ne feledje, hogy javaslatot készíthet ötleteiből, és az emberek megvitatják és támogatják azt.
+    settings:
+      official_level_1_name: Hivatalos álláspont 1
+      official_level_2_name: Hivatalos álláspont 2
+      official_level_3_name: Hivatalos álláspont 3
+      official_level_4_name: Hivatalos álláspont 4
+      official_level_5_name: Hivatalos álláspont 5
+    geozones:
+      north_district: Északi kerület
+      west_district: Nyugati kerület
+      east_district: Keleti kerület
+      central_district: Központi kerület
+    organizations:
+      human_rights: Emberi jogok
+      neighborhood_association: Szomszédsági Egyesület
+    cards:
+      budget:
+        title: Hogyan működnek a közösségi költségvetések?
+        description: A közösségi költségvetés lehetővé teszi a polgárok számára, hogy közvetlenül javaslatot tegyenek és döntsenek
+          arról, hogyan költsék el a költségvetés egy részét, a javaslatok intézmény általi nyomon követésével és szigorú
+          értékelésével. Maximális hatékonyság és ellenőrzés mindenki megelégedésére.
+        link_text: További információ a közösségi költségvetésekről
+        label: közösségi költségvetések
       debate:
         title: Hogyan működnek a viták?
-        description: Bárki kinyithat szálakat bármely témában, külön tereket teremtve, ahol az emberek megvitathatják a javasolt
-          témát. A vitákat mindenki értékeli, hogy kiemelje a legfontosabb kérdéseket.
+        description: Bárki nyithat szálakat bármilyen témában, külön tereket hozva létre, ahol az emberek megvitathatják a
+          javasolt témát. A vitákat mindenki értékeli, hogy kiemeljük a legfontosabb kérdéseket.
         link_text: Bővebben a vitákról
         label: Viták
+      header:
+        title: KONZUL DEMOKRÁCIA
+        description: Ingyenes szoftver az állampolgárok részvételéhez.
+        link_text: További információ
+        label: Üdvözöljük
+      proposal:
+        title: Hogyan működnek a polgári javaslatok?
+        description: Egy teret, ahol mindenki polgári javaslatot készíthet és támogatást kereshet. A kellő támogatottságot
+          elérő javaslatokat megszavazzuk, így közösen eldönthetjük a számunkra fontos kérdéseket.
+        link_text: Bővebben az ajánlatokról
+        label: Polgári javaslatok
     categories:
       associations: Egyesületek
       culture: Kultúra
@@ -32,63 +59,36 @@ hu:
       social_rights: Szociális jogok
       economy: Gazdaság
       employment: Foglalkoztatás
-      equity: Részesedés
+      equity: Méltányosság
       sustainability: Fenntarthatóság
       participation: Részvétel
       mobility: Mobilitás
       media: Média
-      health: Egészségügy
+      health: Egészség
       transparency: Átláthatóság
-      security_emergencies: Biztonság és biztonság
-      environment: Környezetvédelem
+      security_emergencies: Biztonság és vészhelyzetek
+      environment: Környezet
     budgets:
-      budget: Részvételi költségvetés
-      currency: EUR
+      budget: közösségi költségvetés
+      currency: €
       groups:
-        all_city: Egész város
-        districts: Digitális
+        all_city: Minden város
+        districts: kerületek
       phases:
-        description: Leírás %{language}
-        summary: Összefoglaló %{language}
+        description: 'Leírás itt: %{language}'
+        summary: 'Összegzés itt: %{language}'
       statuses:
         studying_project: A projekt tanulmányozása
-        bidding: Ajánlattétel
+        bidding: Licitálás
         executing_project: A projekt végrehajtása
-        executed: Végrehajtva
-    admin_notifications:
-      budget:
-        title: Lezárjuk a részvételi költségvetést!
-        body: Siess és csinálj egy ajánlatot, mielőtt a következő pár napban véget ér!
-      help:
-        title: Segíts lefordítani a konzul demokráciát
-        body: Ha Ön jártas egy nyelvet, kérjük, segítsen nekünk lefordítani konzul demokrácia!
-      map:
-        title: Most már geolokáció javaslatok és beruházások
-        body: Ha egy javaslatot vagy beruházást hoz létre, most megadhat egy pontot a térképen.
-      proposal:
-        title: Van ajánlatod?
-        body: Ne feledjék, hogy ötleteikkel létrehozhatnak egy javaslatot, és az emberek megvitatják és támogatják azt.
-    settings:
-      official_level_1_name: Hivatalos álláspont
-      official_level_2_name: Hivatalos álláspont 2
-      official_level_3_name: Hivatalos álláspont
-      official_level_4_name: Hivatalos álláspont
-      official_level_5_name: Hivatalos álláspont 5
-    geozones:
-      north_district: Északi körzet
-      west_district: Nyugati körzet
-      east_district: Keleti körzet
-      central_district: Központi körzet
-    organizations:
-      human_rights: Emberi jogok
-      neighborhood_association: Szomszédsági Szövetség
+        executed: Kivégezve
     legislation:
       draft_versions:
         title: Verzió %{number}
-        body: Verzió tervezete %{language}
+        body: 'Vázlat verzió itt: %{language}'
     polls:
-      current_poll: Jelenlegi poll
-      current_poll_geozone_restricted: Jelenlegi poll geozon korlátozás
-      recounting_poll: Poll visszaállítása
-      expired_poll_without_stats: Lejárt a stats és eredmények nélküli felmérés
-      expired_poll_with_stats: Lejárt a statisztika és eredmények
+      current_poll: Aktuális szavazás
+      current_poll_geozone_restricted: Jelenlegi szavazás Geozone Korlátozott
+      recounting_poll: Szavazatok újraszámlálása
+      expired_poll_without_stats: Lejárt szavazás statisztikák és eredmények nélkül
+      expired_poll_with_stats: Lejárt szavazás statisztikákkal és eredményekkel

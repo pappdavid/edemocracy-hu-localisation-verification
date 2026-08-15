@@ -3,40 +3,40 @@ hu:
     actions:
       create:
         notice: '%{resource_name} sikeresen létrehozva.'
-        debate: A vita sikeresen jött létre.
-        direct_message: Az üzenetét sikeresen elküldtük.
-        poll: A közvélemény-kutatás sikeresen jött létre.
+        debate: A vita sikeresen létrehozva.
+        direct_message: Üzenetét sikeresen elküldtük.
+        poll: Szavazás sikeresen létrehozva.
         poll_booth: Booth sikeresen létrehozta.
-        poll_question_option: Sikeresen létrehozott válasz
-        poll_question_option_video: Sikeresen létrehozott videó
-        poll_question_option_image: A feltöltött kép
-        poll_voter: Köszönöm a szavazást!
-        poll_voter_blank: Köszönöm a szavazást! Az ön szavazata üres szavazat.
-        proposal: A javaslat sikeresen született.
-        proposal_notification: Az üzenetét helyesen küldték.
-        budget_investment: A költségvetési beruházás sikeresen jött létre.
-        signature_sheet: Sikeresen létrehozott aláírási lap
-        support: Sikeresen támogatott beruházások
+        poll_question_option: A válasz sikeresen létrehozva
+        poll_question_option_video: A videó sikeresen létrehozva
+        poll_question_option_image: A kép sikeresen feltöltve
+        poll_voter: Köszönjük, hogy szavaztál!
+        poll_voter_blank: Köszönjük, hogy szavaztál! Szavazatát üres szavazatként regisztráltuk.
+        proposal: Az ajánlat sikeresen létrehozva.
+        proposal_notification: Üzenetét megfelelően elküldtük.
+        budget_investment: A költségvetési beruházás sikeresen létrehozva.
+        signature_sheet: Az aláírási lap sikeresen létrehozva
+        support: A beruházás sikeresen támogatott
         topic: A téma sikeresen létrehozva.
-        valuator_group: Valuator csoport sikeresen létrehozva
-        vote: Sikeresen szavazott
+        valuator_group: Az értékelői csoport sikeresen létrehozva
+        vote: A szavazat sikeresen létrehozva
       save_changes:
-        notice: Változások mentve
+        notice: A változtatások mentve
       update:
         notice: '%{resource_name} sikeresen frissítve.'
-        debate: A vita sikeresen frissült.
-        poll: A közvélemény-kutatás sikeresen frissítve.
-        poll_booth: Booth sikeresen frissítve.
-        active_poll: A szavazatok leírása sikeresen frissítve.
-        proposal: A javaslatot sikeresen frissítettük.
-        budget_investment: A beruházási projekt sikeresen frissült.
+        debate: A vita sikeresen frissítve.
+        poll: A szavazás sikeresen frissítve.
+        poll_booth: A Booth sikeresen frissítve.
+        active_poll: A szavazás leírása sikeresen frissítve.
+        proposal: Az ajánlat sikeresen frissítve.
+        budget_investment: A beruházási projekt sikeresen frissítve.
         topic: A téma sikeresen frissítve.
-        valuator_group: Az értékbecslő csoport sikeresen frissítve
-        translation: Fordítás frissítve sikeresen
+        valuator_group: Az értékelő csoport sikeresen frissítve
+        translation: A fordítás sikeresen frissítve
       destroy:
-        budget_investment: A beruházási projektet sikeresen törölték.
-        topic: A témakört sikeresen törölték.
-        poll_question_option_image: A kép sikeresen törlődött.
-        poll_question_option_video: Válasz videó törölve sikeresen.
-        valuator_group: Az értékbecslési csoport törlése sikeresen megtörtént
-        vote: Sikeresen törölve
+        budget_investment: A beruházási projekt sikeresen törölve.
+        topic: A téma sikeresen törölve.
+        poll_question_option_image: A kép sikeresen törölve.
+        poll_question_option_video: A válaszvideó sikeresen törölve.
+        valuator_group: Az értékelő csoport sikeresen törölve
+        vote: A szavazat sikeresen törölve
