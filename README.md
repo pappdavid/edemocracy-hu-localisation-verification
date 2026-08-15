@@ -15,6 +15,7 @@ It is intentionally pinned to **CONSUL Democracy 2.5.0**. The goal is to impleme
 | `feature/hu-localisation-ux-verification` | Broad Hungarian catalogue, editorial rewrite, verification UX, preview helpers and evidence | Completed source workstream, preserved |
 | `feature/ui-localisation-regression` | Screenshot-backed UI/localisation remediation, focused regression tests and evidence | Completed, pending reconciliation into `main` |
 | `feature/*` | Portable engineering work intended for later company-fork porting | Active work |
+| `poc/aws-kyc-liveness` | Curated portable AWS identity-verification provider: Textract, Face Liveness, `CompareFaces`, MRZ, decision/redaction logic and tests | Implemented PoC; live AWS acceptance still gated |
 | `poc/*` | Experimental work that must remain isolated until explicitly accepted | Proof of concept |
 
 The two completed localisation branches diverged after the shared remediation base. Their history is intentionally preserved instead of being rewritten into one opaque commit pile. `main` currently follows the broader Hungarian catalogue/editorial line; the focused UI-regression branch still needs an explicit reconciliation pass before its extra evidence/tests are merged.
@@ -36,6 +37,7 @@ The two completed localisation branches diverged after the shared remediation ba
 - [x] Focused UI/localisation regression verification completed there with **8 examples, 0 failures** and **0 blocking critical-surface localisation regressions**.
 - [x] Original issue evidence/proof protocol documented.
 - [x] Local/runtime preview helper scripts added to the broad Hungarian remediation branch.
+- [x] Curated AWS KYC + Face Liveness provider imported on isolated `poc/aws-kyc-liveness` with local mocked tests and explicit live-AWS preflight coverage.
 
 ### Integration work still required
 
@@ -139,21 +141,45 @@ The two completed localisation branches diverged after the shared remediation ba
 
 ### K. AWS KYC / identity-verification PoC — parallel track
 
-This work is a **parallel PoC track**, not yet the production municipal identity-verification system.
+This is an **isolated technical PoC**, not the production municipal identity-verification system and not yet part of CONSUL runtime flows. The portable implementation lives under `poc/aws-kyc-liveness/` on the branch of the same name.
 
-- [x] Deterministic synthetic KYC core implemented.
-- [x] Hungarian personal-ID validation implemented.
-- [x] MRZ parsing/checksum validation implemented.
-- [x] Name and cross-document DOB consistency checks implemented.
-- [x] Textract integration path implemented.
-- [x] Rekognition `CompareFaces` integration path implemented.
-- [x] Synthetic AWS-shaped mocks, redacted result model, FastAPI backend and test fixtures implemented.
-- [~] Live AWS verification is waiting for AWS account/service verification to propagate so Textract can be exercised.
-- [ ] Run real Textract document extraction after AWS activation.
-- [ ] Run real Rekognition comparison/liveness validation after AWS activation.
-- [ ] Test the PoC on an explicitly experimental/private route on the project owner's site before any CONSUL integration.
-- [ ] Keep identity verification, residence verification and voting authorization as separate layers.
+#### Implemented in the curated PoC
+
+- [x] AWS provider boundary and shared verification contract.
+- [x] Textract `AnalyzeID` document-inspection path.
+- [x] Labelled Rekognition OCR fallback for the current Textract activation-pending state.
+- [x] Rekognition Face Liveness session creation and result retrieval.
+- [x] Server-side `CompareFaces` using the liveness reference image.
+- [x] TD1 MRZ parsing and checksum validation.
+- [x] Hungarian name normalization and cross-document consistency checks.
+- [x] Separate document, liveness and face-match decision signals.
+- [x] Redacted provider error categories suitable for non-PII diagnostics.
+- [x] Transient S3 object cleanup around provider processing.
+- [x] Deterministic provider/unit tests that do not intentionally call live AWS.
+- [x] Explicit live-AWS preflight test kept outside the default test run.
+- [x] Portable integration/status documentation.
+- [x] Source import excludes `.env` files, environment-loader files, account-specific IAM/bucket policies, generated Manus UI/application scaffolding and database/hosting artifacts.
+
+#### Acceptance still required
+
+- [~] AWS integration code is implemented, but successful live provider acceptance has not yet been recorded for the complete document + liveness + face-match path.
+- [ ] Re-run Textract live validation after AWS account/service activation has propagated.
+- [ ] Run and record live Face Liveness + `CompareFaces` acceptance in the authorized AWS test account.
+- [ ] Test the provider through an explicitly experimental/private route on the project owner's site before any CONSUL integration.
+- [ ] Collect controlled real-device/document observations for OCR failure modes, glare/cropping, mobile capture and provider latency before treating the PoC as operationally useful.
+- [ ] Define the adapter from an accepted identity-verification result into the later CONSUL verification flow.
+- [ ] Keep identity verification, census/residence verification and voting authorization as separate layers.
 - [ ] Keep real biometric municipal-user use behind a legal/data-processing decision gate.
+
+#### What the PoC does not prove
+
+Passing OCR/MRZ consistency, face liveness and face similarity does **not** prove that a Hungarian identity document is genuine, unrevoked or otherwise authoritative. This track currently demonstrates identity/document consistency signals and an AWS verification pipeline, not document-authenticity proof.
+
+Relevant PoC documentation:
+
+- `poc/aws-kyc-liveness/README.md`
+- `poc/aws-kyc-liveness/STATUS.md`
+- `poc/aws-kyc-liveness/INTEGRATION.md`
 
 ## External decision gates
 
@@ -184,15 +210,24 @@ Useful project-specific files currently on `main` include:
 
 The completed screenshot-backed workstream additionally contains `docs/evidence/` and its focused system specs on `feature/ui-localisation-regression` until reconciliation is complete.
 
+The isolated AWS KYC track additionally contains `poc/aws-kyc-liveness/README.md`, `STATUS.md`, `INTEGRATION.md`, provider/unit tests and an opt-in live-AWS preflight test on `poc/aws-kyc-liveness`.
+
 Typical focused checks:
 
 ```bash
 python3 scripts/validate_hu_overlay.py
 bundle exec rspec spec/system/registration_verification_flow_spec.rb
 bundle exec rspec spec/system/verification/hungarian_residence_spec.rb
+
+cd poc/aws-kyc-liveness
+npm install
+npm test
+npm run check
+# live AWS only in an explicitly configured test environment:
+npm run test:live
 ```
 
-Do not interpret a generated translation or a recorded tracker result as verification by itself. A remediation is considered closed when its expected behavior is reproduced by a test or documented evidence against the applicable branch/runtime.
+Do not interpret a generated translation, a recorded tracker result, or the existence of an AWS SDK path as verification by itself. A remediation is considered closed when its expected behavior is reproduced by a test or documented evidence against the applicable branch/runtime.
 
 ## Later company-fork porting model
 
