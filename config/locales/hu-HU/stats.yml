@@ -1,1 +1,44 @@
 hu:
+  stats:
+    budgets:
+      participatory_disclaimer: '* * A résztvevők száma olyan személyekre vonatkozik, akik befektetési javaslatokat hoztak
+        létre, támogattak vagy szavaztak.'
+      heading_disclaimer: '* * * A címekre vonatkozó adatok arra a címre vonatkoznak, ahol minden felhasználó szavazott, nem
+        feltétlenül arra, amelyiken az adott személy szerepel.'
+      link: Statok
+      page_title: '%{budget} - Részvételi statisztikák'
+      total_investments: Összes beruházási projekt
+      total_selected_investments: A végső szavazási szakaszban lévő projektek
+      total_unfeasible_investments: Nem megvalósítható projektek
+      by_phase: Résztvevők szakaszonként
+      by_heading: Résztvevők szakaszonként és címsoronként
+      total: Összesen
+      heading: Címsor
+      investments_sent: Elküldött beruházási javaslatok
+      participants_support_phase: A résztvevők támogatási szakasza
+      participants_vote_phase: A résztvevők szavazási szakasza
+      participants_every_phase: Összes résztvevő
+      percent_total_participants: '% Összes résztvevő'
+      percent_heading_census: '% fejléc-népszámlálás'
+    polls:
+      by_channel: Résztvevők csatornánként
+      vote_by_channel: Szavazati típus csatornánként
+      web_percentage: '%{percentage} web'
+      booth_percentage: '%{percentage} Fejléc'
+      letter_percentage: '%{percentage} Posta'
+    title: Részvételi adatok
+    advanced: Speciális statisztikák
+    total_participants: A résztvevők
+    by_gender: Résztvevők nemek szerint
+    by_age: Résztvevők életkor szerint
+    by_geozone: Résztvevők körzetenként
+    men_percentage: '%{percentage} Férfiak'
+    women_percentage: '%{percentage} Nők'
+    age: Kor
+    age_more_than: '%{start} éves és idősebb'
+    age_range: '%{start} - %{finish} éves'
+    total: Összesen
+    geozone: Körzet
+    no_demographic_data:
+      one: '* Nincs demográfiai adatok 1 résztvevő.'
+      other: '* Nincs demográfiai adatok %{count} résztvevők.'

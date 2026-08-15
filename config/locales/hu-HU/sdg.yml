@@ -1,1 +1,1177 @@
 hu:
+  sdg:
+    goals:
+      goal_2:
+        targets:
+          target_2_5:
+            long_title: 2020-ig megőrizzék a vetőmagok, a termesztett növények, a tenyésztett és háziasított állatok, valamint
+              a hozzájuk kapcsolódó vadon élő fajok genetikai sokféleségét, beleértve a nemzeti, regionális és nemzetközi
+              szinten mélyen irányított és diverzifikált vetőmag- és növénybankokat, valamint a genetikai erőforrások hasznosításából
+              és a kapcsolódó hagyományos ismeretekből származó előnyök hozzáférésének, valamint méltányos és méltányos megosztásának
+              elősegítését, amint arról nemzetközi megállapodás született.
+            short_title: A genetikai sokféleség fenntartása az élelmiszertermelésben
+          target_2_A:
+            long_title: A fejlődő országok, különösen a legkevésbé fejlett országok mezőgazdasági termelési kapacitásának
+              növelése érdekében növelni kell a vidéki infrastruktúrába, a mezőgazdasági kutatási és bővítési szolgáltatásokba,
+              a technológiafejlesztésbe, valamint a növény- és állattenyésztési génbankokba történő beruházásokat, többek
+              között a megerősített nemzetközi együttműködés révén.
+            short_title: Befektetés a vidéki infrastruktúrába, a mezőgazdasági kutatásba, a technológiába és a génbankokba
+          target_2_B:
+            long_title: A dohai fejlesztési forduló mandátumával összhangban a kereskedelem korlátozásainak és torzulásainak
+              korrekciója és megelőzése a világ mezőgazdasági piacain, többek között a mezőgazdasági exporttámogatások valamennyi
+              formájának és az azokkal azonos hatású valamennyi exportintézkedésnek a párhuzamos megszüntetése révén.
+            short_title: A mezőgazdasági kereskedelmi korlátozások, piaci torzulások és exporttámogatások megelőzése
+          target_2_C:
+            long_title: Intézkedések elfogadása az élelmiszer-árupiacok és származékaik megfelelő működésének biztosítása
+              érdekében, valamint a piaci információkhoz - többek között az élelmiszer-tartalékokról - való megfelelő hozzáférés
+              megkönnyítése a szélsőséges élelmiszeráringadozások csökkentése érdekében.
+            short_title: A stabil élelmiszer-árupiacok és az információkhoz való időben történő hozzáférés biztosítása
+          target_2_1:
+            long_title: 2030-ra véget kell vetni az éhezésnek, és biztosítani kell, hogy minden ember, különösen a szegények
+              és a kiszolgáltatott helyzetben lévő emberek, beleértve a csecsemőket is, egész évben biztonságos, tápláló és
+              elegendő élelemhez jussanak.
+            short_title: A biztonságos és tápláló élelmiszerekhez való egyetemes hozzáférés
+          target_2_2:
+            long_title: 2030-ra véget kell vetni az alultápláltság valamennyi formájának, beleértve 2025-ig az 5 évesnél fiatalabb
+              gyermekek esetében a dadogással és a pazarlással kapcsolatos, nemzetközileg elfogadott célok elérését, valamint
+              a serdülő lányok, a várandós és szoptató nők és az idősebb személyek táplálkozási szükségleteinek kielégítését.
+            short_title: Az alultápláltság összes formájának vége
+          target_2_3:
+            long_title: 2030-ra megduplázzák a kisüzemi élelmiszertermelők, különösen a nők, az őslakosok, a családi gazdálkodók,
+              a lelkipásztorok és a halászok mezőgazdasági termelékenységét és bevételeit, többek között a földterülethez,
+              egyéb termelési erőforrásokhoz és ráfordításokhoz, ismeretekhez, pénzügyi szolgáltatásokhoz, piacokhoz és értékteremtési
+              lehetőségekhez való biztonságos és egyenlő hozzáférés révén.
+            short_title: A kis méretű élelmiszergyártók termelékenységének és bevételeinek megduplázása
+          target_2_4:
+            long_title: 2030-ra biztosítsák a fenntartható élelmiszer-termelési rendszereket és hajtsanak végre olyan rugalmas
+              mezőgazdasági gyakorlatokat, amelyek növelik a termelékenységet és a termelést, segítik az ökoszisztémák fenntartását,
+              erősítik az éghajlatváltozáshoz, a szélsőséges időjáráshoz, az aszályhoz, az árvízhez és más katasztrófákhoz
+              való alkalmazkodási képességet, és fokozatosan javítják a föld és a talaj minőségét.
+            short_title: Fenntartható élelmiszertermelés és ellenálló mezőgazdasági gyakorlatok
+        title: Zéró éhség
+        title_in_two_lines: 'Nulla
+
+          Éhség'
+        description: Zéró éhség.
+        long_description: <p>Több évtizedes folyamatos hanyatlás után 2015-ben az éhezésben szenvedők száma - az alultápláltság
+          előfordulási gyakorisága alapján mérve - ismét lassan nőtt. A jelenlegi becslések szerint <a href="http://www.fao.org/publications/sofi/2020/en/">Közel
+          690 millió ember éhes, vagyis a világ népességének 8,9 százaléka.</a> - 10 millió emberrel egy év alatt, és közel
+          60 millióval öt év alatt.</p>  <p>A világ nem képes 2030-ra elérni a Zéró Éhezőt. Ha a legutóbbi tendenciák folytatódnak,
+          az éhezés által érintett emberek száma 2030-ra 840 millió fölé emelkedne.</p>  <p>A Világélelmezési Program szerint,
+          <a href="https://www.wfp.org/publications/2020-global-report-food-crises">135 millió szenved akut éhség</a> nagyrészt
+          az emberek által okozott konfliktusok, az éghajlatváltozás és a gazdasági visszaesés miatt. A COVID- 19 pandémia
+          megduplázhatja ezt a számot, és 2020 végére további 130 millió embert fenyeget akut éhség veszélye.</p>  <p>Több
+          mint <a href="https://insight.wfp.org/covid-19-will-almost-double-people-in-acute-hunger-by-end-of-2020-59df0c4a8072">negyedmilliárd
+          ember az éhezés szélén</a>gyors lépéseket kell tenni annak érdekében, hogy a legveszélyeztetettebb régiók élelmezést
+          és humanitárius segítséget kapjanak.</p>  <p>Ugyanakkor a globális élelmiszer- és mezőgazdasági rendszer mélyreható
+          változására van szükség, ha a ma éhező több mint 690 millió embert akarjuk táplálni - és a & nbsp;<a href="https://www.un.org/development/desa/en/news/population/world-population-prospects-2019.html">további
+          2 milliárd ember</a>& nbsp; A világ 2050-re lesz. A mezőgazdasági termelékenység növelése és a fenntartható élelmiszer-termelés
+          elengedhetetlen az éhezés veszélyeinek enyhítéséhez.</p>
+      goal_3:
+        title: Jó egészség és jólét
+        title_in_two_lines: 'Jó egészség
+
+          és Well- Being'
+        description: Az egészséges élet biztosítása és a jólét előmozdítása minden korosztály számára.
+        long_description: <p>Az egészséges élet biztosítása és a jólét előmozdítása minden korosztályban elengedhetetlen a
+          fenntartható fejlődéshez. Jelenleg a világ szembesül a <a href="https://www.un.org/coronavirus">globális egészségügyi
+          válság</a> Ellentétben bármely más - COVID- 19 terjeszti az emberi szenvedést, destabilizálja a globális gazdaságot,
+          és emberek milliárdjainak életét teszi tönkre szerte a világon. & nbsp;</p>  <p>A pandémia előtt jelentős előrelépés
+          történt a <a href="https://unstats.un.org/sdgs/report/2019/goal-03/">emberek millióinak egészségének javítása</a>Jelentős
+          előrelépés történt a várható élettartam növelésében, valamint a gyermek- és anyai mortalitáshoz társuló néhány gyakori
+          gyilkos számának csökkentésében. Azonban több erőfeszítésre van szükség a betegségek széles körének teljes körű
+          felszámolásához, valamint számos különböző, tartósan fennálló és kialakulóban lévő egészségügyi kérdés megoldásához.
+          Az egészségügyi rendszerek hatékonyabb finanszírozására, a jobb higiéniára és higiéniára, valamint az orvosokhoz
+          való fokozott hozzáférésre összpontosítva jelentős előrelépés érhető el a milliók életének megmentésében.</p>  <p>Az
+          olyan egészségügyi vészhelyzetek, mint a COVID- 19 globális kockázatot jelentenek, és megmutatták, hogy kritikus
+          szükség van a felkészültségre. Az Egyesült Nemzetek Fejlesztési Programja kiemelte, hogy a <a href="https://www.undp.org/content/undp/en/home/news-centre/news/2020/COVID19_UNDP_data_dashboards_reveal_disparities_among_countries_to_cope_and_recover.html">az
+          országok képességei a COVID- 19 válságból való kilábalásra és kilábalásra</a>. A pandémia egy vízválasztó pillanat
+          az egészségügyi veszélyhelyzet felkészültség és a beruházások kritikus 21. századi közszolgáltatások. & nbsp;</p>
+        targets:
+          target_3_1:
+            long_title: 2030-ra a globális anyai mortalitás aránya kevesebb mint 70 / 100 000 élő születés.
+            short_title: Az anyai mortalitás csökkentése
+          target_3_2:
+            long_title: 2030-ra az újszülöttek és az 5 év alatti gyermekek halálozásának vége, minden olyan ország, amelynek
+              célja az újszülöttkori halálozás legalább 12 / 1000 élő születés és kevesebb, mint 5 halálozás legalább 25 /
+              1000 élő születés.
+            short_title: Minden megelőzhető haláleset vége 5 év alatt
+          target_3_3:
+            long_title: 2030-ra véget kell vetni az AIDS, a tuberkulózis, a malária és az elhanyagolt trópusi betegségek járványainak,
+              valamint fel kell számolni a hepatitist, a vízi eredetű betegségeket és más fertőző betegségeket.
+            short_title: A fertőző betegségek elleni küzdelem
+          target_3_4:
+            long_title: 2030-ra a nem fertőző betegségekből eredő korai mortalitás egyharmadával, megelőzéssel és kezeléssel,
+              valamint a mentális egészség és jólét előmozdításával kell csökkenteni.
+            short_title: A halálozás csökkentése a nem kommunikálható betegségekből és a mentális egészség előmozdítása
+          target_3_5:
+            long_title: A kábítószerrel való visszaélés megelőzése és kezelése, beleértve a kábítószerrel való visszaélést
+              és az alkohol káros felhasználását.
+            short_title: Megelőzés és kezelés
+          target_3_6:
+            long_title: 2020-ra a közúti balesetek okozta globális halálesetek és sérülések számának felére csökkentése.
+            short_title: A közúti sérülések és halálesetek csökkentése
+          target_3_7:
+            long_title: 2030-ra biztosítani kell a szexuális és reproduktív egészségügyi szolgáltatásokhoz való egyetemes
+              hozzáférést, beleértve a családtervezést, a tájékoztatást és az oktatást, valamint a reproduktív egészségnek
+              a nemzeti stratégiákba és programokba való integrálását.
+            short_title: Egyetemes hozzáférés a szexuális és reproduktív gondozáshoz, családtervezéshez és oktatáshoz
+          target_3_8:
+            long_title: Általános egészségügyi lefedettség elérése, beleértve a pénzügyi kockázatok védelmét, a minőségi alapvető
+              egészségügyi ellátáshoz való hozzáférést, valamint a biztonságos, hatékony, minőségi és megfizethető alapvető
+              gyógyszerekhez és vakcinákhoz való hozzáférést mindenki számára.
+            short_title: Egyetemes egészségügyi lefedettség elérése
+          target_3_9:
+            long_title: 2030-ra jelentősen csökken a veszélyes vegyi anyagok és a levegő, a víz és a talaj szennyezettsége,
+              valamint a szennyezés okozta halálesetek és betegségek száma.
+            short_title: A veszélyes vegyi anyagok okozta megbetegedések és halálesetek és a szennyezés csökkentése
+          target_3_A:
+            long_title: Az Egészségügyi Világszervezet Dohányzás-ellenőrzési Keretegyezménye végrehajtásának megerősítése
+              adott esetben valamennyi országban.
+            short_title: A WHO dohányzásellenőrzési keretegyezményének végrehajtása
+          target_3_B:
+            long_title: Az elsősorban a fejlődő országokat érintő fertőző és nem fertőző betegségek elleni vakcinák és gyógyszerek
+              kutatásának és fejlesztésének támogatása, a TRIPS-megállapodásról és a közegészségügyről szóló dohai nyilatkozattal
+              összhangban megfizethető alapvető gyógyszerekhez és vakcinákhoz való hozzáférés biztosítása, amely megerősíti
+              a fejlődő országok azon jogát, hogy teljes mértékben alkalmazzák a szellemi tulajdonjogok kereskedelmi vonatkozásairól
+              szóló megállapodásban foglalt, a közegészség védelmét szolgáló rugalmasságra vonatkozó rendelkezéseket, és különösen
+              a gyógyszerekhez való hozzáférést mindenki számára.
+            short_title: A megfizethető vakcinákhoz és gyógyszerekhez való kutatás, fejlesztés és egyetemes hozzáférés támogatása
+          target_3_C:
+            long_title: Az egészségügyi finanszírozás jelentős növelése, valamint az egészségügyi munkaerő toborzása, fejlesztése,
+              képzése és megtartása a fejlődő országokban, különösen a legkevésbé fejlett országokban és a kis szigetfejlődő
+              országokban.
+            short_title: Az egészségügyi finanszírozás növelése és az egészségügyi dolgozók támogatása a fejlődő országokban
+          target_3_D:
+            long_title: Valamennyi ország, különösen a fejlődő országok kapacitásának megerősítése a korai előrejelzés, a
+              kockázatcsökkentés és a nemzeti és globális egészségügyi kockázatok kezelése érdekében.
+            short_title: A globális egészségügyi kockázatok korai előrejelző rendszereinek javítása
+      goal_1:
+        title: Nincs szegénység
+        title_in_two_lines: 'Nem.
+
+          Szegénység'
+        description: Véget vetünk a szegénységnek minden formájában, mindenhol.
+        long_description: <p>Globális szinten a rendkívüli szegénységben élők száma az 1990-es 36% -ról 2015-re 10% -ra csökkent.
+          De a változás üteme lelassul és a COVID-19 válság <a href="https://www.un.org/sites/un2.un.org/files/sg_report_socio-economic_impact_of_covid19.pdf">a
+          haladás évtizedeinek visszafordításával járó kockázatok,</a> a szegénység elleni küzdelemben. <a href="https://www.wider.unu.edu/node/237051">Új
+          kutatás</a> az UNU Fejlesztési Közgazdaságtudományi Kutatóintézete által közzétett jelentés arra figyelmeztet, hogy
+          <a href="https://www.wider.unu.edu/publication/estimates-impact-covid-19-global-poverty">a világjárvány akár fél
+          milliárd emberrel is növelheti a globális szegénységet</a>vagy a teljes emberi populáció 8% -a. 1990 óta ez lenne
+          az első alkalom, hogy a szegénység világszerte növekedett.</p>  <p>Több mint <a href="http://www.worldbank.org/en/news/press-release/2018/09/19/decline-of-global-extreme-poverty-continues-but-has-slowed-world-bank">700
+          millió ember</a>vagy a világ lakosságának 10% -a még ma is rendkívüli szegénységben él, a legalapvetőbb szükségletek,
+          például az egészség, az oktatás, a vízhez és a higiéniához való hozzáférés kielégítésével küzd. A legtöbb ember
+          él kevesebb, mint 1,90 $egy nap él szubszaharai Afrika. A világ <a href="https://unstats.un.org/sdgs/report/2019/goal-01/">a
+          szegénység aránya a vidéki területeken 17,2%</a>- több mint háromszor magasabb, mint a városi területeken. & nbsp;</p>  <p>Azok
+          számára, akik dolgoznak, a munka nem garantálja a tisztességes megélhetést. Valójában, <a href="https://unstats.un.org/sdgs/report/2019/goal-01/">8
+          százalék</a> 2018-ban a foglalkoztatottak és családjaik világszerte rendkívüli szegénységben éltek. Öt gyerekből
+          egy rendkívüli szegénységben él. A szegénység csökkentéséhez elengedhetetlen a szociális védelem biztosítása valamennyi
+          gyermek és más kiszolgáltatott csoportok számára.</p>
+        targets:
+          target_1_1:
+            long_title: 2030-ra minden ember számára felszámolják a rendkívüli szegénységet, jelenleg a napi 1,25 dollárnál
+              kevesebb emberből élnek.
+            short_title: Extrém szegénység felszámolása
+          target_1_2:
+            long_title: 2030-ra a szegénységben élő férfiak, nők és gyermekek arányának legalább felével kell csökkenteni
+              a nemzeti fogalommeghatározások szerint.
+            short_title: A szegénység csökkentése legalább 50% -kal
+          target_1_3:
+            long_title: A megfelelő nemzeti szociális védelmi rendszerek és intézkedések végrehajtása mindenki számára, beleértve
+              a padozatokat is, valamint 2030-ig a szegények és a kiszolgáltatott helyzetben lévők jelentős lefedettségének
+              elérése
+            short_title: Szociális védelmi rendszerek végrehajtása
+          target_1_4:
+            long_title: 2030-ra biztosítani kell, hogy minden férfi és nő, különösen a szegények és a kiszolgáltatottak egyenlő
+              jogokkal rendelkezzenek a gazdasági erőforrásokhoz, valamint az alapvető szolgáltatásokhoz, a földterületek
+              és egyéb ingatlanok, örökség, természeti erőforrások, a megfelelő új technológiák és pénzügyi szolgáltatások
+              - beleértve a mikrofinanszírozást - feletti tulajdonjogokhoz és ellenőrzéshez való hozzáféréshez.
+            short_title: Egyenlő jogok a tulajdonjoghoz, az alapvető szolgáltatásokhoz, a technológiához és a gazdasági erőforrásokhoz
+          target_1_5:
+            long_title: 2030-ra építsék ki a szegények és a kiszolgáltatott helyzetben lévők ellenálló képességét, és csökkentsék
+              a kiszolgáltatottságukat és sebezhetőségüket az éghajlatváltozással kapcsolatos szélsőséges eseményekkel és
+              más gazdasági, társadalmi és környezeti sokkokkal és katasztrófákkal szemben.
+            short_title: A környezeti, gazdasági és társadalmi katasztrófák ellenálló képességének építése
+          target_1_A:
+            long_title: A különféle forrásokból származó források jelentős mozgósításának biztosítása, többek között a megerősített
+              fejlesztési együttműködés révén, hogy megfelelő és kiszámítható eszközöket biztosítson a fejlődő országok, különösen
+              a legkevésbé fejlett országok számára a szegénység minden dimenziójában történő felszámolását célzó programok
+              és politikák végrehajtásához
+            short_title: Erőforrások mozgósítása a politikák végrehajtásához a szegénység felszámolása érdekében
+          target_1_B:
+            long_title: Nemzeti, regionális és nemzetközi szinten szilárd szakpolitikai keretek létrehozása a szegénységre
+              és a nemekre érzékeny fejlesztési stratégiákon alapuló, a szegénység felszámolására irányuló intézkedésekbe
+              történő beruházások felgyorsításának támogatása érdekében
+            short_title: A szegény és férfiérzékeny politikai keretek létrehozása
+      goal_4:
+        title: Minőségoktatás
+        title_in_two_lines: 'Minőség
+
+          Oktatás'
+        description: Minőségi oktatás.
+        long_description: <p>Az oktatás felfelé irányuló társadalmi-gazdasági mobilitást tesz lehetővé, és kulcsfontosságú
+          a szegénység elkerüléséhez. Az elmúlt évtizedben jelentős előrelépés történt az oktatáshoz és az iskolai beiratkozási
+          arányokhoz való hozzáférés növelése terén minden szinten, különösen a lányok esetében. Mindazonáltal, <a href="http://uis.unesco.org/en/topic/out-school-children-and-youth">260
+          millió gyerek járt iskolába.</a> 2018-ban - a globális népesség közel egyötöde ebben a korcsoportban. És az összes
+          gyermek és serdülő több mint fele világszerte <a href="https://unstats.un.org/sdgs/report/2019/goal-04/">nem felel
+          meg a minimális jártassági követelményeknek</a> olvasás és matematika. & nbsp;</p>  <p>2020-ban, mivel a COVID-
+          19 pandémia világszerte elterjedt, az országok többsége bejelentette az iskolák ideiglenes bezárását, ami világszerte
+          a diákok több mint 91% -át érinti. 2020 áprilisáig <a href="https://en.unesco.org/covid19/educationresponse">1,6
+          milliárd gyermek és fiatal ment iskolába.</a>És majdnem <a href="https://www.un.org/sites/un2.un.org/files/policy_brief_on_covid_impact_on_children_16_april_2020.pdf">369
+          millió gyermek, akik iskolai étkezésre támaszkodnak</a> a napi táplálkozás más forrásait kell keresni. & nbsp;</p>  <p>Eddig
+          még soha nem volt ennyi gyerek, aki egyszerre hagyta volna abba az iskolát, megzavarta volna a tanulást és az életeket,
+          különösen a legkiszolgáltatottabbakat és a marginalizálódottakat. A világméretű pandémia jelentős következményekkel
+          jár, amelyek veszélyeztethetik a világszintű oktatás fejlesztése terén elért kemény nyereségeket.</p>
+        targets:
+          target_4_1:
+            long_title: 2030-ra minden lány és fiú számára biztosítani kell, hogy ingyenes, méltányos és minőségi alap- és
+              középfokú oktatás valósuljon meg, ami releváns és Goal4 hatékony tanulási eredményekhez vezet.
+            short_title: Ingyenes alap- és középfokú oktatás
+          target_4_2:
+            long_title: 2030-ra biztosítani kell, hogy minden lány és fiú hozzájusson a minőségi korai gyermekkori fejlődéshez,
+              a gondozáshoz és az általános iskola előtti oktatáshoz, hogy készen álljanak az alapfokú oktatásra.
+            short_title: Egyenlő hozzáférés a minőségi alapfokú oktatáshoz
+          target_4_3:
+            long_title: 2030-ra minden nő és férfi számára egyenlő hozzáférést kell biztosítani a megfizethető és minőségi
+              műszaki, szakmai és felsőfokú oktatáshoz, beleértve az egyetemet is.
+            short_title: Egyenlő hozzáférés a megfizethető műszaki, szakképzési és felsőoktatáshoz
+          target_4_4:
+            long_title: 2030-ra jelentősen növelni kell azon fiatalok és felnőttek számát, akik megfelelő készségekkel rendelkeznek,
+              beleértve a műszaki és szakmai készségeket, a foglalkoztatás, a tisztességes munkahelyek és a vállalkozói szellem
+              terén.
+            short_title: A pénzügyi sikerhez kapcsolódó készségekkel rendelkező személyek számának növelése
+          target_4_5:
+            long_title: 2030-ra meg kell szüntetni a nemek közötti oktatási egyenlőtlenségeket, és egyenlő hozzáférést kell
+              biztosítani a kiszolgáltatott helyzetben lévő személyek - köztük a fogyatékkal élők, az őslakosok és a veszélyeztetett
+              helyzetben lévő gyermekek - számára az oktatás és a szakképzés valamennyi szintjéhez.
+            short_title: Minden hátrányos megkülönböztetés megszüntetése az oktatásban
+          target_4_6:
+            long_title: 2030-ra biztosítani kell, hogy az összes fiatal és a felnőttek - férfiak és nők egyaránt - jelentős
+              hányada jártasságot és számozást érjen el.
+            short_title: Egyetemes irodalom és számozás
+          target_4_7:
+            long_title: 2030-ra minden tanuló számára biztosítani kell, hogy megszerezze a fenntartható fejlődés előmozdításához
+              szükséges ismereteket és készségeket, többek között a fenntartható fejlődés és a fenntartható életmód oktatása,
+              az emberi jogok, a nemek közötti egyenlőség, a béke és az erőszakmentesség kultúrájának előmozdítása, a globális
+              polgárság, valamint a kulturális sokszínűség és a kultúra fenntartható fejlődéshez való hozzájárulása révén.
+            short_title: Oktatás a fenntartható fejlődésért és a globális polgárságért
+          target_4_A:
+            long_title: Olyan oktatási létesítmények építése és fejlesztése, amelyek gyermekek, fogyatékkal élők és a nemek
+              közötti egyenlőség érzékenysége, valamint biztonságos, erőszakmentes, inkluzív és hatékony tanulási környezet
+              mindenki számára.
+            short_title: Inkluzív és biztonságos iskolák építése és fejlesztése
+          target_4_B:
+            long_title: 2020-ra a fejlődő országok, különösen a legkevésbé fejlett országok, a kis-szigeti fejlődő államok
+              és az afrikai országok számára a felsőoktatásba való beiratkozásra - beleértve a szakképzést, az információs
+              és kommunikációs technológiát, a műszaki, mérnöki és tudományos programokat - rendelkezésre álló ösztöndíjak
+              számának jelentős mértékű növelése a fejlett országokban és más fejlődő országokban.
+            short_title: A fejlődő országok felsőoktatási ösztöndíjai
+          target_4_C:
+            long_title: 2030-ra jelentősen növelni kell a képzett tanárok kínálatát, többek között a fejlődő országokban,
+              különösen a legkevésbé fejlett országokban és a kis szigetfejlődő országokban a tanárképzés terén folytatott
+              nemzetközi együttműködés révén.
+            short_title: A képzett tanárok kínálatának növelése a fejlődő országokban
+      goal_5:
+        title: Nemek közötti egyenlőség
+        title_in_two_lines: 'Nem
+
+          Egyenlőség'
+        description: A nemek közötti egyenlőség megvalósítása és minden nő és lány felruházása.
+        long_description: '<p>A nemek közötti egyenlőség nemcsak alapvető emberi jog, hanem a békés, virágzó és fenntartható
+          világ szükséges alapja is. & nbsp;</p>  <p>Voltak <a href="https://www.unwomen.org/-/media/headquarters/attachments/sections/library/publications/2020/gender-equality-womens-rights-in-review-key-facts-and-figures-en.pdf?la=en&amp;vs=935">előrehaladás</a>
+          az elmúlt évtizedekben: Több lány megy iskolába, kevesebb lány kényszerül a korai házasságra, több nő szolgál parlamenti
+          és vezetői pozíciókban, és a törvényeket a nemek közötti egyenlőség előmozdítása érdekében reformálják meg. & nbsp;</p>  <p>Ennek
+          ellenére sok <a href="https://www.unwomen.org/-/media/headquarters/attachments/sections/library/publications/2020/gender-equality-womens-rights-in-review-key-facts-and-figures-en.pdf?la=en&amp;vs=935">kihívások</a>
+          továbbra is: a diszkriminatív törvények és a társadalmi normák továbbra is áthatottak, a nők továbbra is alulreprezentáltak
+          a politikai vezetés minden szintjén, és 15 és 49 év közötti 5 nő és lány közül 1-nél fordul elő egy meghitt partner
+          által 12 hónapon belül elkövetett fizikai vagy szexuális erőszak.</p>  <p>A <a href="https://www.un.org/sites/un2.un.org/files/policy_brief_on_covid_impact_on_women_9_apr_2020_updated.pdf">a
+          COVID- 19 pandémia visszafordíthatja a korlátozott előrehaladást</a> ami a nemek közötti egyenlőség és a nők jogai
+          terén történt. & nbsp; A coronavirus járvány <a href="https://www.unfpa.org/sites/default/files/resource-pdf/COVID-19_A_Gender_Lens_Guidance_Note.pdf">a
+          meglévő egyenlőtlenségek súlyosbítása</a> a nők és lányok számára minden területen - az egészségtől és a gazdaságtól
+          kezdve a biztonságig és a szociális védelemig. & nbsp;</p>  <p>A nők aránytalan szerepet játszanak a vírusra adott
+          válaszban, beleértve a frontvonalbeli egészségügyi dolgozókat és otthoni gondozókat. Az iskolai bezárások és az
+          idősek megnövekedett szükségletei miatt a nők fizetés nélküli ápolása jelentősen nőtt. A COVID-19 gazdasági hatásai
+          is nehezebben érintik a nőket, mivel aránytalanul nagy arányban dolgoznak bizonytalan munkaerőpiacokon. A nők közel
+          60% -a dolgozik az informális gazdaságban, ami nagyobb veszélynek teszi ki őket a szegénységben. & nbsp;</p>  <p>A
+          pandémia is vezetett meredek növekedés <a href="https://www.unwomen.org/-/media/headquarters/attachments/sections/library/publications/2020/issue-brief-covid-19-and-ending-violence-against-women-and-girls-en.pdf?la=en&amp;vs=5006">nők
+          és lányok elleni erőszak</a>. A zárlat intézkedéseket, sok nő csapdába otthon a bántalmazók, küzd, hogy a szolgáltatások,
+          amelyek szenvednek a megszorítások és korlátozások. Az újonnan megjelenő adatok azt mutatják, hogy a világjárvány
+          kitörése óta erősödött a nők és lányok elleni erőszak, különösen a családon belüli erőszak.</p>'
+        targets:
+          target_5_1:
+            long_title: Véget vet a nőkkel és lányokkal szembeni megkülönböztetés minden formájának mindenhol.
+            short_title: A nők és lányok elleni megkülönböztetés megszüntetése
+          target_5_2:
+            long_title: Az összes, köz- és magánszférában élő nő és lány elleni erőszak minden formájának megszüntetése, beleértve
+              az emberkereskedelmet, valamint a szexuális és egyéb kizsákmányolást is.
+            short_title: A nők és lányok elleni erőszak és kizsákmányolás vége
+          target_5_3:
+            long_title: Minden káros gyakorlat, mint például a gyermek, a korai és kényszerházasság és a női nemi szervek
+              megcsonkítása megszüntetése.
+            short_title: A kényszerházasság és a nemi csonkítás megszüntetése
+          target_5_4:
+            long_title: Ismerje el és értékelje a fizetetlen ellátást és a háztartási munkát közszolgáltatások, infrastruktúra
+              és szociális védelmi politikák biztosításával, valamint a megosztott felelősségvállalás előmozdításával a háztartáson
+              és a családon belül, nemzeti szinten megfelelő módon.
+            short_title: A nem fizetett gondozás értéke és a megosztott belföldi felelősségvállalás előmozdítása
+          target_5_5:
+            long_title: Biztosítani kell a nők teljes körű és hatékony részvételét és esélyegyenlőségét a politikai, gazdasági
+              és közéletben a döntéshozatal minden szintjén.
+            short_title: Teljes részvétel biztosítása a vezetésben és a döntéshozatalban
+          target_5_6:
+            long_title: Biztosítani kell a szexuális és reproduktív egészséghez, valamint a reproduktív jogokhoz való egyetemes
+              hozzáférést a népességről és fejlődésről szóló nemzetközi konferencia és a pekingi cselekvési platform cselekvési
+              programjának, valamint a felülvizsgálati konferenciák eredménydokumentumainak megfelelően.
+            short_title: A reproduktív egészséghez és jogokhoz való egyetemes hozzáférés
+          target_5_A:
+            long_title: A nemzeti jogszabályokkal összhangban reformokat kell végrehajtani annak érdekében, hogy a nők egyenlő
+              jogokkal rendelkezzenek a gazdasági erőforrásokhoz, valamint hogy hozzáférjenek a földterületek és egyéb ingatlanok,
+              pénzügyi szolgáltatások, öröklés és természeti erőforrások tulajdonjogához és ellenőrzéséhez.
+            short_title: A gazdasági erőforrásokhoz, a tulajdonhoz és a pénzügyi szolgáltatásokhoz való egyenlő jogok
+          target_5_B:
+            long_title: Az alaptechnológia, különösen az információs és kommunikációs technológia használatának fokozása a
+              nők felruházásának előmozdítása érdekében.
+            short_title: A nők szerepének előmozdítása a technológia révén
+          target_5_C:
+            long_title: A nemek közötti egyenlőség előmozdítására és az összes nő és lány minden szinten való felruházására
+              vonatkozó szilárd politikák és végrehajtható jogszabályok elfogadása és megerősítése.
+            short_title: A nemek közötti egyenlőségre vonatkozó politikák és hatékony jogszabályok elfogadása és megerősítése
+      goal_6:
+        title: Tiszta víz és higiénia
+        title_in_two_lines: 'Tiszta víz
+
+          és higiénia'
+        description: Biztosítani kell a hozzáférést a vízhez és a higiéniához mindenki számára.
+        long_description: <p>Noha jelentős előrelépés történt a tiszta ivóvízhez és a szennyvízelvezetéshez való hozzáférés
+          növelése terén, emberek milliárdjai - főként vidéki területeken - még mindig hiányoznak ezek az alapvető szolgáltatások.
+          Világszerte, <a href="https://www.who.int/news-room/detail/18-06-2019-1-in-3-people-globally-do-not-have-access-to-safe-drinking-water-unicef-who">minden
+          harmadik embernek nincs hozzáférése a biztonságos ivóvízhez</a>, <a href="https://www.unwater.org/water-facts/water-sanitation-and-hygiene/">ötből
+          kettő embernek nincs alapvető kézmosója.</a> szappannal és vízzel, és több mint <a href="https://news.un.org/en/story/2019/11/1051561">673
+          millió ember gyakorolja a nyílt ürítést</a>.</p>  <p>A COVID- 19 pandémia bebizonyította a higiénia, a higiénia
+          és a tiszta vízhez való megfelelő hozzáférés kritikus jelentőségét a betegségek megelőzése és kezelése szempontjából.
+          <a href="https://www.unwater.org/water-facts/handhygiene/">A kézhigiénia életeket ment.</a>Az Egészségügyi Világszervezet
+          szerint <a href="https://www.who.int/news-room/events/detail/2020/05/05/default-calendar/hand-hygiene-day">a kézmosás
+          az egyik leghatékonyabb lépés, amit megtehetsz</a> a kórokozók terjedésének csökkentése és fertőzések, köztük a
+          COVID- 19 vírus megelőzése. Mégis több milliárd embernek hiányzik a biztonságos víztisztítás, és a finanszírozás
+          nem megfelelő.</p>
+        targets:
+          target_6_1:
+            long_title: 2030-ra mindenki számára biztosítani kell a biztonságos és megfizethető ivóvízhez való egyetemes és
+              méltányos hozzáférést.
+            short_title: Biztonságos és megfizethető ivóvíz
+          target_6_2:
+            long_title: 2030-ra mindenki számára biztosítani kell a megfelelő és méltányos higiéniához és higiéniához való
+              hozzáférést, és véget kell vetni a nyílt ürítésnek, különös figyelmet fordítva a nők és a lányok, valamint a
+              kiszolgáltatott helyzetben lévők szükségleteire.
+            short_title: A nyitott ürítés befejezése és a higiéniához és higiéniához való hozzáférés biztosítása
+          target_6_3:
+            long_title: 2030-ra a vízminőség javítása a szennyezés csökkentésével, a dömping megszüntetésével és a veszélyes
+              vegyi anyagok és anyagok kibocsátásának minimalizálásával, a kezeletlen szennyvíz mennyiségének felével, valamint
+              világszerte jelentősen növelve az újrahasznosítást és a biztonságos újrafelhasználást.
+            short_title: A víz minőségének, a szennyvíz kezelésének és biztonságos újrafelhasználásának javítása
+          target_6_4:
+            long_title: 2030-ra jelentősen növelje a vízfelhasználás hatékonyságát valamennyi ágazatban, és biztosítsa a vízhiány
+              kezelése érdekében a fenntartható vízkivonást és édesvíz-ellátást, valamint jelentősen csökkentse a vízhiányban
+              szenvedők számát.
+            short_title: A vízfelhasználás hatékonyságának növelése és az édesvízi ellátás biztosítása
+          target_6_5:
+            long_title: 2030-ig minden szinten integrált vízkészlet-gazdálkodást kell végrehajtani, adott esetben a határokon
+              átnyúló együttműködés révén is.
+            short_title: Integrált vízkészletek kezelése
+          target_6_6:
+            long_title: 2020-ra a vízzel kapcsolatos ökoszisztémák védelme és helyreállítása, beleértve a hegyeket, erdőket,
+              vizes élőhelyeket, folyókat, víztározókat és tavakat.
+            short_title: Vízhez kapcsolódó ökoszisztémák védelme és helyreállítása
+          target_6_A:
+            long_title: 2030-ra bővítse a fejlődő országoknak nyújtott nemzetközi együttműködést és kapacitásépítést a vízzel
+              és a higiéniával kapcsolatos tevékenységek és programok terén, beleértve a vízbetakarítást, a sótalanítást,
+              a vízhatékonyságot, a szennyvízkezelést, az újrahasznosítást és az újrafelhasználást.
+            short_title: A fejlődő országok víz- és közegészségügyi támogatása
+          target_6_B:
+            long_title: A helyi közösségek részvételének támogatása és megerősítése a víz- és szennyvízkezelés javításában.
+            short_title: A helyi víz- és szennyvízkezelés támogatása
+      goal_7:
+        title: Megfizethető és tiszta energia
+        title_in_two_lines: 'Megfizethető és
+
+          Tiszta energia'
+        description: A megfizethető, megbízható, fenntartható és modern energiához való hozzáférés biztosítása.
+        long_description: <p>A világ <a href="https://unstats.un.org/sdgs/report/2019/goal-07/">előrelépés a 7.</a>az energia
+          fenntarthatóbbá és szélesebb körben elérhetővé válásának ösztönzése. A szegényebb országokban megkezdődött a villamos
+          energiához való hozzáférés felgyorsítása, az energiahatékonyság folyamatosan javul, és a megújuló energia jelentős
+          eredményeket hoz a villamosenergia-ágazatban. & nbsp;</p>  <p>Ennek ellenére nagyobb figyelmet kell fordítani a
+          tiszta és biztonságos főzési üzemanyagokhoz és technológiákhoz való hozzáférés javítására 3 milliárd ember számára,
+          a megújuló energiaforrások használatának a villamosenergia-ágazaton kívüli kiterjesztéséhez, valamint a saharai
+          Afrika alatti villamosítás fokozásához.</p>  <p>A <a href="https://trackingsdg7.esmap.org/">Az energetikai haladásról
+          szóló jelentés</a> globális műszerfal létrehozása az energiához való hozzáférés, az energiahatékonyság és a megújuló
+          energia terén elért eredmények nyilvántartására. Értékeli az egyes országok által e három pillér tekintetében elért
+          eredményeket, és áttekintést nyújt arról, hogy milyen messze vagyunk a 2030-ig tartó fenntartható fejlesztési célok
+          elérésétől.</p>
+        targets:
+          target_7_1:
+            long_title: 2030-ra biztosítani kell a megfizethető, megbízható és modern energetikai szolgáltatásokhoz való egyetemes
+              hozzáférést.
+            short_title: A modern energiához való egyetemes hozzáférés
+          target_7_2:
+            long_title: 2030-ra jelentősen növelni kell a megújuló energiaforrások arányát a globális energiaszerkezetben.
+            short_title: A megújuló energia globális arányának növelése
+          target_7_3:
+            long_title: 2030-ra megduplázza az energiahatékonyság globális javulásának mértékét.
+            short_title: Az energiahatékonyság javítása
+          target_7_A:
+            long_title: 2030-ra erősítse a nemzetközi együttműködést a tiszta energia kutatásához és technológiájához való
+              hozzáférés megkönnyítése érdekében, beleértve a megújuló energiát, az energiahatékonyságot, a fejlett és tisztább
+              fosszilis tüzelőanyagok technológiáját, valamint ösztönözze az energetikai infrastruktúrába és a tiszta energiatechnológiába
+              történő beruházásokat.
+            short_title: 'A kutatáshoz, technológiához és a tiszta energiába történő beruházásokhoz való hozzáférés előmozdítása '
+          target_7_B:
+            long_title: 2030-ra a fejlődő országokban, különösen a legkevésbé fejlett országokban, a kis szigetállamokban
+              és a földzáras fejlődő országokban a modern és fenntartható energetikai szolgáltatások nyújtásához szükséges
+              infrastruktúra kibővítése és a technológia korszerűsítése, saját támogatási programjaikkal összhangban.
+            short_title: Az energetikai szolgáltatások kiterjesztése és korszerűsítése a fejlődő országok számára
+      goal_8:
+        title: Tisztességes munka és gazdasági növekedés
+        title_in_two_lines: 'Tisztességes munka és
+
+          Gazdasági növekedés'
+        description: Az inkluzív és fenntartható gazdasági növekedés, a foglalkoztatás és a tisztességes munka előmozdítása
+          mindenki számára.
+        long_description: <p>A tartós és inkluzív gazdasági növekedés ösztönözheti a fejlődést, tisztességes munkahelyeket
+          teremthet mindenki számára, és javíthatja az életszínvonalat. & nbsp;</p>  <p>A COVID- 19 <a href="https://www.un.org/sites/un2.un.org/files/sg_report_socio-economic_impact_of_covid19.pdf">milliók
+          életét szakította meg.</a> és veszélybe sodorta a globális gazdaságot. A Nemzetközi Valutaalap (IMF) várhatóan <a
+          href="https://blogs.imf.org/2020/04/14/the-great-lockdown-worst-economic-downturn-since-the-great-depression/">globális
+          recesszió</a> vagy rosszabb, mint 2009-ben. A munkahelyek megszűnésével a Nemzetközi Munkaügyi Szervezet becslése
+          szerint <a href="https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_743036/lang--en/index.htm">A globális
+          munkaerő közel fele forog kockán.</a> hogy elvesztik a megélhetésüket.</p>  <p><a href="https://developmentfinance.un.org/press-release-financing-sustainable-development-report-2020">Még
+          a COVID- 19 kitörése előtt</a>, minden ötödik országban - a szegénységben élők milliárdjainak otthonában - az egy
+          főre jutó jövedelem valószínűleg stagnál vagy csökkenne 2020-ban. Most, a<a href="https://developmentfinance.un.org/press-release-financing-sustainable-development-report-2020">
+          gazdasági és pénzügyi sokkok</a> a COVID-19-tel - mint például az ipari termelés zavaraival, a nyersanyagárak csökkenésével,
+          a pénzügyi piaci volatilitással és a növekvő bizonytalansággal - összefüggésben kisiklatják a már amúgy is csekély
+          gazdasági növekedést, és más tényezők fokozott kockázatait súlyosbítják. & nbsp; & nbsp;</p>
+        targets:
+          target_8_1:
+            long_title: Az egy főre jutó gazdasági növekedés fenntartása a nemzeti körülményeknek megfelelően, és különösen
+              a legkevésbé fejlett országokban évente legalább 7% -os bruttó hazai terméknövekedés.
+            short_title: Fenntartható gazdasági növekedés
+          target_8_2:
+            long_title: A gazdasági termelékenység magasabb szintjének elérése a diverzifikáció, a technológiai fejlesztés
+              és az innováció révén, többek között a magas hozzáadott értékű és a munkaigényes ágazatokra összpontosítva.
+            short_title: A gazdasági termelékenység diverzifikálása, innovációja és fejlesztése
+          target_8_3:
+            long_title: Olyan fejlesztésorientált politikák előmozdítása, amelyek támogatják a produktív tevékenységeket,
+              a tisztességes munkahelyteremtést, a vállalkozói készséget, a kreativitást és az innovációt, valamint ösztönzik
+              a mikro-, kis- és középvállalkozások formalizálását és növekedését, többek között a pénzügyi szolgáltatásokhoz
+              való hozzáférés révén.
+            short_title: A munkahelyteremtést és a növekvő vállalkozásokat támogató politikák előmozdítása
+          target_8_4:
+            long_title: 2030-ig fokozatosan javítsa a globális erőforrás-hatékonyságot a fogyasztásban és a termelésben, és
+              törekedjen arra, hogy a fenntartható fogyasztásról és termelésről szóló programok 10 éves keretével összhangban
+              a gazdasági növekedést függetlenítse a környezetromlástól, a fejlett országok pedig élen járnak.
+            short_title: Az erőforrás-hatékonyság javítása a fogyasztás és termelés terén
+          target_8_5:
+            long_title: 2030-ra teljes és produktív foglalkoztatást és tisztességes munkát kell elérni valamennyi nő és férfi
+              számára, beleértve a fiatalokat és a fogyatékkal élőket is, és egyenlő értékű munkáért egyenlő díjazást kell
+              biztosítani.
+            short_title: Teljes foglalkoztatás és tisztességes munka egyenlő díjazással
+          target_8_6:
+            long_title: 2020-ra jelentősen csökkenteni kell a nem foglalkoztatott, oktatásban vagy képzésben részt vevő fiatalok
+              arányát.
+            short_title: Az ifjúsági foglalkoztatás, oktatás és képzés előmozdítása
+          target_8_7:
+            long_title: Azonnali és hatékony intézkedések meghozatala a kényszermunka, a modern rabszolgaság és az emberkereskedelem
+              felszámolása érdekében, valamint a gyermekmunka legrosszabb formáinak - beleértve a gyermekkatonák toborzását
+              és alkalmazását - betiltása és megszüntetése, valamint 2025-ig a gyermekmunka minden formájának megszüntetése.
+            short_title: A modern rabszolgaság, emberkereskedelem és gyermekmunka befejezése
+          target_8_8:
+            long_title: A munkajogok védelme, valamint a biztonságos és biztonságos munkakörnyezet előmozdítása valamennyi
+              munkavállaló - beleértve a migráns munkavállalókat, különösen a női migránsokat - és a bizonytalan munkaképességű
+              munkavállalók számára.
+            short_title: A munkajogok védelme és a biztonságos munkakörülmények előmozdítása
+          target_8_9:
+            long_title: 2030-ra a fenntartható idegenforgalom előmozdítását célzó, munkahelyeket teremtő és a helyi kultúrát
+              és termékeket előmozdító politikák kidolgozása és végrehajtása
+            short_title: Előnyös és fenntartható idegenforgalom előmozdítása
+          target_8_10:
+            long_title: A belföldi pénzügyi intézmények kapacitásának megerősítése a banki, biztosítási és pénzügyi szolgáltatásokhoz
+              való hozzáférés ösztönzése és kiterjesztése érdekében.
+            short_title: A banki, biztosítási és pénzügyi szolgáltatásokhoz való egyetemes hozzáférés
+          target_8_A:
+            long_title: A fejlődő országoknak, különösen a legkevésbé fejlett országoknak nyújtott kereskedelmi támogatás
+              növelése, többek között a legkevésbé fejlett országoknak nyújtott kereskedelmi vonatkozású technikai segítségnyújtás
+              megerősített integrált kerete révén.
+            short_title: A kereskedelmi támogatás növelése
+          target_8_B:
+            long_title: 2020-ra a fiatalok foglalkoztatására vonatkozó globális stratégia kidolgozása és végrehajtása, valamint
+              a Nemzetközi Munkaügyi Szervezet globális foglalkoztatási paktumának végrehajtása.
+            short_title: Globális ifjúsági foglalkoztatási stratégia kidolgozása
+      goal_9:
+        title: Ipar, innováció és infrastruktúra
+        title_in_two_lines: 'Ipar, innováció
+
+          és infrastruktúra'
+        description: Rugalmas infrastruktúra építése, a fenntartható iparosodás előmozdítása és az innováció előmozdítása.
+        long_description: <p>Inkluzív és fenntartható iparosodás, <a href="https://unstats.un.org/sdgs/report/2019/goal-09/">innováció
+          és infrastruktúra</a>a foglalkoztatottságot és jövedelmet generáló dinamikus és versenyképes gazdasági erőket szabadíthat
+          fel. Kulcsszerepet játszanak az új technológiák bevezetésében és előmozdításában, a nemzetközi kereskedelem megkönnyítésében
+          és az erőforrások hatékony felhasználásának lehetővé tételében. & nbsp;</p>  <p>A világnak azonban még hosszú utat
+          kell megtennie e potenciál teljes kiaknázása érdekében. A legkevésbé fejlett országoknak fel kell gyorsítaniuk gyártási
+          ágazatuk fejlődését, ha meg kívánják valósítani a 2030-ig tartó időszakra vonatkozó célkitűzést, és fokozniuk kell
+          a tudományos kutatásba és innovációba történő beruházásokat. & nbsp;</p>  <p>A globális gyártási növekedés folyamatosan
+          csökken, még a COVID- 19 járvány kitörése előtt is. A pandémia <a href="https://unctad.org/en/pages/newsdetails.aspx?OriginalVersionID=2297">Ütköző
+          feldolgozóipar</a> a globális értékláncok és a termékértékesítés súlyos és zavarokat okoz. & nbsp;</p>  <p>Az innováció
+          és a technológiai fejlődés kulcsfontosságú ahhoz, hogy tartós megoldásokat találjunk mind a gazdasági, mind a környezeti
+          kihívásokra, mint például a fokozott erőforrás-hatékonyságra. Globálisan, <a href="https://sustainabledevelopment.un.org/content/documents/26158Final_SG_SDG_Progress_Report_14052020.pdf">kutatási
+          és fejlesztési beruházások</a> (K + F), mivel a GDP egy része a 2000-es 1,5% -ról 2015-re 1,7% -ra nőtt, és 2017-ben
+          szinte változatlan maradt, de a fejlődő régiókban csak 1% -nál kevesebb volt.</p>  <p>Ami a kommunikációs infrastruktúrát
+          illeti, a világ lakosságának több mint fele online él, és szinte az egész világ egy mobilhálózat által lefedett
+          területen él. A becslések szerint 2019-ben, <a href="https://sustainabledevelopment.un.org/content/documents/26158Final_SG_SDG_Progress_Report_14052020.pdf">96,5%
+          -ot legalább 2G hálózat fedezett</a>. & nbsp; & nbsp; & nbsp; & nbsp;</p>  <p>A coronavirus pandémia felfedte a
+          sürgős <a href="https://www.unescap.org/blog/covid-19-reveals-urgent-need-resilient-infrastructure">Rugalmas infrastruktúra
+          szükségessége</a>Az Ázsiai Fejlesztési Bank megjegyzi, hogy a régió kritikus infrastruktúrája sok országban messze
+          nem megfelelő, annak ellenére, hogy a régió az elmúlt évtizedben gyors gazdasági növekedést és fejlődést tapasztalt.
+          A <a href="https://www.unescap.org/publications/economic-and-social-survey-asia-and-pacific-2019-ambitions-beyond-growth">Ázsia
+          és a Csendes-óceán gazdasági és társadalmi felmérése</a> hangsúlyozza, hogy az infrastruktúra katasztrófákkal és
+          éghajlatváltozással szembeni ellenálló képességének biztosítása évi 434 milliárd dolláros további beruházást tesz
+          szükségessé. Ennek az összegnek néhány alrégióban, például a csendes-óceáni kis szigetek fejlődő államaiban még
+          nagyobbnak kell lennie. & nbsp; & nbsp; & nbsp; </p>
+        targets:
+          target_9_1:
+            long_title: Minőségi, megbízható, fenntartható és rugalmas infrastruktúra kialakítása, beleértve a regionális
+              és határokon átnyúló infrastruktúrát, a gazdasági fejlődés és az emberi jólét támogatása érdekében, a mindenki
+              számára elérhető és méltányos hozzáférésre összpontosítva.
+            short_title: Fenntartható, ellenálló és inkluzív infrastruktúrák fejlesztése
+          target_9_2:
+            long_title: Az inkluzív és fenntartható iparosodás előmozdítása, valamint 2030-ra jelentősen növelni kell az ipar
+              foglalkoztatási és bruttó hazai termékének arányát a nemzeti körülményekkel összhangban, és meg kell duplázni
+              részesedését a legkevésbé fejlett országokban.
+            short_title: Az inkluzív és fenntartható iparosodás előmozdítása
+          target_9_3:
+            long_title: A kisipari és egyéb vállalkozások - különösen a fejlődő országokban - pénzügyi szolgáltatásokhoz való
+              hozzáférésének növelése, beleértve a megfizethető hiteleket is, valamint azok értékláncokba és piacokba való
+              integrálása.
+            short_title: A pénzügyi szolgáltatásokhoz és piacokhoz való hozzáférés növelése
+          target_9_4:
+            long_title: 2030-ra korszerűsíteni kell az infrastruktúrát és fel kell szerelni az ipart, hogy fenntarthatóvá
+              tegye azokat, a forrásfelhasználás hatékonyságának növelésével, valamint a tiszta és környezetkímélő technológiák
+              és ipari folyamatok nagyobb mértékű elfogadásával, és minden ország saját képességeinek megfelelően lépjen fel.
+            short_title: Valamennyi iparág és infrastruktúra korszerűsítése a fenntarthatóság érdekében
+          target_9_5:
+            long_title: A tudományos kutatás fokozása, az ipari ágazatok technológiai képességeinek fejlesztése valamennyi
+              országban, különösen a fejlődő országokban, beleértve 2030-ig az innováció ösztönzését, valamint a kutatásban
+              és fejlesztésben dolgozók számának jelentős növelését egymillióra, valamint a köz- és magánszféra kutatási és
+              fejlesztési kiadásait.
+            short_title: 'A kutatás és az ipari technológiák fejlesztése '
+          target_9_A:
+            long_title: A fejlődő országokban a fenntartható és rugalmas infrastruktúra-fejlesztés elősegítése az afrikai
+              országoknak, a legkevésbé fejlett országoknak, a tengerparttal nem rendelkező fejlődő országoknak és a kis szigetfejlődő
+              államoknak nyújtott fokozott pénzügyi, technológiai és műszaki támogatás révén 18.
+            short_title: A fenntartható infrastruktúra fejlesztésének elősegítése a fejlődő országok számára
+          target_9_B:
+            long_title: Támogatni kell a fejlődő országokban a hazai technológiák fejlesztését, a kutatást és az innovációt,
+              többek között azáltal, hogy kedvező szakpolitikai környezetet biztosít többek között az ipari diverzifikáció
+              és az áruk értéknövelése számára.
+            short_title: A hazai technológia fejlesztésének és ipari diverzifikációjának támogatása
+          target_9_C:
+            long_title: Jelentősen növelni kell az információs és kommunikációs technológiákhoz való hozzáférést, és törekedni
+              kell arra, hogy 2020-ra a legkevésbé fejlett országokban egyetemes és megfizethető internet-hozzáférést biztosítsanak.
+            short_title: Az információs és kommunikációs technológiákhoz való egyetemes hozzáférés
+      goal_10:
+        targets:
+          target_10_6:
+            long_title: A hatékonyabb, hitelesebb, elszámoltathatóbb és legitimebb intézmények kialakítása érdekében a globális
+              nemzetközi gazdasági és pénzügyi intézményekben a fejlődő országok fokozott képviseletének és véleményének biztosítása.
+            short_title: A fejlődő országok fokozott képviselete a pénzügyi intézményekben
+          target_10_7:
+            long_title: Az emberek rendezett, biztonságos, rendszeres és felelős migrációjának és mobilitásának elősegítése,
+              többek között a tervezett és jól irányított migrációs politikák végrehajtása révén.
+            short_title: Felelős és jól irányított migrációs politikák
+          target_10_A:
+            long_title: A Kereskedelmi Világszervezet megállapodásaival összhangban a fejlődő országok, különösen a legkevésbé
+              fejlett országok számára a különleges és megkülönböztető bánásmód elvének végrehajtása.
+            short_title: Különleges és differenciált elbánás a fejlődő országok számára
+          target_10_B:
+            long_title: A hivatalos fejlesztési támogatás és pénzügyi áramlások ösztönzése - beleértve a közvetlen külföldi
+              befektetéseket is - olyan államokba, ahol a legnagyobb szükség van erre, különösen a legkevésbé fejlett országok,
+              az afrikai országok, a kis szigetfejlődő államok és a tengerparttal nem rendelkező fejlődő országok számára,
+              nemzeti terveiknek és programjaiknak megfelelően.
+            short_title: A legkevésbé fejlett országokban nyújtott fejlesztési támogatás és beruházás ösztönzése
+          target_10_C:
+            long_title: 2030-ra a migráns átutalások tranzakciós költségeit kevesebb mint 3% -ra kell csökkenteni, és az 5%
+              -nál magasabb költségű átutalási folyosókat meg kell szüntetni.
+            short_title: A migráns kiküldetések tranzakciós költségeinek csökkentése
+          target_10_1:
+            long_title: 2030-ra a lakosság 40% -ának jövedelme fokozatosan nő a nemzeti átlagnál magasabb mértékben.
+            short_title: A jövedelmi egyenlőtlenségek csökkentése
+          target_10_2:
+            long_title: 2030-ra mindenki társadalmi, gazdasági és politikai integrációjának erősítése és előmozdítása, tekintet
+              nélkül az életkorra, nemre, fogyatékosságra, fajra, etnikai hovatartozásra, származásra, vallásra vagy gazdasági
+              vagy egyéb státuszra.
+            short_title: Az egyetemes társadalmi, gazdasági és politikai integráció előmozdítása
+          target_10_3:
+            long_title: Biztosítani kell az esélyegyenlőséget, és csökkenteni kell az eredmények terén mutatkozó egyenlőtlenségeket,
+              többek között a diszkriminatív törvények, politikák és gyakorlatok megszüntetésével, valamint a megfelelő jogszabályok,
+              politikák és intézkedések előmozdításával.
+            short_title: Az esélyegyenlőség és a megkülönböztetés megszüntetése
+          target_10_4:
+            long_title: A politikák, különösen a fiskális, bér- és szociális védelmi politikák elfogadása, valamint a nagyobb
+              egyenlőség fokozatos elérése.
+            short_title: Az egyenlőséget előmozdító költségvetési és szociálpolitikák elfogadása
+          target_10_5:
+            long_title: A globális pénzügyi piacok és intézmények szabályozásának és nyomon követésének javítása, valamint
+              az ilyen szabályozások végrehajtásának megerősítése.
+            short_title: A globális pénzügyi piacok és intézmények jobb szabályozása
+        title: Csökkentett egyenlőtlenségek
+        title_in_two_lines: 'Csökkentett
+
+          Nem megfelelő tulajdonságok'
+        description: Az egyenlőtlenségek csökkentése az országokban és az országok között.
+        long_description: <p>Az egyenlőtlenségek csökkentése és annak biztosítása, hogy senki ne maradjon hátra, szerves részét
+          képezi a fenntartható fejlődési célok megvalósításának. & nbsp;</p>  <p>Az országon belüli és az országok közötti
+          egyenlőtlenség állandó aggodalomra ad okot. Annak ellenére, hogy egyes dimenziókban pozitív jelek mutatkoznak az
+          egyenlőtlenség csökkentésére, mint például egyes országokban a relatív jövedelmi egyenlőtlenség és az alacsonyabb
+          jövedelmű országok számára előnyös preferenciális kereskedelmi helyzet csökkentése, <a href="https://unstats.un.org/sdgs/report/2019/goal-10/">az
+          egyenlőtlenség továbbra is fennáll</a>.</p>  <p><a href="https://www.un.org/sustainabledevelopment/goal-of-the-month-may-2020">A
+          COVID- 19 elmélyítette a meglévő egyenlőtlenségeket</a>A legszegényebb és legsebezhetőbb közösségeket sújtja a legkeményebben.
+          A gazdasági egyenlőtlenségekre és a törékeny szociális biztonsági hálókra összpontosított, amelyek a sebezhető közösségeket
+          a válság súlyára bízzák. & nbsp; Ugyanakkor a társadalmi, politikai és gazdasági egyenlőtlenségek fokozták a világjárvány
+          hatásait.</p>  <p>Gazdasági szempontból a COVID- 19 pandémia jelentősen növelte a globális <a href="https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_743036/lang--en/index.htm">munkanélküliség</a>
+          és drámaian csökkentette a munkavállalók jövedelmét.</p>  <p>A COVID- 19 szintén veszélybe sodorja a korlátozott
+          előrehaladást <a href="https://data.unwomen.org/resources/covid-19-emerging-gender-data-and-why-it-matters">A nemek
+          közötti egyenlőség</a> és a nők jogait az elmúlt évtizedekben. Minden területen, az egészségtől a gazdaságig, a
+          biztonságtól a szociális védelemig, a COVID- 19 hatásai nőkre és lányokra csak a nemük miatt súlyosbodnak.</p>  <p>Az
+          egyenlőtlenségek is egyre mélyülnek <a href="https://www.un.org/sites/un2.un.org/files/un_policy_brief_on_human_rights_and_covid_23_april_2020.pdf">veszélyeztetett
+          populációk</a> a gyengébb egészségügyi rendszerrel rendelkező és a már meglévő humanitárius válságokkal küzdő országokban.
+          A menekültek és a migránsok, valamint az őslakos népek, az idősek, a fogyatékkal élők és a gyermekek különösen ki
+          vannak téve annak, hogy lemaradnak. És <a href="https://www.un.org/en/coronavirus/covid-19-un-counters-pandemic-related-hate-and-xenophobia">gyűlöletbeszéd</a>
+          A veszélyeztetett csoportok célba vétele egyre nő.</p>
+      goal_11:
+        title: Fenntartható városok és közösségek
+        title_in_two_lines: 'Fenntartható városok
+
+          és Közösségek'
+        description: A városokat befogadó, biztonságos, rugalmas és fenntartható városokká kell tenni.
+        long_description: <p>A világ egyre urbanizáltabbá válik. 2007 óta <a href="https://unstats.un.org/sdgs/report/2019/goal-11/">a
+          világ népességének több mint a fele városokban él</a>és ez a részesedés 2030-ra várhatóan 60% -ra emelkedik. & nbsp;</p>  <p>A
+          városok és a nagyvárosi területek a gazdasági növekedés motorjai, amelyek a globális GDP mintegy 60% -át teszik
+          ki. Ugyanakkor a globális szén-dioxid-kibocsátás 70% -át és az erőforrás-felhasználás több mint 60% -át teszik ki.</p>  <p>A
+          gyors urbanizáció következtében egyre több nyomornegyedlakó, nem megfelelő és túlterhelt infrastruktúra és szolgáltatás
+          (például hulladékgyűjtés, víz- és szennyvíztisztító rendszerek, utak és közlekedés), a légszennyezés romlása és
+          a nem tervezett városi terjeszkedés. & nbsp;</p>  <p><a href="https://unhabitat.org/coronavirus-will-travel-incredibly-fast-in-africas-slums-un-habitat-chief-warns">A
+          COVID- 19 hatása</a> a legpusztítóbb lesz a szegény és sűrűn lakott városi területeken, különösen az egymilliárd
+          ember számára, akik nem hivatalos településeken és nyomornegyedekben élnek világszerte, ahol a túlzsúfoltság megnehezíti
+          az olyan ajánlott intézkedések követését, mint a társadalmi távolságok és az önelszigeteltség. & nbsp;</p>  <p>Az
+          ENSZ Élelmezési Ügynöksége, a FAO figyelmeztetett arra, hogy a városi területeken jelentősen növekedhet az éhezés
+          és a halálesetek száma, anélkül, hogy intézkedéseket hozna annak biztosítására, hogy a szegény és kiszolgáltatott
+          lakosok <a href="https://news.un.org/en/story/2020/05/1063622">az élelmiszerekhez való hozzáférés</a>. & nbsp;</p>
+        targets:
+          target_11_1:
+            long_title: 2030-ra mindenki számára biztosítani kell a megfelelő, biztonságos és megfizethető lakáshoz és alapvető
+              szolgáltatásokhoz való hozzáférést, valamint a nyomornegyedek korszerűsítését.
+            short_title: Biztonságos és megfizethető lakások
+          target_11_2:
+            long_title: 2030-ra mindenki számára biztonságos, megfizethető, hozzáférhető és fenntartható közlekedési rendszerekhez
+              való hozzáférést kell biztosítani, javítva a közúti biztonságot, különösen a tömegközlekedés bővítésével, különös
+              tekintettel a kiszolgáltatott helyzetben lévők, a nők, a gyermekek, a fogyatékkal élők és az idősek szükségleteire.
+            short_title: Megfizethető és fenntartható közlekedési rendszerek
+          target_11_3:
+            long_title: 2030-ra minden országban fokozni kell az inkluzív és fenntartható urbanizációt és a részvételen alapuló,
+              integrált és fenntartható emberi települések tervezését és kezelését.
+            short_title: Inkluzív és fenntartható urbanizáció
+          target_11_4:
+            long_title: A világ kulturális és természeti örökségének védelmére és védelmére irányuló erőfeszítések megerősítése.
+            short_title: A világ kulturális és természeti örökségének védelme
+          target_11_5:
+            long_title: 2030-ra jelentősen csökkenteni kell a halálesetek számát és az érintett személyek számát, és jelentősen
+              csökkenteni kell a globális bruttó hazai termékhez képest a katasztrófák, köztük a vízzel kapcsolatos katasztrófák
+              által okozott közvetlen gazdasági veszteségeket, különös tekintettel a szegények és a kiszolgáltatott helyzetben
+              lévő emberek védelmére.
+            short_title: A természeti katasztrófák káros hatásainak csökkentése
+          target_11_6:
+            long_title: 2030-ra csökkentse a városok egy főre jutó káros környezeti hatását, többek között különös figyelmet
+              fordítva a levegő minőségére, valamint a települési és egyéb hulladékkezelésre.
+            short_title: A városok környezeti hatásának csökkentése
+          target_11_7:
+            long_title: 2030-ig egyetemes hozzáférést kell biztosítani a biztonságos, inkluzív és hozzáférhető, zöld és nyilvános
+              terekhez, különösen a nők és gyermekek, az idősek és a fogyatékkal élők számára.
+            short_title: A biztonságos és inkluzív zöld és nyilvános terekhez való hozzáférés biztosítása
+          target_11_A:
+            long_title: A pozitív gazdasági, társadalmi és környezeti kapcsolatok támogatása a városi, a városkörnyéki és
+              a vidéki területek között a nemzeti és regionális fejlesztési tervezés megerősítése révén.
+            short_title: Erős nemzeti és regionális fejlesztési tervezés
+          target_11_B:
+            long_title: 2020-ra jelentősen növelni kell a befogadásra, az erőforrás-hatékonyságra, az éghajlatváltozás mérséklésére
+              és az ahhoz való alkalmazkodásra, a katasztrófákkal szembeni ellenálló képességre, valamint a katasztrófákkal
+              szembeni ellenálló képességre irányuló integrált politikákat és terveket elfogadó és végrehajtó városok és emberi
+              települések számát, a 2015-2030 közötti időszakra vonatkozó Sendai katasztrófakockázat-csökkentési kerettel
+              összhangban, valamint a katasztrófakockázatok minden szinten történő holisztikus kezelését.
+            short_title: A befogadási, erőforrás-hatékonysági és katasztrófakockázat-csökkentési politikák végrehajtása
+          target_11_C:
+            long_title: A legkevésbé fejlett országok támogatása - többek között pénzügyi és technikai segítségnyújtás révén
+              - a helyi anyagokat felhasználó fenntartható és rugalmas épületek építésében.
+            short_title: A legkevésbé fejlett országok támogatása a fenntartható és fenntartható építésben
+      goal_12:
+        title: Felelős fogyasztás és termelés
+        title_in_two_lines: 'Felelősségteljes fogyasztás
+
+          Termelés'
+        description: Fenntartható fogyasztási és termelési minták biztosítása.
+        long_description: '<p>A világszintű fogyasztás és termelés - a globális gazdaság hajtóereje - a természeti környezet
+          és erőforrások olyan módon történő kihasználásán nyugszik, amely továbbra is romboló hatást gyakorol a bolygóra.
+          & nbsp;</p>  <p>A gazdasági és társadalmi fejlődést az elmúlt évszázad során olyan környezeti romlás kísérte, amely
+          veszélyezteti azokat a rendszereket, amelyeken a jövőbeli fejlődésünk - sőt, a túlélésünk - múlik. & nbsp;</p>  <p>Néhány
+          <a href="https://www.unenvironment.org/explore-topics/sustainable-development-goals/why-do-sustainable-development-goals-matter/goal-12">tények
+          és számadatok</a>:</p>  <ul>  <li style="font-weight: 400">Minden évben az előállított élelmiszerek mintegy egyharmada
+          - ami 1,3 milliárd tonnával egyenértékű, körülbelül 1 trillió dollár - a fogyasztók és a kiskereskedők szemetesében
+          rohad, vagy a rossz szállítási és betakarítási gyakorlatok miatt romlik el.</li>  <li style="font-weight: 400">Ha
+          az emberek világszerte váltottak energiatakarékos villanykörte a világ megspórolna $120 milliárd évente.</li>  <li
+          style="font-weight: 400">Ha a globális népesség 2050-re eléri a 9,6 milliárdot, a jelenlegi életmód fenntartásához
+          szükséges természeti erőforrások biztosításához csaknem három bolygóra lehet szükség.</li>  </ul>  <p>A COVID- 19
+          világjárvány lehetőséget kínál az országoknak arra, hogy helyreállítási terveket dolgozzanak ki, amelyek visszafordítják
+          a jelenlegi tendenciákat, és a fenntarthatóbb jövő felé változtatják fogyasztási és termelési mintáinkat.</p>  <p><a
+          href="https://www.unenvironment.org/explore-topics/resource-efficiency/what-we-do/sustainable-consumption-and-production-policies">Fenntartható
+          fogyasztás és termelés</a> a többről és jobbról szól. Arról is szól, hogy a gazdasági növekedést függetlenítsük
+          a környezeti romlástól, növeljük az erőforrás-hatékonyságot és előmozdítsuk a fenntartható életmódot.</p>  <p>A
+          fenntartható fogyasztás és termelés jelentős mértékben hozzájárulhat a szegénység enyhítéséhez, valamint az alacsony
+          szén-dioxid-kibocsátású és környezetbarát gazdaságra való áttéréshez.</p>'
+        targets:
+          target_12_1:
+            long_title: A fenntartható fogyasztással és termeléssel kapcsolatos programok 10 éves keretének végrehajtása,
+              valamennyi ország fellépése, a fejlődő országok fejlődésének és képességeinek figyelembevételével a fejlett
+              országok vezetésével.
+            short_title: A 10 éves fenntartható fogyasztási és termelési keret végrehajtása
+          target_12_2:
+            long_title: 2030-ra el kell érni a természeti erőforrások fenntartható kezelését és hatékony felhasználását.
+            short_title: A természeti erőforrások fenntartható kezelése és felhasználása
+          target_12_3:
+            long_title: 2030-ra a kiskereskedelmi és fogyasztói szinten az egy főre jutó globális élelmiszer-hulladék felére
+              csökken a termelési és ellátási láncok mentén, beleértve a betakarítás utáni veszteségeket is.
+            short_title: Halve Global Per Capita élelmiszer hulladék
+          target_12_4:
+            long_title: 2020-ra a vegyi anyagok és az összes hulladék környezetkímélő kezelése az egész életciklusuk során,
+              a megállapodás szerinti nemzetközi kereteknek megfelelően, valamint a levegőbe, vízbe és talajba történő kibocsátásuk
+              jelentős csökkentése az emberi egészségre és a környezetre gyakorolt káros hatások minimalizálása érdekében.
+            short_title: A vegyi anyagok és a hulladékok felelősségteljes kezelése
+          target_12_5:
+            long_title: 2030-ra a hulladéktermelés jelentős csökkentése a megelőzés, a csökkentés, az újrahasznosítás és az
+              újrafelhasználás révén.
+            short_title: A hulladék keletkezésének jelentős csökkentése
+          target_12_6:
+            long_title: A vállalkozások, különösen a nagy és transznacionális vállalatok ösztönzése arra, hogy fenntartható
+              gyakorlatokat alkalmazzanak, és a fenntarthatósági információkat beépítsék a jelentéstételi ciklusukba.
+            short_title: A vállalkozások ösztönzése a fenntartható gyakorlatok és a fenntarthatósági jelentéstétel elfogadására
+          target_12_7:
+            long_title: A fenntartható közbeszerzési gyakorlatok előmozdítása a nemzeti politikákkal és prioritásokkal összhangban.
+            short_title: 'A fenntartható közbeszerzési gyakorlatok előmozdítása '
+          target_12_8:
+            long_title: 2030-ra biztosítani kell, hogy az emberek a természettel összhangban rendelkezzenek a fenntartható
+              fejlődéssel és életmóddal kapcsolatos releváns információkkal és ismeretekkel.
+            short_title: A fenntartható életmód egyetemes megértésének előmozdítása
+          target_12_A:
+            long_title: A fejlődő országok támogatása a fenntarthatóbb fogyasztási és termelési minták felé való elmozduláshoz
+              szükséges tudományos és technológiai kapacitásuk erősítése érdekében.
+            short_title: A fejlődő országok fenntartható fogyasztáshoz és termeléshez szükséges tudományos és technológiai
+              kapacitásának támogatása
+          target_12_B:
+            long_title: Eszközök kidolgozása és végrehajtása a fenntartható fejlődés fenntartható idegenforgalmi hatásainak
+              nyomon követésére, amelyek munkahelyeket teremtenek, és elősegítik a helyi kultúrát és termékeket.
+            short_title: A fenntartható turizmus figyelemmel kísérésére szolgáló eszközök kidolgozása és végrehajtása
+          target_12_C:
+            long_title: A nem hatékony fosszilis tüzelőanyagokhoz nyújtott támogatások racionalizálása, amelyek a piaci torzulások
+              megszüntetésével ösztönzik a pazarló fogyasztást, a nemzeti körülményekkel összhangban, beleértve az adóztatás
+              átszervezését és a káros támogatások fokozatos megszüntetését, amennyiben léteznek, azok környezeti hatásainak
+              tükrözése érdekében, teljes mértékben figyelembe véve a fejlődő országok sajátos igényeit és feltételeit, és
+              a szegényeket és az érintett közösségeket védő módon minimalizálva a fejlődésükre gyakorolt esetleges kedvezőtlen
+              hatásokat.
+            short_title: A pazarló fogyasztást ösztönző piaci torzulások megszüntetése
+      goal_14:
+        targets:
+          target_14_7:
+            long_title: 2030-ra növelje a tengeri erőforrások fenntartható felhasználása által a kis-szigeti fejlődő államok
+              és a legkevésbé fejlett országok számára nyújtott gazdasági előnyöket, többek között a halászat, az akvakultúra
+              és az idegenforgalom fenntartható kezelése révén.
+            short_title: A tengeri erőforrások fenntartható felhasználásából származó gazdasági előnyök növelése
+          target_14_A:
+            long_title: A tudományos ismeretek növelése, a kutatási kapacitás fejlesztése és a tengeri technológiák átadása,
+              figyelembe véve a tengeri technológia átadására vonatkozó kormányközi tengeri kutatási bizottsági kritériumokat
+              és iránymutatásokat, a tengerek egészségének javítása és a tengeri biológiai sokféleségnek a fejlődő országok,
+              különösen a kis fejlődő szigetek és a legkevésbé fejlett országok fejlődéséhez való hozzájárulásának növelése
+              érdekében.
+            short_title: A tudományos ismeretek, a kutatás és a technológia növelése az Ocean Health számára
+          target_14_B:
+            long_title: A kisüzemi kisüzemi halászok hozzáférése a tengeri erőforrásokhoz és piacokhoz.
+            short_title: A kisméretű halászok támogatása
+          target_14_C:
+            long_title: Az óceánok és erőforrásaik védelmének és fenntartható felhasználásának javítása a nemzetközi jog végrehajtása
+              révén, amint azt az UNCLOS is tükrözi, amely jogi keretet biztosít az óceánok és erőforrásaik megőrzéséhez és
+              fenntartható használatához, amint arra a "Jövőbeli Akarunk" 158. bekezdése emlékeztet.
+            short_title: A nemzetközi tengerjog végrehajtása és végrehajtása
+          target_14_1:
+            long_title: 2025-ig minden típusú tengeri szennyezés megelőzése és jelentős csökkentése, különösen a szárazföldi
+              tevékenységekből, beleértve a tengeri törmeléket és a tápanyagszennyezést.
+            short_title: A tengeri szennyezés csökkentése
+          target_14_2:
+            long_title: 2020-ra a tengeri és part menti ökoszisztémák fenntartható kezelése és védelme a jelentős káros hatások
+              elkerülése érdekében, többek között rugalmasságuk erősítése révén, valamint az egészséges és termelő óceánok
+              elérése érdekében a helyreállításuk érdekében tett intézkedések.
+            short_title: Az ökoszisztémák védelme és helyreállítása
+          target_14_3:
+            long_title: Az óceánok savasodásának hatásainak minimalizálása és kezelése, többek között a tudományos együttműködés
+              valamennyi szinten történő megerősítése révén.
+            short_title: Óceán-savtartalom csökkentése
+          target_14_4:
+            long_title: 2020-ra hatékonyan szabályozni kell a betakarítást és a túlhalászást, a jogellenes, nem bejelentett
+              és szabályozatlan halászati és romboló halászati gyakorlatokat, valamint tudományos alapú gazdálkodási terveket
+              kell végrehajtani annak érdekében, hogy a halállományok a lehető legrövidebb időn belül helyreállíthatók legyenek,
+              legalább olyan szintre, amely biológiai jellemzőik alapján maximális fenntartható hozamot tud termelni.
+            short_title: Fenntartható halászat
+          target_14_5:
+            long_title: 2020-ra a nemzeti és nemzetközi joggal összhangban, a rendelkezésre álló legjobb tudományos információk
+              alapján a part menti és tengeri területek legalább 10% -át meg kell őrizni.
+            short_title: Part menti és tengeri területek megőrzése
+          target_14_6:
+            long_title: 2020-ra tiltsák meg a halászati támogatások bizonyos formáit, amelyek hozzájárulnak a kapacitásfelesleghez
+              és a túlhalászáshoz, felszámolják azokat a támogatásokat, amelyek hozzájárulnak a jogellenes, be nem jelentett
+              és szabályozatlan halászathoz, és tartózkodnak az új támogatások bevezetésétől, elismerve, hogy a fejlődő és
+              legkevésbé fejlett országok számára a megfelelő és hatékony különleges és differenciált bánásmódnak a Kereskedelmi
+              Világszervezet halászati támogatásokkal kapcsolatos tárgyalásainak szerves részét kell képeznie.
+            short_title: A túlhalászáshoz hozzájáruló támogatások
+        title: Élet víz alatt
+        title_in_two_lines: 'Lent
+
+          Víz'
+        description: Az óceánok, a tengerek és a tengeri erőforrások megőrzése és fenntartható felhasználása.
+        long_description: <p>Az óceán olyan globális rendszereket vezet, amelyek lakhatóvá teszik a Földet az emberiség számára.
+          Az esővizet, ivóvizet, időjárást, éghajlatot, partvonalakat, élelmiszereink nagy részét, és még a levegő oxigénjét
+          is, amit belélegzünk, végül a tenger biztosítja és szabályozza. & nbsp;</p>  <p>Ennek gondos kezelése <a href="https://www.unenvironment.org/explore-topics/oceans-seas/why-do-oceans-and-seas-matter">alapvető
+          globális erőforrás</a> a fenntartható jövő kulcsfontosságú eleme. Jelenleg azonban folyamatosan romlik a part menti
+          vizek szennyezettsége, és az óceánok savasodása ellentétes hatást gyakorol az ökoszisztémák működésére és a biológiai
+          sokféleségre. Ez a kisüzemi halászatot is negatívan érinti. & nbsp;</p>  <p>Az óceánunk megmentésének elsőbbséget
+          kell élveznie. A tengeri biodiverzitás létfontosságú az emberek és bolygónk egészsége szempontjából. Hatékonyan
+          kell kezelni a védett tengeri területeket, megfelelő forrásokkal kell ellátni, és szabályozásokat kell bevezetni
+          a túlhalászás, a tengeri szennyezés és az óceánok savasodásának csökkentése érdekében.</p>
+      goal_15:
+        title: Élet a földön
+        title_in_two_lines: 'Élet
+
+          Föld'
+        description: Fenntartható erdőgazdálkodás, az elsivatagosodás elleni küzdelem, a talajromlás megállítása és visszafordítása,
+          a biológiai sokféleség csökkenése.
+        long_description: '<p>A természet létfontosságú a túlélésünkhöz: a természet biztosítja számunkra az oxigént, szabályozza
+          az időjárási szokásainkat, beporozza a terményeinket, élelmiszert, takarmányt és rostot termel. De egyre nagyobb
+          a stressz. <a href="https://news.un.org/en/story/2020/04/1061082">Az emberi aktivitás a Föld felszínének majdnem
+          75% -át változtatta meg.</a>A természetet és a természetet a bolygó egyre kisebb sarkába szorítva.</p>  <p>Körül
+          <a href="https://ipbes.net/sites/default/files/2020-02/ipbes_global_assessment_report_summary_for_policymakers_en.pdf">1
+          millió állat- és növényfajt fenyeget a kihalás</a> - sok évtizeden belül - a biológiai sokféleségről és az ökoszisztéma-szolgáltatásokról
+          szóló 2019-es globális értékelő jelentés szerint. A jelentés a természet helyreállításához és védelméhez szükséges
+          átalakító változásokat sürgette. Megállapította, hogy az ökoszisztémák egészsége, amelytől mi és minden más faj
+          függünk, gyorsabban romlik, mint valaha, ami hatással van a gazdaságainkra, a megélhetésünkre, az élelmezésbiztonságra,
+          az egészségre és az életminőségre világszerte. & nbsp;</p>  <p>Az erdőirtás és az elsivatagosodás - az emberi tevékenységek
+          és az éghajlatváltozás miatt - jelentős kihívást jelent a fenntartható fejlődés szempontjából, és emberek millióinak
+          életét és megélhetését érintette. <a href="https://news.un.org/en/story/2019/05/1038291">Az erdők életbevágóan fontosak.
+          </a>az élet fenntartása a Földön, és fontos szerepet játszik az éghajlatváltozás elleni küzdelemben. És befektetés
+          <a href="https://news.un.org/en/story/2019/09/1045802">földfelújítás</a> kritikus szerepet játszik a megélhetés
+          javításában, a sebezhetőségek csökkentésében és a gazdaság kockázatainak csökkentésében.</p>  <p>Bolygónk egészsége
+          is fontos szerepet játszik <a href="https://www.unenvironment.org/resources/emerging-zoonotic-diseases-and-links-ecosystem-health-unep-frontiers-2016-chapter">zoonózis-betegségek
+          megjelenése</a>az állatok és az emberek között fertőző betegségek. Miközben továbbra is behatolunk a törékeny ökoszisztémákba,
+          az embereket egyre nagyobb kapcsolatba hozzuk a vadvilággal, lehetővé téve, hogy a kórokozók átterjedjenek az állatokra
+          és az emberekre, növelve a betegségek kialakulásának és felerősítésének kockázatát.</p>'
+        targets:
+          target_15_1:
+            long_title: 2020-ra biztosítsa a szárazföldi és belvízi édesvízi ökoszisztémák és szolgáltatásaik, különösen az
+              erdők, a vizes élőhelyek, a hegyek és a szárazföld megőrzését, helyreállítását és fenntartható használatát,
+              összhangban a nemzetközi megállapodásokban foglalt kötelezettségekkel.
+            short_title: Szárazföldi és édesvízi ökoszisztémák megőrzése és helyreállítása
+          target_15_2:
+            long_title: 2020-ra valamennyi erdőtípus fenntartható gazdálkodásának előmozdítása, az erdőirtás megállítása,
+              a leromlott erdők helyreállítása, valamint a globális erdősítés és újraerdősítés jelentős növelése.
+            short_title: Az erdőirtás vége és a degradált erdők helyreállítása
+          target_15_3:
+            long_title: 2030-ra az elsivatagosodás elleni küzdelem, a degradált föld és talaj helyreállítása, beleértve az
+              elsivatagosodás, az aszály és az árvizek által érintett területeket is, valamint a földdekarbonizáció semleges
+              világának megvalósítása.
+            short_title: Az elsivatagosodás és a romló földterület helyreállítása
+          target_15_4:
+            long_title: 2030-ra biztosítani kell a hegyvidéki ökoszisztémák - beleértve a biológiai sokféleségüket is - védelmét
+              annak érdekében, hogy növeljék a fenntartható fejlődés szempontjából alapvető előnyöket biztosító kapacitásukat.
+            short_title: A hegyvidéki ökoszisztémák védelmének biztosítása
+          target_15_5:
+            long_title: Sürgős és jelentős intézkedések meghozatala a természetes élőhelyek pusztulásának csökkentése, a biológiai
+              sokféleség csökkenésének megállítása, valamint 2020-ra a veszélyeztetett fajok kipusztulásának megelőzése érdekében.
+            short_title: A biológiai sokféleség és a természetes élőhelyek védelme
+          target_15_6:
+            long_title: A genetikai erőforrások hasznosításából származó előnyök igazságos és méltányos megosztásának előmozdítása,
+              valamint az ilyen erőforrásokhoz való megfelelő hozzáférés előmozdítása, amint arról nemzetközi megállapodás
+              született.
+            short_title: A genetikai erőforrásokhoz való hozzáférés előmozdítása és az előnyök igazságos megosztása
+          target_15_7:
+            long_title: A védett növény- és állatfajok vadászatának és kereskedelmének megszüntetése, valamint az illegális
+              vadon élő állat- és növényfajok iránti kereslet és kínálat kezelése érdekében sürgősen intézkedni kell.
+            short_title: Védett fajok orvvadászatának és kereskedelmének megszüntetése
+          target_15_8:
+            long_title: 2020-ra intézkedéseket kell bevezetni az idegenhonos inváziós fajok szárazföldi és vízi ökoszisztémákra
+              gyakorolt hatásának megelőzésére és jelentős csökkentésére, valamint a kiemelt fajok ellenőrzésére vagy felszámolására.
+            short_title: Az invazív idegen fajok megelőzése a földön és a vízi ökoszisztémákban
+          target_15_9:
+            long_title: 2020-ra az ökoszisztéma és a biológiai sokféleség értékeit integrálják a nemzeti és helyi tervezésbe,
+              fejlesztési folyamatokba, a szegénység csökkentésére irányuló stratégiákba és elszámolásokba.
+            short_title: Az ökoszisztéma és a biológiai sokféleség integrálása a kormányzati tervezésbe
+          target_15_A:
+            long_title: A biológiai sokféleség és az ökoszisztémák megőrzése és fenntartható felhasználása érdekében minden
+              forrásból mozgósítsa és jelentősen növelje a pénzügyi forrásokat.
+            short_title: A pénzügyi források növelése az ökoszisztéma és a biológiai sokféleség megőrzése és fenntartható
+              felhasználása érdekében
+          target_15_B:
+            long_title: Minden forrásból és minden szinten jelentős források mozgósítása a fenntartható erdőgazdálkodás finanszírozása
+              érdekében, és megfelelő ösztönzők biztosítása a fejlődő országok számára az ilyen gazdálkodás előmozdítására,
+              beleértve a megőrzést és az újraerdősítést is.
+            short_title: Finanszírozás és a fenntartható erdőgazdálkodás ösztönzése
+          target_15_C:
+            long_title: Az orvvadászat és a védett fajok kereskedelme elleni küzdelemre irányuló erőfeszítések globális támogatásának
+              fokozása, többek között a helyi közösségek fenntartható megélhetési lehetőségekre való képességének növelése
+              révén.
+            short_title: A globális orvvadászat és kereskedelem elleni küzdelem
+      goal_16:
+        title: Béke, igazságosság és erős intézmények
+        title_in_two_lines: 'Béke, igazság és
+
+          Erős intézmények'
+        description: Az igazságos, békés és befogadó társadalmak előmozdítása.
+        long_description: <p>A konfliktus, a bizonytalanság, a gyenge intézmények és az igazságszolgáltatáshoz való korlátozott
+          hozzáférés továbbra is nagy veszélyt jelent a fenntartható fejlődésre. & nbsp;</p>  <p>A <a href="https://www.unhcr.org/en-us/news/press/2019/6/5d03b22b4/worldwide-displacement-tops-70-million-un-refugee-chief-urges-greater-solidarity.html">A
+          háború, üldöztetés és konfliktus elől menekülők száma meghaladta a 70 milliót</a> 2018-ban az ENSZ Menekültügyi
+          Főbiztossága (UNHCR) közel 70 év alatt a legmagasabb szintet könyvelte el. & nbsp;</p>  <p>2019-ben az ENSZ nyomon
+          követte <a href="https://sustainabledevelopment.un.org/content/documents/26158Final_SG_SDG_Progress_Report_14052020.pdf">357
+          gyilkosság és 30 erőszakos eltűnés</a> az emberi jogok védelmezőinek, újságíróknak és szakszervezeti képviselőknek
+          47 országban.</p>  <p>And the births of around <a href="https://data.unicef.org/topic/child-protection/birth-registration/">minden
+          negyedik gyermek</a> az 5 év alatti kort soha nem jegyzik fel hivatalosan, megfosztva őket a jogaik védelme, valamint
+          az igazságszolgáltatáshoz és a szociális szolgáltatásokhoz való hozzáférés szempontjából kulcsfontosságú jogi identitás
+          bizonyítékától.</p>
+        targets:
+          target_16_1:
+            long_title: Az erőszak és a kapcsolódó halálozási arány jelentős csökkentése mindenhol.
+            short_title: Az erőszak csökkentése mindenhol
+          target_16_2:
+            long_title: A gyermekek elleni erőszak és kínzás megszüntetése, kizsákmányolása, kereskedelme és minden formája.
+            short_title: A gyermekek védelme a visszaéléssel, kizsákmányolással, kereskedelemmel és erőszakkal szemben
+          target_16_3:
+            long_title: A jogállamiság előmozdítása nemzeti és nemzetközi szinten, valamint az igazságszolgáltatáshoz való
+              egyenlő hozzáférés biztosítása mindenki számára.
+            short_title: A jogállamiság előmozdítása és az igazságszolgáltatáshoz való egyenlő hozzáférés biztosítása
+          target_16_4:
+            long_title: 2030-ra jelentősen csökkenteni kell a tiltott pénz- és fegyverforgalmat, meg kell erősíteni a lopott
+              eszközök visszanyerését és visszaszolgáltatását, és küzdeni kell a szervezett bűnözés minden formája ellen.
+            short_title: A szervezett bűnözés és a tiltott pénzügyi és fegyverkereskedelem elleni küzdelem
+          target_16_5:
+            long_title: A korrupció és a vesztegetés jelentős csökkentése minden formájukban.
+            short_title: A korrupció és a vesztegetés jelentős csökkentése
+          target_16_6:
+            long_title: Minden szinten hatékony, elszámoltatható és átlátható intézmények kialakítása.
+            short_title: Hatékony, megbízható és átlátható intézmények kialakítása
+          target_16_7:
+            long_title: A reagáló, befogadó, részvételi és képviseleti döntéshozatal biztosítása minden szinten.
+            short_title: Felelősségteljes, inkluzív és képviseleti döntéshozatal biztosítása
+          target_16_8:
+            long_title: A fejlődő országoknak a globális kormányzás intézményeiben való részvételének kiterjesztése és megerősítése.
+            short_title: A globális kormányzásban való részvétel megerősítése
+          target_16_9:
+            long_title: 2030-ra mindenki számára jogi személyazonosságot kell biztosítani, beleértve a születési anyakönyvi
+              kivonatot is.
+            short_title: Egyetemes jogi azonosító megadása
+          target_16_10:
+            long_title: Az információkhoz való nyilvános hozzáférés biztosítása és az alapvető szabadságok védelme a nemzeti
+              jogszabályokkal és a nemzetközi megállapodásokkal összhangban.
+            short_title: Az információkhoz való nyilvános hozzáférés biztosítása és az alapvető szabadságok védelme
+          target_16_A:
+            long_title: A releváns nemzeti intézmények megerősítése - többek között nemzetközi együttműködés révén - az erőszak
+              megelőzése, valamint a terrorizmus és a bűnözés elleni küzdelem érdekében minden szinten, különösen a fejlődő
+              országokban kapacitásépítés céljából.
+            short_title: A nemzeti intézmények megerősítése az erőszak megelőzése és a terrorizmus és a bűnözés elleni küzdelem
+              érdekében
+          target_16_B:
+            long_title: A fenntartható fejlődésre vonatkozó megkülönböztetésmentes jogszabályok és politikák előmozdítása
+              és végrehajtása.
+            short_title: A diszkriminációellenes törvények és politikák előmozdítása és végrehajtása
+      goal_17:
+        title: Partnerségek A célok érdekében
+        title_in_two_lines: 'Partnerségek
+
+          A célok érdekében'
+        description: A fenntartható fejlődés globális partnerségének újragondolása.
+        long_description: <p>A fenntartható fejlesztési célok csak erős globális partnerségekkel és együttműködéssel valósíthatók
+          meg.</p>  <p>A sikeres fejlesztési menetrend átfogó partnerségeket igényel - globális, regionális, nemzeti és helyi
+          szinten -, amelyek elvekre és értékekre, valamint közös jövőképre és közös célokra épülnek, és középpontba helyezik
+          az embereket és a bolygót.</p>  <p>Számos országnak hivatalos fejlesztési támogatásra van szüksége a növekedés és
+          a kereskedelem ösztönzése érdekében. Mégis, <a href="https://www.un.org/press/en/2019/ga12191.doc.htm">A támogatási
+          szintek csökkennek</a> és a donor országok nem tartották be a fejlesztési finanszírozás fellendítésére vonatkozó
+          ígéretüket.</p>  <p>A COVID- 19 pandémia miatt <a href="https://www.imf.org/en/Publications/WEO/Issues/2020/04/14/weo-april-2020">globális
+          gazdaság</a> 2020-ban a nagy gazdasági válság óta a legrosszabb recessziója várható, 3% -kal.</p>  <p>Erős nemzetközi
+          együttműködésre van most minden eddiginél nagyobb szükség ahhoz, hogy az országok képesek legyenek kilábalni a pandémiából,
+          jobban felépíteni és elérni a fenntartható fejlesztési célokat.</p>
+        targets:
+          target_17_1:
+            long_title: A hazai erőforrások mozgósításának megerősítése, többek között a fejlődő országoknak nyújtott nemzetközi
+              támogatás révén, az adó- és egyéb bevételbeszedés hazai kapacitásának javítása érdekében.
+            short_title: 'Források mobilizálása a belföldi bevételek beszedésének javítása érdekében '
+          target_17_2:
+            long_title: A fejlett országokat arra ösztönzik, hogy teljes mértékben hajtsák végre hivatalos fejlesztési segítségnyújtási
+              kötelezettségvállalásaikat, beleértve számos fejlett ország kötelezettségvállalását arra vonatkozóan, hogy a
+              fejlődő országok számára az ODA / GNI 0,7% -át, a legkevésbé fejlett országok számára pedig az ODA / GNI 0,15-0,20%
+              -át tűzik ki célul, hogy a legkevésbé fejlett országok számára az ODA / GNI legalább 0,20% -át biztosítsák.
+            short_title: A fejlesztési támogatási kötelezettségvállalások végrehajtása
+          target_17_3:
+            long_title: További pénzügyi források mozgósítása a fejlődő országok számára több forrásból.
+            short_title: A fejlődő országok pénzügyi erőforrásainak mozgósítása
+          target_17_4:
+            long_title: Támogatni kell a fejlődő országokat az adósság hosszú távú fenntarthatóságának elérésében olyan összehangolt
+              politikák révén, amelyek célja az adósságfinanszírozás, az adósságelengedés és az adósságátütemezés elősegítése,
+              valamint a rendkívül eladósodott szegény országok külső adósságainak kezelése az adóssághiány csökkentése érdekében.
+            short_title: A fejlődő országok támogatása az adósság fenntarthatóságának elérésében
+          target_17_5:
+            long_title: A legkevésbé fejlett országokra vonatkozó beruházási támogatási rendszerek elfogadása és végrehajtása.
+            short_title: Befektetés a legkevésbé fejlett országokba
+          target_17_6:
+            long_title: A tudomány, a technológia és az innováció területén a North- South, a South- South és a háromoldalú
+              regionális és nemzetközi együttműködés fokozása, valamint a kölcsönös megállapodás szerinti tudásmegosztás fokozása,
+              többek között a meglévő mechanizmusok, különösen az Egyesült Nemzetek szintjén megvalósuló jobb koordináció
+              és egy globális technológiakönnyítési mechanizmus révén.
+            short_title: Tudásmegosztás és együttműködés a tudomány, a technológia és az innováció terén
+          target_17_7:
+            long_title: A környezetvédelmi szempontból megfelelő technológiák fejlesztésének, átadásának, terjesztésének és
+              terjesztésének előmozdítása a fejlődő országok számára kedvező feltételek mellett, beleértve a kedvezményes
+              és kedvezményes feltételeket is, a kölcsönösen elfogadott feltételek szerint.
+            short_title: Fenntartható technológiák előmozdítása a fejlődő országok számára
+          target_17_8:
+            long_title: A legkevésbé fejlett országok technológiai bank- és tudományos, technológiai és innovációs kapacitásépítési
+              mechanizmusának teljes körű működtetése 2017-ig, valamint az alaptechnológia, különösen az információs és kommunikációs
+              technológia használatának fokozása.
+            short_title: A legkevésbé fejlett országok tudományos, technológiai és innovációs kapacitásának megerősítése
+          target_17_9:
+            long_title: A hatékony és célzott kapacitásépítéshez nyújtott nemzetközi támogatás fokozása a fejlődő országokban
+              az összes fenntartható fejlődési cél megvalósítására irányuló nemzeti tervek támogatása érdekében, többek között
+              az észak-, dél- és háromoldalú együttműködés révén.
+            short_title: 'A fenntartható fejlesztési célok kapacitásának növelése a fejlődő országokban '
+          target_17_10:
+            long_title: A Kereskedelmi Világszervezet keretében egyetemes, szabályokon alapuló, nyílt, megkülönböztetésmentes
+              és méltányos többoldalú kereskedelmi rendszer előmozdítása, többek között a dohai fejlesztési menetrend keretében
+              folytatott tárgyalások lezárásával.
+            short_title: Az egyetemes kereskedelmi rendszer előmozdítása a WTO keretében
+          target_17_11:
+            long_title: Jelentősen növelni kell a fejlődő országok exportját, különösen azzal a céllal, hogy 2020-ra megkétszereződjön
+              a legkevésbé fejlett országok részesedése a globális exportból.
+            short_title: A fejlődő országok exportjának növelése
+          target_17_12:
+            long_title: A legkevésbé fejlett országok számára a Duty- és a kvótamentes piacra jutás időben történő, tartós
+              végrehajtásának megvalósítása, összhangban a Kereskedelmi Világszervezet határozataival, többek között annak
+              biztosításával, hogy a legkevésbé fejlett országokból származó behozatalra alkalmazandó preferenciális származási
+              szabályok átláthatóak és egyszerűek legyenek, és hozzájáruljanak a piacra jutás megkönnyítéséhez.
+            short_title: A legkevésbé fejlett országok kereskedelmi akadályainak eltávolítása
+          target_17_13:
+            long_title: A globális makrogazdasági stabilitás növelése, többek között szakpolitikai koordináció és szakpolitikai
+              koherencia révén.
+            short_title: A globális makrogazdasági stabilitás fokozása
+          target_17_14:
+            long_title: A politika koherenciájának növelése a fenntartható fejlődés érdekében.
+            short_title: A fenntartható fejlődés politikai koherenciájának fokozása
+          target_17_15:
+            long_title: A szegénység felszámolására és a fenntartható fejlődésre irányuló politikák kialakítása és végrehajtása
+              érdekében tiszteletben kell tartani az egyes országok szakpolitikai terét és vezető szerepét.
+            short_title: A fenntartható fejlődésre vonatkozó politikák végrehajtása terén elért nemzeti vezető szerep tiszteletben
+              tartása
+          target_17_16:
+            long_title: A fenntartható fejlődésre irányuló globális partnerség erősítése, kiegészítve az érdekelt felek többszereplős
+              partnerségeivel, amelyek mobilizálják és megosztják egymással a tudást, a szakértelmet, a technológiát és a
+              pénzügyi erőforrásokat, hogy támogassák a fenntartható fejlődés céljainak elérését valamennyi országban, különösen
+              a fejlődő országokban.
+            short_title: A fenntartható fejlődés globális partnerségének megerősítése
+          target_17_17:
+            long_title: Ösztönözni és előmozdítani a köz-, az állami és a civil társadalmi partnerségeket, a partnerségek
+              tapasztalataira és forrásaira építve.
+            short_title: Hatékony partnerségek ösztönzése
+          target_17_18:
+            long_title: 2020-ra növelje a fejlődő országoknak - köztük a legkevésbé fejlett országoknak és a kis szigetállamoknak
+              - nyújtott kapacitásépítést annak érdekében, hogy jelentősen növelje a magas színvonalú, időszerű és megbízható
+              adatok elérhetőségét, a jövedelem, a nem, az életkor, a faj, az etnikai hovatartozás, a migrációs állapot, a
+              fogyatékosság, a földrajzi elhelyezkedés és a nemzeti kontextusban releváns egyéb jellemzők szerint lebontva.
+            short_title: A megbízható adatok elérhetőségének javítása
+          target_17_19:
+            long_title: 2030-ra a fenntartható fejlődés terén elért, a bruttó hazai terméket kiegészítő haladás mérésére irányuló
+              meglévő kezdeményezésekre kell építeni, és támogatni kell a fejlődő országokban a statisztikai kapacitásépítést.
+            short_title: A haladás további mérései
+      help:
+        title: A fenntartható fejlesztési célok segítenek
+        description: Hozzájárulását a közösséghez (viták, polgári javaslatok és beruházási projektek) a fenntartható fejlesztési
+          célok 2030-as menetrendjéhez igazíthatja, így áttekintést kaphatunk a fenntartható fejlesztési célokhoz való hozzájárulásunkról.
+          Az alábbiakban az összes cél, a célpontok és a helyi célok.
+      show:
+        read_more: Bővebben a (z) %{goal}
+        read_less: Kevésbé olvasd el %{goal}
+        targets:
+          no_local_targets: Ennek a célnak nincsenek helyi céljai.
+      title: Fenntartható fejlesztési célok
+      filter:
+        heading: 'Szűrők: SDG'
+        link: Lásd az összes %{resources} célhoz kapcsolódó %{code}
+        more:
+          one: Még egy gól.
+          other: '%{count} több cél'
+      goal_13:
+        title: Éghajlat-politika
+        title_in_two_lines: 'Éghajlat
+
+          Intézkedés'
+        description: Sürgős lépéseket kell tenni az éghajlatváltozás és hatásai elleni küzdelem érdekében.
+        long_description: <p>2019 volt a <a href="https://news.un.org/en/story/2020/03/1059061">a második legmelegebb év</a>
+          és a valaha feljegyzett legmelegebb évtized (2010- 2019) vége. & nbsp; & nbsp;</p>  <p>Szén-dioxid (CO2) szintek
+          és egyéb <a href="https://news.un.org/en/story/2020/04/1062332">a légkörben előforduló üvegházhatású gázok</a> új
+          rekordokra emelték 2019-ben. & nbsp;</p>  <p>Az éghajlatváltozás minden kontinensen minden országot érint. Megzavarja
+          a nemzeti gazdaságokat és befolyásolja az életeket. Változnak az időjárási viszonyok, emelkedik a tengerszint, és
+          egyre szélsőségesebbek az időjárási események.</p>  <p>Bár az üvegházhatást okozó gázok kibocsátása 2020-ban várhatóan
+          mintegy 6% -kal csökken a COVID- 19 pandémiából eredő utazási tilalmak és gazdasági lassulások miatt, ez a javulás
+          csak átmeneti. <a href="https://news.un.org/en/story/2020/04/1062332">Az éghajlatváltozás nem áll meg.</a>. Amint
+          a világgazdaság kezd talpra állni a világjárvány, a kibocsátások várhatóan visszatér a magasabb szintre.</p>  <p>Az
+          életmentéshez és a megélhetéshez sürgős intézkedésekre van szükség mind a világjárvány, mind pedig az éghajlati
+          szükséghelyzet kezelésére.</p>  <p>A <a href="https://unfccc.int/process-and-meetings/the-paris-agreement/the-paris-agreement">Párizsi
+          Megállapodás</a>2015-ben elfogadott célja, hogy megerősítse az éghajlatváltozás veszélyére adott globális választ
+          azáltal, hogy a globális hőmérséklet-emelkedést ebben a században jóval 2 Celsius-fok alatt tartja az iparosodás
+          előtti szint felett. A megállapodás célja továbbá az is, hogy megerősítse az országok képességét az éghajlatváltozás
+          hatásainak kezelésére, megfelelő pénzügyi áramlások, új technológiai keret és fokozott kapacitásépítési keret révén.</p>
+        targets:
+          target_13_1:
+            long_title: A klimatizált veszélyekkel és természeti katasztrófákkal szembeni ellenálló képesség és alkalmazkodóképesség
+              megerősítése valamennyi országban.
+            short_title: Az éghajlatváltozással kapcsolatos katasztrófákhoz való ellenálló képesség és alkalmazkodóképesség
+              megerősítése
+          target_13_2:
+            long_title: Az éghajlatváltozással kapcsolatos intézkedések beépítése a nemzeti politikákba, stratégiákba és tervezésbe.
+            short_title: Az éghajlatváltozással kapcsolatos intézkedések beépítése a politikákba és a tervezésbe
+          target_13_3:
+            long_title: Az éghajlatváltozás mérséklésével, az alkalmazkodással, a hatáscsökkentéssel és a korai figyelmeztetéssel
+              kapcsolatos oktatás, figyelemfelkeltés, valamint az emberi és intézményi kapacitás javítása.
+            short_title: Tudás és képesség építése az éghajlatváltozás kezelésére
+          target_13_A:
+            long_title: Az Egyesült Nemzetek Éghajlat-változási Keretegyezményében részt vevő országok által vállalt kötelezettségvállalás
+              végrehajtása annak érdekében, hogy 2020-ig minden forrásból együttesen 100 milliárd dollárt mozgósítsanak a
+              fejlődő országok szükségleteinek kielégítése érdekében, a végrehajtással kapcsolatos érdemi enyhítő intézkedések
+              és átláthatóság összefüggésében, valamint a Zöld Éghajlat-változási Alap mielőbbi tőkésítése révén teljes mértékben
+              működőképessé váljon.
+            short_title: Az ENSZ éghajlat-változási keretegyezményének végrehajtása
+          target_13_B:
+            long_title: A legkevésbé fejlett országokban és a kis szigetfejlődő államokban a hatékony éghajlat-változási tervezéshez
+              és irányításhoz szükséges kapacitás növelésére szolgáló mechanizmusok előmozdítása, többek között a nőkre, az
+              ifjúságra, valamint a helyi és marginalizált közösségekre összpontosítva.
+            short_title: A tervezési és irányítási kapacitás növelésére irányuló mechanizmusok előmozdítása
+    related_list_selector:
+      goal_identifier: SDG%{code}
+      goal_list: Válasszon ki egy vagy több fenntartható fejlesztési célt az Ön %{record}
+      help:
+        title: Amely fenntartható fejlesztési célok és célkitűzések összhangban vannak az én %{record}?
+        text: SDG segítségnyújtási oldal
+      hint: Egy konkrét cél / cél kódját vagy egy szöveget lehet bevezetni. További információért látogasson el a %{link}.
+      remove_tag: Eltávolítás
+      title: Fenntartható fejlesztési célok és célkitűzések
+    targets:
+      filter:
+        link: Lásd az összes %{resources} célhoz kapcsolódó %{code}
+        more:
+          one: Még egy célpont.
+          other: '%{count} több cél'

@@ -1,1 +1,109 @@
 hu:
+  verification:
+    alert:
+      lock: Elérte a megengedett próbálkozások számát. Kérjük, próbálja meg később.
+    back: Vissza a fiókomhoz
+    email:
+      create:
+        alert:
+          failure: Volt egy kis probléma azzal, hogy e-mailt küldött a fiókjára.
+        flash:
+          success: 'Küldtünk egy visszaigazoló e-mailt a számlájára: %{email}'
+      show:
+        alert:
+          failure: Hibás ellenőrzési kód
+        flash:
+          success: Ön egy ellenőrzött felhasználó
+    letter:
+      alert:
+        unconfirmed_code: Még nem adta meg a visszaigazoló kódot
+      create:
+        flash:
+          success: Köszönöm, hogy kérte a <b>maximális biztonsági kód (csak a zárószavazáshoz szükséges)</b>. Néhány napon
+            belül elküldjük a címre, amely az adatokban található. Kérjük, ne feledje, hogy ha úgy tetszik, akkor összegyűjti
+            a kódot bármelyik Polgári Támogató Hivatal.
+      edit:
+        see_all: Lásd a javaslatokat
+        title: A kért levél
+      errors:
+        incorrect_code: Hibás ellenőrzési kód
+      new:
+        explanation: 'A költségvetési projektekre történő szavazás érdekében:'
+        go_to_index: Lásd a javaslatokat
+        office: Ellenőrzés bármely Polgári Támogató Hivatalban
+        send_letter: Küldj egy levelet a kóddal.
+        title: Gratulálok!
+        user_permission_info: A számlájával...
+      update:
+        flash:
+          success: A kód helyes. A fiókját ellenőriztük.
+    redirect_notices:
+      already_verified: A fiókját már ellenőriztük.
+      email_already_sent: Már küldtünk egy e-mailt egy megerősítő linkkel. Ha nem találja az e-mailt, kérhet egy újabb kiadást
+        itt
+    residence:
+      alert:
+        unconfirmed_residency: A lakóhely-ellenőrzést még nem erősítette meg.
+      create:
+        flash:
+          success: Lakóhelye ellenőrzése sikeres.
+      new:
+        accept_terms_text: Elfogadom a névjegyzékhez való hozzáférés %{terms_url}.
+        document_number: Okmányazonosító
+        document_number_help_title: Súgó
+        document_number_help_text: '<strong>Személyi igazolvány</strong>: 12345678A<br> <strong>Útlevél</strong>: AAA000001<br>
+          <strong>Lakcímkártya</strong>: X1234567P'
+        document_type:
+          passport: Útlevél
+          residence_card: Lakcímkártya
+          spanish_id: Személyi igazolvány
+        error_not_allowed_age: Nem érte el a részvételhez szükséges életkort.
+        error_not_allowed_postal_code: Az Ön irányítószáma nem jogosít részvételre.
+        error_verifying_census: A névjegyzék alapján nem sikerült ellenőrizni az adatait. Kérjük, ellenőrizze az adatokat,
+          majd forduljon az önkormányzathoz vagy az ügyfélszolgálathoz.
+        form_errors: hiba miatt nem sikerült ellenőrizni a lakóhelyét
+        postal_code_note: A fiók ellenőrzéséhez a lakóhelye irányítószámát kell megadnia.
+        terms: hozzáférési feltételeit
+        title: Lakóhely ellenőrzése
+        verify_residence: Lakóhely ellenőrzése
+    sms:
+      create:
+        flash:
+          success: Adja meg az SMS-ben elküldött megerősítő kódot.
+      edit:
+        resend_sms_link: Kattintson ide az újbóli elküldéshez
+        resend_sms_text: Nem érkezett meg a megerősítő kódot tartalmazó SMS?
+        submit_button: Küldés
+        title: Biztonsági kód megerősítése
+      new:
+        phone: Adja meg mobiltelefonszámát a kód fogadásához
+        phone_format: '<strong><em>Példa: 612345678 vagy +34612345678</em></strong>'
+        phone_note: A telefonszámát kizárólag a kód elküldéséhez használjuk, kapcsolatfelvételre nem.
+        submit_button: Küldés
+        title: Megerősítő kód küldése
+      update:
+        error: Hibás megerősítő kód
+        flash:
+          level_three:
+            success: A kód helyes. A fiókja ellenőrzött.
+          level_two:
+            success: A kód helyes.
+    step_1: Lakóhely
+    step_2: Megerősítő kód
+    step_3: Végső ellenőrzés
+    user_permission_debates: Részvétel a vitákban
+    user_permission_info: Az adatok ellenőrzésével Ön képes lesz...
+    user_permission_proposal: Új javaslatok létrehozása
+    user_permission_support_proposal: Javaslatok támogatása
+    user_permission_votes: Szavazás a közösségi költségvetés projektjeiről
+    verification_needed: További ellenőrzés szükséges
+    verified_user:
+      form:
+        submit_button: Kód küldése
+      show:
+        email_title: E-mailek
+        explanation: Jelenleg a következő adatokat tartjuk a nyilvántartásban; kérjük, válassza ki a visszaigazoló kód elküldésének
+          módját.
+        phone_title: Telefonszámok
+        title: A rendelkezésre álló információk
+        use_another_phone: Más telefon használata

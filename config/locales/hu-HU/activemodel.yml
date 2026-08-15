@@ -1,1 +1,50 @@
 hu:
+  activemodel:
+    models:
+      verification:
+        residence: Lakóhely-ellenőrzés
+        sms: SMS
+      local_census_records/import:
+        one: Helyi népszámlálási nyilvántartás importja
+        other: Helyi népszámlálási adatok importja
+    attributes:
+      verification:
+        residence:
+          document_type: Okmány típusa
+          document_number: Okmányazonosító (betűkkel együtt)
+          date_of_birth: Születési dátum
+          postal_code: Irányítószám
+        sms:
+          phone: Telefonszám
+          confirmation_code: Megerősítő kód
+        email:
+          recipient: E-mail
+      verification/letter:
+        email: E-mail
+        password: Jelszó
+        verification_code: A kódot levélben kapta.
+      verification/management/document:
+        document_type: 'A dokumentum típusa:'
+        document_number: Dokumentumszám
+      verification/residence:
+        date_of_birth: Születési dátum
+        document_type: Okmány típusa
+        postal_code: Irányítószám
+      verification/sms:
+        confirmation_code: Adja meg a telefonjára kapott kódot
+      officing/residence:
+        document_type: Dokumentumtípus
+        document_number: Dokumentum száma (betűkkel együtt)
+        year_of_birth: Született év
+      local_census_records/import:
+        file: Fájl
+      setting/locales_settings:
+        default: Alapértelmezett nyelv
+        enabled: Engedélyezett nyelvek
+    errors:
+      models:
+        local_census_records/import:
+          attributes:
+            file:
+              extension: A fájl formátuma hibás. Az engedélyezett fájlformátum:%{valid_extensions}.
+              headers: Mivel a fejlécek tévednek. A fájlfejléceknek a következő nevekkel kell rendelkezniük:%{required_headers}.

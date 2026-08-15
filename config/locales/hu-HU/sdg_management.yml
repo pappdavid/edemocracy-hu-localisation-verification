@@ -1,1 +1,50 @@
 hu:
+  sdg_management:
+    actions:
+      edit: Célok és célok kezelése
+    header:
+      title: SDG tartalom
+    homepage:
+      title: Homepage konfiguráció
+      header:
+        create: Fejléc létrehozása
+        no_cards: Nincs fejléc.
+        title: Fejléc
+      create_card: Létrehozás %{phase} kártya
+      no_cards: Ehhez a fázishoz nincs kártya.
+    menu:
+      budget_investments: Közösségi költségvetések
+      debates: Viták
+      legislation_processes: Jogi eljárások
+      legislation_proposals: Jogalkotási javaslatok
+      polls: Szavazások
+      proposals: Javaslatok
+      sdg_content: Célok és célkitűzések
+      sdg_homepage: SDG honlapja
+    local_targets:
+      create:
+        notice: A helyi cél sikeresen létrehozva
+      destroy:
+        notice: A helyi célpontot sikeresen törölték
+      edit:
+        title: Helyi cél szerkesztése
+      form:
+        code: A kódnak a kijelölt célkóddal kell kezdődnie, amit egy pont követ
+        description: Ez a leírás a felhasználóknak nyújtott segítségként jelenik meg.
+      index:
+        new: Helyi cél létrehozása
+      new:
+        title: Új helyi cél
+      update:
+        notice: A helyi célpont sikeresen frissítve
+    relations:
+      index:
+        filter: Szűrő
+        filters:
+          all: Valamennyi
+          pending_sdg_review: Függőben
+          sdg_reviewed: Felülvizsgálva
+      update:
+        notice: '%{relatable} sikeresen frissítve'
+      update_and_review:
+        notice: '%{relatable} sikeresen frissítve és felülvizsgálva'

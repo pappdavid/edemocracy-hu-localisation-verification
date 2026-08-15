@@ -1,22 +1,204 @@
 hu:
   date:
+    abbr_month_names:
+    - null
+    - Jan.
+    - febr.
+    - márc.
+    - ápr.
+    - Május
+    - jún.
+    - Jul.
+    - aug.
+    - Sz
+    - Okt
+    - nov.
+    - dec
+    month_names:
+    - null
+    - január
+    - Február
+    - Március
+    - Április
+    - Május
+    - Június
+    - július
+    - augusztus
+    - Szeptember
+    - Október
+    - november
+    - december
     abbr_day_names:
-      - Vas
-      - Hét
-      - Kedd
-      - Szer
-      - Csüt
-      - Pén
-      - Szom
+    - Nap
+    - H
+    - Sze
+    - Sze
+    - Csü
+    - Pén
+    - Szaturáció
+    day_names:
+    - Vasárnap
+    - Hétfő
+    - Kedd
+    - Szerda
+    - Csütörtök
+    - Péntek
+    - Szombat
+    formats:
+      default: '%Y-%m-%d'
+      long: '%B  %d, %Y'
+      short: '%b  %d'
   number:
     currency:
       format:
+        precision: 2
         significant: false
         strip_insignificant_zeros: false
+        delimiter: ','
+        format: '%u%n'
+        separator: .
+        unit: $
     format:
+      precision: 3
       significant: false
       strip_insignificant_zeros: false
+      delimiter: ','
+      separator: .
     human:
       format:
+        precision: 3
         significant: true
         strip_insignificant_zeros: true
+        delimiter: ''
+      decimal_units:
+        format: '%n  %u'
+        units:
+          billion: Millió
+          million: Millió
+          quadrillion: billiárd
+          thousand: Ezer
+          trillion: Millió
+          unit: ''
+      storage_units:
+        format: '%n  %u'
+        units:
+          byte:
+            one: bájt
+            other: Bájtok
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+        format: '%n%'
+    precision:
+      format:
+        delimiter: ''
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: körülbelül 1 óra
+        other: kb. %{count} óra
+      about_x_months:
+        one: körülbelül 1 hónap
+        other: kb. %{count} hónap
+      about_x_years:
+        one: körülbelül 1 év
+        other: kb. %{count} évek
+      almost_x_years:
+        one: majdnem 1 év
+        other: majdnem %{count} évek
+      half_a_minute: fél perc
+      less_than_x_minutes:
+        one: kevesebb mint egy perc
+        other: kevesebb, mint %{count} perc
+      less_than_x_seconds:
+        one: kevesebb mint 1 másodperc
+        other: kevesebb, mint %{count} másodperc
+      over_x_years:
+        one: 1 éven túli
+        other: vége %{count} évek
+      x_days:
+        one: 1 nap
+        other: '%{count} nap'
+      x_minutes:
+        one: 1 perc
+        other: '%{count} perc'
+      x_months:
+        one: 1 hónap
+        other: '%{count} hónap'
+      x_years:
+        one: 1 év
+        other: '%{count} évek'
+      x_seconds:
+        one: 1 másodperc
+        other: '%{count} másodperc'
+    prompts:
+      day: Nap
+      hour: Óra
+      minute: Egy perc.
+      month: Hónap
+      second: Másodpercek
+      year: Év
+  errors:
+    format: '%{attribute}  %{message}'
+    messages:
+      accepted: el kell fogadni
+      blank: Nem lehet üres.
+      present: üres
+      confirmation: Nem egyezik. %{attribute}
+      empty: Nem lehet üres.
+      equal_to: meg kell egyeznie %{count}
+      even: Kvittek vagyunk.
+      exclusion: fenntartott
+      greater_than: nagyobb, mint %{count}
+      greater_than_or_equal_to: legalább %{count}
+      inclusion: nem szerepel a listán
+      invalid: érvénytelen
+      less_than: kevesebb, mint %{count}
+      less_than_or_equal_to: legfeljebb %{count}
+      model_invalid: 'A hitelesítés nem sikerült: %{errors}'
+      not_a_number: nem egy szám
+      not_an_integer: egész szám
+      odd: Biztos furcsa.
+      required: léteznie kell
+      taken: már szedték
+      too_long:
+        one: túl hosszú (maximum 1 karakter)
+        other: túl hosszú (maximum %{count} karakter)
+      too_short:
+        one: túl rövid (minimum 1 karakter)
+        other: túl rövid (minimum %{count} karakter)
+      wrong_length:
+        one: a rossz hosszúság (1 karakternek kell lennie)
+        other: a nem megfelelő hosszúságú %{count} karakter)
+      other_than: nem lehet %{count}
+    template:
+      body: 'A következő területekkel voltak problémák:'
+      header:
+        one: 1 hiba tiltotta ezt %{model} a megmentéstől
+        other: '%{count} hibák tiltották ezt %{model} a megmentéstől'
+  helpers:
+    select:
+      prompt: Kérjük, válasszon
+    submit:
+      create: Létrehozás %{model}
+      submit: Mentés %{model}
+      update: Frissítés %{model}
+  support:
+    array:
+      last_word_connector: ', és '
+      two_words_connector: ' és '
+      words_connector: ', '
+  time:
+    am: de.
+    formats:
+      datetime: '%Y-%m-%d  %H:%M:%S'
+      default: '%a, %d  %b  %Y  %H:%M:%S  %z'
+      long: '%B  %d, %Y  %H:%M'
+      short: '%d  %b  %H:%M'
+      short_datetime: '%Y-%m-%d  %H:%M'
+      api: '%Y-%m-%d  %H'
+    pm: du.
