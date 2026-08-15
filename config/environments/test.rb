@@ -10,10 +10,10 @@ Warning[:deprecated] = true
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-  # Some tests require the following languages (en, es, fr, nl, pt-BR)
+  # Some tests require the following languages (en, es, fr, hu, nl, pt-BR)
   # so we override the available languages for the test environment.
   config.i18n.default_locale = :en
-  config.i18n.available_locales = %w[de en es fr nl pt-BR zh-CN]
+  config.i18n.available_locales = %w[de en es fr hu nl pt-BR zh-CN]
 
   # While tests run files are not watched, reloading is not necessary.
   config.enable_reloading = false
