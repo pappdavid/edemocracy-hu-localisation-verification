@@ -1,8 +1,8 @@
 # eDemocracy.hu Issue-Fix Evidence Audit
 
-**Assessment date:** 2026-08-15  
-**Implementation examined:** the current `feature/hu-localisation-ux-verification` branch, including the published HTTPS/HSTS hardening change.  
-**Baseline:** CONSUL `2.5.0` (`43704021e78b202af335ab93a5483610a8e039f0`)  
+**Assessment date:** 2026-08-15
+**Implementation examined:** the current `feature/hu-localisation-ux-verification` branch, including the published HTTPS/HSTS hardening change.
+**Baseline:** CONSUL `2.5.0` (`43704021e78b202af335ab93a5483610a8e039f0`)
 **Evidence boundary:** This audit compares the supplied project’s issue register with the private branch and its static validator/tests. The branch has **not** been deployed to `sandbox.edemocracy.hu` or `edemocracy.hu`; therefore, it cannot prove live configuration, legal, operational, security, email, census, SMS, governance, or end-to-end outcomes.
 
 > **Conclusion:** The evidence does **not** show that all known issues are fixed. It proves one source-level form defect is corrected, shows five issues have a narrow or partial source-level remedy, and shows **no fix evidence in this branch for 33 of the 39 documented issues**. Any claim that all issues are fixed would be unsupported.
