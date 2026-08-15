@@ -110,5 +110,7 @@ en:
           back_to_index: I understand; go back to main page
           instructions_1: Please <b>check your email</b> - we have sent you a <b>link to confirm your account</b>.
           instructions_2: Once confirmed, you may begin participation.
+          verification_title: "Next step: verify your identity"
+          verification_instructions: "After you confirm your email address and sign in, open My account and select Verify my account to complete the residence and identity-verification steps required for verified participation."
           thank_you: Thank you for registering for the website. You must now <b>confirm your email address</b>.
           title: Confirm your email address
