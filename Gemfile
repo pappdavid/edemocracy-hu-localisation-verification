@@ -15,7 +15,7 @@ gem "bing_translator", "~> 6.2.0"
 gem "cancancan", "~> 3.6.1"
 gem "caxlsx", "~> 4.4.1"
 gem "caxlsx_rails", "~> 0.6.4"
-gem "ckeditor", "~> 4.3.0"
+gem "ckeditor", "~> 5.1.3"
 gem "cocoon", "~> 1.2.15"
 gem "connection_pool", "~> 2.5" # TODO: remove after upgrading to Rails 8.0
 gem "csv", "~> 3.3.5"
