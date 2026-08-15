@@ -10,8 +10,8 @@ describe "Hungarian residence verification" do
 
     expect(page).to have_content "Lakóhely ellenőrzése"
     expect(page).to have_content "Lakóhely"
-    expect(page).to have_content "Megerősítő kód"
-    expect(page).to have_content "Végső ellenőrzés"
+    expect(page).to have_content(/Megerősítő kód/i)
+    expect(page).to have_content(/Végső ellenőrzés/i)
     expect(page).to have_select "residence_document_type",
                                 with_options: ["Kérjük, válasszon", "Személyi igazolvány",
                                                "Útlevél", "Lakcímkártya"]
