@@ -1,0 +1,50 @@
+CONSUL baseline: 2.5.0
+English leaf keys: 4629
+Hungarian leaf keys: 295
+Missing keys against CONSUL 2.5.0: 4335
+  - account.show.change_credentials_link
+  - account.show.erase_account_link
+  - account.show.last_sign_in
+  - account.show.notifications
+  - account.show.personal
+  - account.show.public_interests_my_title_list
+  - account.show.public_interests_user_title_list
+  - account.show.recommendations
+  - account.show.save_changes_submit
+  - account.show.title
+  - account.show.user_permission_info
+  - account.show.user_permission_title
+  - activemodel.attributes.local_census_records/import.file
+  - activemodel.attributes.officing/residence.document_number
+  - activemodel.attributes.officing/residence.document_type
+  - activemodel.attributes.officing/residence.year_of_birth
+  - activemodel.attributes.setting/locales_settings.default
+  - activemodel.attributes.setting/locales_settings.enabled
+  - activemodel.attributes.verification.email.recipient
+  - activemodel.attributes.verification/letter.email
+  - activemodel.attributes.verification/letter.password
+  - activemodel.attributes.verification/letter.verification_code
+  - activemodel.attributes.verification/management/document.document_number
+  - activemodel.attributes.verification/management/document.document_type
+  - … 4311 additional findings omitted from console output
+Exact source-language fallbacks: 13
+  - activemodel.models.verification.sms
+  - layouts.footer.copyright
+  - omniauth.facebook.name
+  - omniauth.google_oauth2.name
+  - omniauth.twitter.name
+  - pages.accessibility.keyboard_shortcuts.browser_table.rows[1].browser_column
+  - pages.accessibility.keyboard_shortcuts.browser_table.rows[2].browser_column
+  - pages.accessibility.keyboard_shortcuts.browser_table.rows[3].browser_column
+  - pages.accessibility.keyboard_shortcuts.browser_table.rows[4].browser_column
+  - pages.accessibility.textsize.browser_settings_table.rows[1].browser_column
+  - pages.accessibility.textsize.browser_settings_table.rows[2].browser_column
+  - pages.accessibility.textsize.browser_settings_table.rows[3].browser_column
+  - pages.accessibility.textsize.browser_settings_table.rows[4].browser_column
+Suspicious English on critical launch surfaces: 0
+Suspicious Spanish fragments: 0
+Interpolation placeholder mismatches: 0
+HTML/tag mismatches: 0
+Terminology violations: 0
+Mechanically detected informal wording: 0
+Hungarian localisation validation passed: no blocking regression was found.

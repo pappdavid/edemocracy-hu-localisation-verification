@@ -1,0 +1,11 @@
+Run options: exclude {:consul=>true}
+
+Randomized with seed 37951
+ActiveSupport::MessagePack requires the msgpack gem, version 1.7.0 or later. Please add it to your Gemfile: `gem "msgpack", ">= 1.7.0"`
+........
+
+Finished in 26.77 seconds (files took 6.8 seconds to load)
+8 examples, 0 failures
+
+Randomized with seed 37951
+

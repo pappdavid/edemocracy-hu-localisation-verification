@@ -1,0 +1,189 @@
+baseline:
+  consul_version: "2.5.0"
+  baseline_commit: "43704021e78b202af335ab93a5483610a8e039f0"
+  scope: "Deterministic Hungarian public and administration UI/localisation defects only"
+  evidence_boundary: "Source-level and local system-test evidence; no deployment or production configuration claim"
+issues:
+  - original_issue_id: "#1"
+    screenshot_page: "Known June issue tracker; no direct screenshot asset supplied"
+    route: "Site-wide public and authentication surfaces"
+    source:
+      - "config/locales/hu-HU/devise_views.yml"
+      - "config/locales/hu-HU/general.yml"
+    locale_keys:
+      - "devise_views.sessions.new.*"
+      - "devise_views.users.registrations.new.*"
+      - "debates.index.section_footer.*"
+    expected_state: "Formal Hungarian address is used on the reviewed launch-critical surfaces."
+    implemented_fix: "Added formal login and registration wording and formal debate-help wording; the validator rejects mechanically detectable informal wording on critical surfaces."
+    automated_test:
+      - "spec/system/hungarian_launch_localisation_spec.rb"
+      - "scripts/validate_hu_overlay.py"
+    current_status: "implemented_and_verified"
+
+  - original_issue_id: "#2"
+    screenshot_page: "Login screen"
+    route: "new_user_session_path(locale: :hu)"
+    source:
+      - "config/locales/hu-HU/devise_views.yml"
+      - "config/locales/hu-HU/general.yml"
+      - "config/locales/hu-HU/activerecord.yml"
+    locale_keys:
+      - "devise_views.sessions.new.*"
+      - "devise_views.menu.login_items.*"
+      - "devise_views.shared.links.*"
+      - "omniauth.*"
+      - "activerecord.attributes.user.{login,email,password}"
+    expected_state: "The login screen uses Hungarian labels, formal wording, and Hungarian provider-action text."
+    implemented_fix: "Added Hungarian session, shared-link, provider, and user-field translations."
+    automated_test:
+      - "spec/system/hungarian_launch_localisation_spec.rb: formal Hungarian on the login and registration screens"
+    current_status: "implemented_and_verified"
+
+  - original_issue_id: "#3"
+    screenshot_page: "Supplied administration screenshots; shared locale-switcher visible"
+    route: "root_path(locale: :hu); all pages rendering Layout::LocaleSwitcherComponent"
+    source:
+      - "app/components/layout/locale_switcher_component.rb"
+      - "config/locales/hu-HU/general.yml"
+    locale_keys:
+      - "i18n.language.name"
+      - "layouts.header.locale"
+      - "layouts.header.*"
+    expected_state: "Hungarian is named Magyar and shared navigation is Hungarian."
+    implemented_fix: "Moved reviewed shared header and language-name keys into the standard general locale file."
+    automated_test:
+      - "spec/system/hungarian_launch_localisation_spec.rb: Hungarian header and footer wording"
+      - "scripts/validate_hu_overlay.py"
+    current_status: "implemented_and_verified"
+
+  - original_issue_id: "#6"
+    screenshot_page: "Known tracker; no direct footer screenshot asset supplied"
+    route: "Site-wide footer"
+    source:
+      - "config/locales/hu-HU/general.yml"
+    locale_keys:
+      - "layouts.footer.*"
+    expected_state: "The footer contains no recorded korányzat, hasznája, or azt a város defects."
+    implemented_fix: "Added reviewed footer labels and corrected participation copy in the standard locale file."
+    automated_test:
+      - "spec/system/hungarian_launch_localisation_spec.rb: Hungarian header and footer wording"
+      - "scripts/validate_hu_overlay.py"
+    current_status: "implemented_and_verified"
+
+  - original_issue_id: "#7"
+    screenshot_page: "Known tracker; public debate and proposal index pages"
+    route: "debates_path(locale: :hu); proposals_path(locale: :hu)"
+    source:
+      - "config/locales/hu-HU/general.yml"
+    locale_keys:
+      - "layouts.header.{debates,proposals,collaborative_legislation}"
+      - "debates.index.*"
+      - "proposals.index.*"
+    expected_state: "Use Viták and Javaslatok consistently; use the reviewed Közösségi jogalkotás label."
+    implemented_fix: "Added public index headings, help labels, search controls, ordering labels, and proposal-list terminology."
+    automated_test:
+      - "spec/system/hungarian_launch_localisation_spec.rb: consistent debate and proposal terminology"
+      - "scripts/validate_hu_overlay.py"
+    current_status: "implemented_and_verified"
+
+  - original_issue_id: "#8"
+    screenshot_page: "Known tracker; debate/proposal help surfaces"
+    route: "debates_path(locale: :hu); help_path(locale: :hu)"
+    source:
+      - "config/locales/hu-HU/general.yml"
+      - "config/locales/hu-HU/edemocracy_hu.yml"
+    locale_keys:
+      - "debates.index.section_footer.*"
+      - "pages.help.{debates,proposals}.*"
+    expected_state: "Help copy is technically clear, formal, and makes no unapproved outcome commitment."
+    implemented_fix: "Added neutral debate help and retained the reviewed proposal-help wording that removes the automatic implementation promise."
+    automated_test:
+      - "spec/system/hungarian_launch_localisation_spec.rb: technically neutral help wording"
+      - "scripts/validate_hu_overlay.py"
+    current_status: "implemented_and_verified"
+
+  - original_issue_id: "#9"
+    screenshot_page: "edemocracy-production-census-DNI-2026-08-07.jpg"
+    route: "new_admin_local_census_record_path(locale: :hu)"
+    source:
+      - "config/locales/hu-HU/admin.yml"
+      - "config/locales/hu-HU/activerecord.yml"
+      - "config/locales/hu-HU/edemocracy_hu.yml"
+    locale_keys:
+      - "admin.local_census_records.*"
+      - "activerecord.attributes.local_census_record.*"
+      - "verification.residence.new.*"
+    expected_state: "Hungarian accented characters render as valid UTF-8 in visible form headings and labels."
+    implemented_fix: "No font or encoding change was necessary; reviewed UTF-8 locale strings are exercised by the focused system test."
+    automated_test:
+      - "spec/system/admin/hungarian_local_census_localisation_spec.rb"
+      - "scripts/validate_hu_overlay.py"
+    current_status: "no_longer_reproducible_in_source"
+
+  - original_issue_id: "#10"
+    screenshot_page: "Known tracker; public proposal surfaces"
+    route: "proposals_path(locale: :hu); help_path(locale: :hu)"
+    source:
+      - "config/locales/hu-HU/general.yml"
+      - "config/locales/hu-HU/edemocracy_hu.yml"
+    locale_keys:
+      - "form.proposal"
+      - "layouts.header.proposals"
+      - "proposals.*"
+      - "pages.help.proposals.*"
+    expected_state: "The civic proposal concept is rendered as javaslat, not ajánlat."
+    implemented_fix: "Standardised reviewed proposal labels and added a validator rule for the unreviewed ajánlat term."
+    automated_test:
+      - "spec/system/hungarian_launch_localisation_spec.rb: consistent debate and proposal terminology"
+      - "scripts/validate_hu_overlay.py"
+    current_status: "implemented_and_verified"
+
+  - original_issue_id: "O-28 / screenshot-DNI"
+    screenshot_page: "docs/evidence/screenshots/edemocracy-production-census-DNI-2026-08-07.jpg"
+    route: "new_admin_local_census_record_path(locale: :hu); new_residence_path(locale: :hu)"
+    source:
+      - "app/helpers/verification_helper.rb"
+      - "config/locales/hu-HU/admin.yml"
+      - "config/locales/hu-HU/activerecord.yml"
+      - "config/locales/hu-HU/edemocracy_hu.yml"
+    locale_keys:
+      - "verification.residence.new.document_type.spanish_id"
+      - "admin.local_census_records.*"
+      - "activerecord.attributes.local_census_record.*"
+    expected_state: "The Hungarian form displays Személyi igazolvány, not DNI, and uses Hungarian administration labels."
+    implemented_fix: "Preserved the corrected public document-type key and added the missing standard administration and form-label keys."
+    automated_test:
+      - "spec/system/admin/hungarian_local_census_localisation_spec.rb"
+      - "spec/system/verification/hungarian_residence_spec.rb"
+      - "scripts/validate_hu_overlay.py"
+    current_status: "implemented_and_verified"
+
+  - original_issue_id: "screenshot-document-types"
+    screenshot_page: "docs/evidence/screenshots/edemocracy-production-census-document-types-2026-08-07.jpg"
+    route: "new_admin_local_census_record_path(locale: :hu)"
+    source:
+      - "app/views/admin/local_census_records/_form.html.erb"
+      - "app/helpers/verification_helper.rb"
+      - "config/locales/hu-HU/edemocracy_hu.yml"
+    locale_keys:
+      - "verification.residence.new.document_type.{spanish_id,passport,residence_card}"
+    expected_state: "The document-type control has Hungarian option labels."
+    implemented_fix: "Mapped the shared document-type helper to its Hungarian verification locale keys and added administration regression coverage."
+    automated_test:
+      - "spec/system/admin/hungarian_local_census_localisation_spec.rb"
+    current_status: "implemented_and_verified"
+
+content_decisions:
+  - surface: "Footer Privacy Policy target and its body"
+    route: "Deployment-specific configured page"
+    blocker: "CONTENT_DECISION_REQUIRED_PRIVACY_POLICY"
+    reason: "The task does not author privacy-policy content."
+  - surface: "Footer Terms and conditions target and its body"
+    route: "Deployment-specific configured page"
+    blocker: "CONTENT_DECISION_REQUIRED_TERMS_OF_SERVICE"
+    reason: "The task does not author terms-of-service content."
+  - surface: "Municipal effect and governance meaning of proposals or votes"
+    route: "Help and configured information pages"
+    blocker: "CONTENT_DECISION_REQUIRED_MUNICIPAL_GOVERNANCE"
+    reason: "The source copy is kept neutral; binding, advisory, or institutional commitments require stakeholder approval."

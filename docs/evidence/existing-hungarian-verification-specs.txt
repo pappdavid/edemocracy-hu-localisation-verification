@@ -1,0 +1,10 @@
+Run options: exclude {:consul=>true}
+
+Randomized with seed 33536
+...
+
+Finished in 20.91 seconds (files took 7.09 seconds to load)
+3 examples, 0 failures
+
+Randomized with seed 33536
+
