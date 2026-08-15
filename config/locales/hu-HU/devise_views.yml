@@ -1,1 +1,38 @@
 hu:
+  devise_views:
+    menu:
+      login_items:
+        login: Bejelentkezés
+        logout: Kijelentkezés
+        signup: Regisztráció
+    passwords:
+      new:
+        send_submit: Útmutató küldése
+        title: Elfelejtette a jelszavát?
+    sessions:
+      new:
+        remember_me: Emlékezzen rám
+        submit: Belépés
+        title: Bejelentkezés
+    shared:
+      links:
+        login: Belépés
+        new_confirmation: Nem kapta meg a fiókja aktiválásához szükséges útmutatót?
+        new_password: Elfelejtette a jelszavát?
+        new_unlock: Nem kapta meg a feloldáshoz szükséges útmutatót?
+        signup: Nincs még fiókja? %{signup_link}
+        signup_link: Regisztráljon
+    users:
+      registrations:
+        new:
+          cancel: Bejelentkezés megszakítása
+          organization_signup: Szervezetet vagy közösséget képvisel? %{signup_link}
+          organization_signup_link: Regisztráljon itt
+          password_confirmation_label: Jelszó megerősítése
+          submit: Regisztráció
+          terms: A regisztrációval elfogadja a(z) %{terms}.
+          terms_link: felhasználási feltételeket
+          title: Regisztráció
+          username_is_available: A felhasználónév elérhető
+          username_is_not_available: A felhasználónév már foglalt
+          username_note: A hozzászólásai mellett megjelenő név

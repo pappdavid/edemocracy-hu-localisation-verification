@@ -1,1 +1,36 @@
 hu:
+  admin:
+    local_census_records:
+      index:
+        title: Helyi névjegyzék
+        create: Új helyi névjegyzék-rekord létrehozása
+        no_local_census_records: Nincsenek helyi névjegyzék-rekordok.
+        document_type: Okmány típusa
+        document_number: Okmányazonosító
+        date_of_birth: Születési dátum
+        postal_code: Irányítószám
+        import: CSV importálása
+      new:
+        creating: Új helyi névjegyzék-rekord létrehozása
+      create:
+        notice: Az új helyi névjegyzék-rekord sikeresen létrejött.
+      edit:
+        editing: Helyi névjegyzék-rekord szerkesztése
+      update:
+        notice: A helyi névjegyzék-rekord sikeresen frissült.
+      destroy:
+        notice: A helyi névjegyzék-rekord törlése sikerült.
+      imports:
+        new:
+          title: Helyi névjegyzék-rekordok
+          subtitle: CSV-fájl importálása
+        create:
+          notice: A helyi névjegyzék-rekordok importálása sikeresen lefutott.
+        show:
+          title: Helyi névjegyzék
+          subtitle: Importálási folyamat eredményei
+          import: Újraimportálás
+          errored: Hibás sorok
+          created: Létrehozott rekordok
+        local_census_records:
+          no_records_found: Nem találhatók rekordok.

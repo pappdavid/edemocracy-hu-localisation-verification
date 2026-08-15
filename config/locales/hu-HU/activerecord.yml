@@ -1,1 +1,13 @@
 hu:
+  activerecord:
+    attributes:
+      local_census_record:
+        document_type: Okmány típusa
+        document_number: Okmányazonosító
+        date_of_birth: Születési dátum
+        postal_code: Irányítószám
+      user:
+        login: E-mail-cím vagy felhasználónév
+        email: E-mail-cím
+        password: Jelszó
+        password_confirmation: Jelszó megerősítése

@@ -1,1 +1,135 @@
 hu:
+  debates:
+    create:
+      form:
+        submit_button: Vita indítása
+    debate:
+      votes:
+        one: 1 szavazat
+        other: "%{count} szavazat"
+        zero: Nincs szavazat
+    index:
+      search_form:
+        button: Keresés
+        placeholder: Viták keresése...
+        title: Keresés
+      start_debate: Vita indítása
+      title: Viták
+      section_header:
+        icon_alt: Viták ikon
+        title: Viták
+        help: Segítség a vitákhoz
+      section_footer:
+        title: Segítség a vitákhoz
+        description: Indítson vitát, hogy másokkal megoszthassa a közösséget érintő kérdésekkel kapcsolatos véleményét.
+        help_text_1: A polgári viták felülete azoknak szól, akik számukra fontos kérdéseket szeretnének felvetni vagy mások véleményét szeretnék megismerni.
+        help_text_2: Vita indításához regisztrálnia kell a(z) %{org} rendszerben. A felhasználók hozzászólhatnak a nyitott vitákhoz, és az egyes vitákban található „Egyetértek” vagy „Nem értek egyet” gombbal értékelhetik azokat.
+    new:
+      form:
+        submit_button: Vita indítása
+      more_info: Hogyan működnek a viták?
+      start_new: Új vita indítása
+  form:
+    debate: Vita
+    proposal: Javaslat
+  i18n:
+    language:
+      name: Magyar
+  layouts:
+    footer:
+      accessibility: Akadálymentesség
+      conditions: Felhasználási feltételek
+      consul: CONSUL DEMOCRACY alkalmazás
+      copyright: CONSUL DEMOCRACY, %{year}
+      cookies_consent_management: Sütibeállítások kezelése
+      description: Ez a portál a(z) %{consul} rendszert használja, amely %{open_source}.
+      open_source: nyílt forráskódú szoftver
+      participation_text: Szóljon bele abba, hogyan alakuljon a város, ahol élni szeretne.
+      participation_title: Részvétel
+      privacy: Adatvédelmi tájékoztató
+      source_code: Forráskód
+    header:
+      administration_menu: Menü
+      administration: Adminisztráció
+      collaborative_legislation: Közösségi jogalkotás
+      debates: Viták
+      help: Súgó
+      locale: "Nyelv:"
+      management: Kezelés
+      moderation: Moderálás
+      my_account_link: Saját fiók
+      my_activity_link: Saját tartalmak
+      open_gov: Nyílt kormányzás
+      proposals: Javaslatok
+      poll_questions: Szavazások
+      budgets: Közösségi költségvetés
+    skip_to_main_content: Ugrás a fő tartalomra
+  omniauth:
+    facebook:
+      sign_in: Bejelentkezés Facebook-fiókkal
+      sign_up: Regisztráció Facebook-fiókkal
+      name: Facebook
+    google_oauth2:
+      sign_in: Bejelentkezés Google-fiókkal
+      sign_up: Regisztráció Google-fiókkal
+      name: Google
+    twitter:
+      sign_in: Bejelentkezés Twitter-fiókkal
+      sign_up: Regisztráció Twitter-fiókkal
+      name: Twitter
+    info:
+      sign_in: "Bejelentkezés ezzel:"
+      sign_up: "Regisztráció ezzel:"
+    or_fill: "Vagy töltse ki az alábbi űrlapot:"
+  shared:
+    advanced_search:
+      title: Speciális keresés
+    outline:
+      searcher: Kereső
+    search: Keresés
+    tags_cloud:
+      tags: Népszerű címkék
+      categories: Kategóriák
+    you_are_in: "Ön itt van:"
+    view_mode:
+      title: Nézetmód
+      cards: Kártyák
+      list: Lista
+  proposals:
+    create:
+      form:
+        submit_button: Javaslat létrehozása
+    index:
+      orders:
+        confidence_score: legmagasabb értékelés
+        created_at: legújabb
+        hot_score: legaktívabb
+        most_commented: legtöbb hozzászólás
+        relevance: relevancia
+        archival_date: archivált
+        recommendations: ajánlások
+      retired_proposals: Visszavont javaslatok
+      retired_proposals_link: A szerző által visszavont javaslatok
+      selected_proposals: Kiválasztott javaslatok
+      selected_proposals_link: Kiválasztott javaslatok megtekintése
+      archived_proposals: Archivált javaslatok
+      proposals_lists: Javaslatlisták
+      top_link_proposals: A kategóriánként legtöbb támogatást kapott javaslatok
+      search_form:
+        button: Keresés
+        placeholder: Javaslatok keresése...
+        title: Keresés
+      start_proposal: Javaslat létrehozása
+      title: Javaslatok
+      section_header:
+        icon_alt: Javaslatok ikon
+        title: Javaslatok
+        help: Segítség a javaslatokhoz
+      section_footer:
+        title: Segítség a javaslatokhoz
+        description: A polgári javaslatok lehetőséget adnak arra, hogy a lakosok és közösségek kezdeményezéseket nyújtsanak be, támogatást gyűjtsenek, és azokat a helyi eljárásrend szerinti további feldolgozásra bocsássák.
+    new:
+      form:
+        submit_button: Javaslat létrehozása
+      more_info: Hogyan működnek a polgári javaslatok?
+      start_new: Új javaslat létrehozása
