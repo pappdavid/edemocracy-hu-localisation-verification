@@ -18,7 +18,7 @@ gem "caxlsx_rails", "~> 0.6.4"
 gem "ckeditor", "~> 4.3.0"
 gem "cocoon", "~> 1.2.15"
 gem "connection_pool", "~> 2.5" # TODO: remove after upgrading to Rails 8.0
-gem "csv", "~> 3.3.5"
+gem "csv", "~> 3.3.6"
 gem "daemons", "~> 1.4.1"
 gem "dalli", "~> 4.3.3"
 gem "delayed_job_active_record", "~> 4.1.11"
