@@ -45,13 +45,21 @@ Rails.application.configure do
   # config.action_cable.url = "wss://example.com/cable"
   # config.action_cable.allowed_request_origins = [ "http://example.com", /http:\/\/example.*/ ]
 
-  # Assume all access to the app is happening through a SSL-terminating reverse proxy.
-  # Can be used together with config.force_ssl for Strict-Transport-Security and secure cookies.
-  # config.assume_ssl = true
+  # Production is served behind an SSL-terminating reverse proxy. Trust the forwarded
+  # HTTPS scheme so Rails applies secure-cookie and HSTS behaviour consistently.
+  config.assume_ssl = true
 
-  # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
-  # Configure force_ssl in secrets.yml
-  config.force_ssl = Rails.application.secrets.force_ssl
+  # Enforce HTTPS and emit Strict-Transport-Security for every production response.
+  # The public service handles resident identity information and must not silently fall
+  # back to HTTP because a deployment secret was omitted.
+  config.force_ssl = true
+  config.ssl_options = {
+    hsts: {
+      expires: 1.year,
+      subdomains: true,
+      preload: false
+    }
+  }
 
   # Skip http-to-https redirect for the default health check endpoint.
   # config.ssl_options = { redirect: { exclude: ->(request) { request.path == "/up" } } }
