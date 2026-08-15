@@ -1,8 +1,8 @@
 hu:
   milestones:
     index:
-      no_milestones: Nem definiált mérföldkövek
-      progress: Előrehaladás
+      no_milestones: Nincsenek meghatározott mérföldkövek
+      progress: Előrehalad
     show:
-      publication_date: Megjelent %{publication_date}
-      status_changed: Állapot megváltozott
+      publication_date: Közzétéve %{publication_date}
+      status_changed: 'Az állapot a következőre módosult:'

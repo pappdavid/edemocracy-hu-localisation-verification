@@ -2,52 +2,52 @@ hu:
   date:
     abbr_month_names:
     - null
-    - Jan.
-    - febr.
-    - márc.
-    - ápr.
-    - Május
-    - jún.
-    - Jul.
-    - aug.
-    - Sz
-    - Okt
-    - nov.
-    - dec
+    - jan
+    - Február
+    - márc
+    - Április
+    - május
+    - Június
+    - Július
+    - Augusztus
+    - szept
+    - Október
+    - November
+    - December
     month_names:
     - null
     - január
-    - Február
-    - Március
-    - Április
-    - Május
-    - Június
+    - február
+    - március
+    - április
+    - május
+    - június
     - július
     - augusztus
-    - Szeptember
-    - Október
+    - szeptember
+    - október
     - november
     - december
     abbr_day_names:
     - Nap
-    - H
-    - Sze
-    - Sze
-    - Csü
-    - Pén
-    - Szaturáció
-    day_names:
-    - Vasárnap
     - Hétfő
-    - Kedd
-    - Szerda
-    - Csütörtök
+    - kedd
+    - Házasodik
+    - cs
     - Péntek
-    - Szombat
+    - Ült
+    day_names:
+    - vasárnap
+    - hétfő
+    - kedd
+    - szerda
+    - csütörtök
+    - péntek
+    - szombat
     formats:
       default: '%Y-%m-%d'
-      long: '%B  %d, %Y'
-      short: '%b  %d'
+      long: '%B %d, %Y'
+      short: '%b %d'
   number:
     currency:
       format:
@@ -71,16 +71,16 @@ hu:
         strip_insignificant_zeros: true
         delimiter: ''
       decimal_units:
-        format: '%n  %u'
+        format: '%n %u'
         units:
-          billion: Millió
+          billion: Milliárd
           million: Millió
-          quadrillion: billiárd
+          quadrillion: Kvadrillió
           thousand: Ezer
-          trillion: Millió
+          trillion: billió
           unit: ''
       storage_units:
-        format: '%n  %u'
+        format: '%n %u'
         units:
           byte:
             one: bájt
@@ -88,7 +88,7 @@ hu:
           gb: GB
           kb: KB
           mb: MB
-          tb: TB
+          tb: tuberkulózis
     percentage:
       format:
         delimiter: ''
@@ -99,27 +99,27 @@ hu:
   datetime:
     distance_in_words:
       about_x_hours:
-        one: körülbelül 1 óra
-        other: kb. %{count} óra
+        one: kb 1 óra
+        other: körülbelül %{count} óra
       about_x_months:
-        one: körülbelül 1 hónap
-        other: kb. %{count} hónap
+        one: kb 1 hónap
+        other: körülbelül %{count} hónap
       about_x_years:
-        one: körülbelül 1 év
-        other: kb. %{count} évek
+        one: kb 1 év
+        other: körülbelül %{count} év
       almost_x_years:
-        one: majdnem 1 év
-        other: majdnem %{count} évek
+        one: majdnem 1 éve
+        other: közel %{count} év
       half_a_minute: fél perc
       less_than_x_minutes:
         one: kevesebb mint egy perc
         other: kevesebb, mint %{count} perc
       less_than_x_seconds:
-        one: kevesebb mint 1 másodperc
+        one: kevesebb, mint 1 másodperc
         other: kevesebb, mint %{count} másodperc
       over_x_years:
-        one: 1 éven túli
-        other: vége %{count} évek
+        one: több mint 1 év
+        other: több mint %{count} év
       x_days:
         one: 1 nap
         other: '%{count} nap'
@@ -131,74 +131,74 @@ hu:
         other: '%{count} hónap'
       x_years:
         one: 1 év
-        other: '%{count} évek'
+        other: '%{count} év'
       x_seconds:
         one: 1 másodperc
         other: '%{count} másodperc'
     prompts:
       day: Nap
       hour: Óra
-      minute: Egy perc.
+      minute: Perc
       month: Hónap
       second: Másodpercek
       year: Év
   errors:
-    format: '%{attribute}  %{message}'
+    format: '%{attribute} %{message}'
     messages:
       accepted: el kell fogadni
-      blank: Nem lehet üres.
-      present: üres
-      confirmation: Nem egyezik. %{attribute}
-      empty: Nem lehet üres.
-      equal_to: meg kell egyeznie %{count}
-      even: Kvittek vagyunk.
-      exclusion: fenntartott
-      greater_than: nagyobb, mint %{count}
-      greater_than_or_equal_to: legalább %{count}
+      blank: nem lehet üres
+      present: üresnek kell lennie
+      confirmation: nem egyezik %{attribute}
+      empty: nem lehet üres
+      equal_to: egyenlőnek kell lennie %{count}
+      even: egyenletesnek kell lennie
+      exclusion: fenntartva van
+      greater_than: nagyobbnak kell lennie, mint %{count}
+      greater_than_or_equal_to: nagyobbnak vagy egyenlőnek kell lennie, mint %{count}
       inclusion: nem szerepel a listán
       invalid: érvénytelen
-      less_than: kevesebb, mint %{count}
-      less_than_or_equal_to: legfeljebb %{count}
-      model_invalid: 'A hitelesítés nem sikerült: %{errors}'
-      not_a_number: nem egy szám
-      not_an_integer: egész szám
-      odd: Biztos furcsa.
+      less_than: kisebbnek kell lennie, mint %{count}
+      less_than_or_equal_to: kisebbnek vagy egyenlőnek kell lennie, mint %{count}
+      model_invalid: 'Az érvényesítés sikertelen: %{errors}'
+      not_a_number: nem szám
+      not_an_integer: egész számnak kell lennie
+      odd: furcsanak kell lennie
       required: léteznie kell
-      taken: már szedték
+      taken: már elvitték
       too_long:
         one: túl hosszú (maximum 1 karakter)
-        other: túl hosszú (maximum %{count} karakter)
+        other: túl hosszú (legfeljebb %{count} karakter)
       too_short:
-        one: túl rövid (minimum 1 karakter)
+        one: túl rövid (legalább 1 karakter)
         other: túl rövid (minimum %{count} karakter)
       wrong_length:
-        one: a rossz hosszúság (1 karakternek kell lennie)
-        other: a nem megfelelő hosszúságú %{count} karakter)
+        one: rossz hosszúságú (1 karakterből kell állnia)
+        other: rossz hosszúságú (%{count} karakterből kell állnia)
       other_than: nem lehet %{count}
     template:
-      body: 'A következő területekkel voltak problémák:'
+      body: 'Problémák adódtak a következő mezőkkel:'
       header:
-        one: 1 hiba tiltotta ezt %{model} a megmentéstől
-        other: '%{count} hibák tiltották ezt %{model} a megmentéstől'
+        one: 1 hiba tiltotta ennek az %{model} mentését
+        other: Az %{count} hibák megtiltották az %{model} mentését
   helpers:
     select:
       prompt: Kérjük, válasszon
     submit:
-      create: Létrehozás %{model}
+      create: '%{model} létrehozása'
       submit: Mentés %{model}
-      update: Frissítés %{model}
+      update: '%{model} frissítése'
   support:
     array:
-      last_word_connector: ', és '
-      two_words_connector: ' és '
-      words_connector: ', '
+      last_word_connector: ', és'
+      two_words_connector: és
+      words_connector: ','
   time:
     am: de.
     formats:
-      datetime: '%Y-%m-%d  %H:%M:%S'
-      default: '%a, %d  %b  %Y  %H:%M:%S  %z'
-      long: '%B  %d, %Y  %H:%M'
-      short: '%d  %b  %H:%M'
-      short_datetime: '%Y-%m-%d  %H:%M'
-      api: '%Y-%m-%d  %H'
+      datetime: '%Y-%m-%d %H:%M:%S'
+      default: '%a, %d %b %Y %H:%M:%S %z'
+      long: '%B %d, %Y %H:%M'
+      short: '%d %b %H:%M'
+      short_datetime: '%Y-%m-%d %H:%M'
+      api: '%Y-%m-%d %H'
     pm: du.

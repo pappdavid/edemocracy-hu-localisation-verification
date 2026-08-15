@@ -1,6 +1,6 @@
 hu:
   date:
     order:
-    - ': év'
-    - ': hónap'
-    - ': nap'
+    - :év
+    - :hónap
+    - :nap

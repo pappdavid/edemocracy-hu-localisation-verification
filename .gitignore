@@ -44,3 +44,6 @@ tmp/
 /artifacts/complete_hu_translation_state/
 /artifacts/complete_hu_translation_state_offline/
 /scripts/__pycache__/
+/artifacts/editorial_google_translation_state/
+/artifacts/hungarian_editorial_priority_review.tsv
+/scripts/__pycache__/

@@ -5,29 +5,29 @@ hu:
         navigation_table:
           rows:
           - key_column: 0
-            page_column: Tartalom
+            page_column: Otthon
           - key_column: 1
             page_column: Viták
           - key_column: 2
             page_column: Javaslatok
           - key_column: 3
-            page_column: Szavazások
+            page_column: Szavazatok
           - key_column: 4
-            page_column: Közösségi költségvetések
+            page_column: közösségi költségvetések
           - key_column: 5
-            page_column: Jogalkotási eljárások
-          description: Ahhoz, hogy ezen a weboldalon keresztül elérhető módon tájékozódhasson, egy gyors hozzáférési kulcsokból
-            álló csoportot programoztak be, amely összegyűjti az általános érdekű főbb szakaszokat, amelyek között az oldal
-            szerveződik.
-          caption: Billentyűzet a navigációs menühöz
-          key_header: Kulcs
-          page_header: Oldal
-        title: Billentyűzet
+            page_column: Jogalkotási folyamatok
+          description: Annak érdekében, hogy könnyen navigálhasson ezen a webhelyen, gyors hozzáférési kulcsok csoportját
+            programozták, amelyek összegyűjtik azokat a főbb, általános érdeklődésre számot tartó részeket, amelyekbe a webhely
+            fel van rendezve.
+          caption: Billentyűparancsok a navigációs menühöz
+          key_header: Kulcsfontosságú
+          page_header: oldal
+        title: Billentyűparancsok
         browser_table:
-          description: 'Az operációs rendszertől és az alkalmazott böngészőtől függően a kulcskombináció a következő lesz:'
-          caption: A kulcskombináció az operációs rendszertől és a böngészőtől függően
+          description: 'Az operációs rendszertől és a használt böngészőtől függően a billentyűkombináció a következő lesz:'
+          caption: Az operációs rendszertől és a böngészőtől függően billentyűkombináció
           browser_header: Böngésző
-          key_header: Kulcsfontosságú kombináció
+          key_header: Kulcskombináció
           rows:
           - browser_column: Internet Explorer
             key_column: ALT + gyorsbillentyű, majd ENTER
@@ -47,19 +47,19 @@ hu:
         A portál fejlesztésénél törekszünk az akadálymentes használatra, és folyamatosan javítjuk a hozzáférhetőséget. Ha
         akadályt tapasztal, kérjük, jelezze azt az üzemeltetőnek.'
       examples:
-      - A képek helyett a vak vagy látássérült felhasználók speciális olvasókat használhatnak az információk eléréséhez.
-      - Ha a videóknak van feliratuk, a hallási problémákkal küzdő felhasználók teljesen megérthetik őket.
-      - Ha a tartalom egyszerű és illusztrált nyelven van megírva, a tanulási problémákkal küzdő felhasználók jobban megérthetik
-        azokat.
-      - Ha a felhasználónak mobilitási problémái vannak, és nehéz használni az egeret, az alternatív billentyűzet segít a
-        navigációban.
+      - A képekhez alternatív szöveget adva a vak vagy gyengénlátó felhasználók speciális olvasókkal érhetik el az információkat.
+      - Ha a videóknak van felirata, a hallássérült felhasználók teljesen megértik azt.
+      - Ha a tartalom egyszerű és illusztrált nyelven van megírva, a tanulási problémákkal küzdő felhasználók jobban meg tudják
+        érteni azokat.
+      - Ha a felhasználónak mozgási problémái vannak, és nehezen tudja használni az egeret, a billentyűzettel ellátott alternatívák
+        segítenek a navigációban.
       textsize:
-        title: Szövegméret
+        title: Szöveg mérete
         browser_settings_table:
-          description: A hozzáférhető design ezen a honlapon lehetővé teszi a felhasználó számára, hogy válassza ki a méretét
-            a szöveget, amely megfelel neki. Ez a művelet az alkalmazott böngészőtől függően különböző módon hajtható végre.
+          description: A weboldal akadálymentes kialakítása lehetővé teszi, hogy a felhasználó kiválaszthassa a számára megfelelő
+            szövegméretet. Ez a művelet a használt böngészőtől függően különböző módon hajtható végre.
           browser_header: Böngésző
-          action_header: A meghozandó intézkedések
+          action_header: Intézkedések
           rows:
           - browser_column: Internet Explorer
             action_column: Nézet > Szövegméret
@@ -72,12 +72,12 @@ hu:
           - browser_column: Opera
             action_column: Nézet > Nagyítás
         browser_shortcuts_table:
-          description: 'Egy másik módja annak, hogy módosítsa a szöveg méretét, hogy használja a billentyűzet rövidítések
-            meghatározott böngészők, különösen a kulcskombináció:'
+          description: 'A szövegméret módosításának másik módja a böngészőkben definiált billentyűparancsok használata, különösen
+            a billentyűkombináció:'
           rows:
-          - shortcut_column: CTRL és + (CMD és + MAC)
-            description_column: Szövegméret növelése
-          - shortcut_column: CTRL és - (CMD és - MAC)
+          - shortcut_column: CTRL és + (CMD és + MAC-on)
+            description_column: Növeli a szöveg méretét
+          - shortcut_column: CTRL és - (CMD és - MAC-on)
             description_column: Csökkenti a szöveg méretét
       compatibility:
         title: Szabványokkal és vizuális kialakítással való összeegyeztethetőség
@@ -89,8 +89,8 @@ hu:
       description: Tájékoztató a névjegyzékhez való hozzáférés feltételeiről.
     conditions:
       title: Felhasználási feltételek
-      subtitle: JOGI MEGJEGYZÉS A NYILVÁNTARTÁSBA VÉTEL PORTAL SZEMÉLYES ADATOK HASZNÁLATI FELTÉTELEIRŐL, PRIVÁCIÓJA ÉS VÉDELME
-      description: Tájékoztató oldal a használat feltételeiről, a magánélet védelméről és a személyes adatok védelméről.
+      subtitle: JOGI KÖZLEMÉNY A NYÍLT KORMÁNYZATI PORTÁL FELHASZNÁLÁSI FELTÉTELEIRE, ADATVÉDELME ÉS VÉDELME
+      description: Információs oldal a felhasználás feltételeiről, a személyes adatok védelméről és védelméről.
     help:
       title: '%{org}: polgári részvételi platform'
       guide: Ez az útmutató bemutatja a %{org} egyes részeit és működését.
@@ -166,12 +166,12 @@ hu:
       titles:
         how_to_use: Használja a rendszert a helyi önkormányzatában
     privacy:
-      title: Adatvédelmi irányelvek
-      subtitle: Adatvédelem
+      title: Adatvédelmi szabályzat
+      subtitle: Információs oldal az adatvédelemről
     titles:
-      help: Mi %{org}- Polgári részvétel
+      help: Mi az %{org}? - Állampolgári részvétel
     verify:
-      info: 'A fiókjának ellenőrzése a hozzáférési adatok bevezetésével:'
-      info_code: 'Most vezesse be a kódot kapott levélben:'
-      submit: Ellenőrizzétek a számlámat!
-      title: Fiókjának ellenőrzése
+      info: 'Fiókja ellenőrzéséhez adja meg hozzáférési adatait:'
+      info_code: 'Most mutassa be a levélben kapott kódot:'
+      submit: Ellenőrizze a fiókomat
+      title: Igazolja fiókját

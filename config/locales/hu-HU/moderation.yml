@@ -1,98 +1,98 @@
 hu:
   moderation:
     actions:
-      confirm_action: Biztos? %{action}
+      confirm_action: Biztos vagy benne? %{action}
     comments:
       index:
-        block_authors: Block szerzők
+        block_authors: A szerzők letiltása
         filter: Szűrő
         filters:
-          all: Valamennyi
-          pending_flag_review: Függőben
-          with_ignored_flag: Megjelölt
-        hide: Hozzászólások elrejtése
-        ignore_flags: A megtekintés szerinti jelölés
+          all: Minden
+          pending_flag_review: Függőben levő
+          with_ignored_flag: Megtekintettként megjelölve
+        hide: Megjegyzések elrejtése
+        ignore_flags: Megjelölés megtekintettként
         orders:
-          flags: A legtöbb megjelölés
+          flags: A legtöbb megjelölve
           newest: Legújabb
         title: Megjegyzések
     dashboard:
       index:
-        title: Mérsékelt
+        title: Moderálás
     debates:
       index:
-        block_authors: Block szerzők
+        block_authors: A szerzők letiltása
         filter: Szűrő
         filters:
-          all: Valamennyi
-          pending_flag_review: Függőben
-          with_ignored_flag: Megjelölt
-        hide: A viták elrejtése
-        ignore_flags: A megtekintés szerinti jelölés
+          all: Minden
+          pending_flag_review: Függőben levő
+          with_ignored_flag: Megtekintettként megjelölve
+        hide: Viták elrejtése
+        ignore_flags: Megjelölés megtekintettként
         orders:
           created_at: Legújabb
-          flags: A legtöbb megjelölés
+          flags: A legtöbb megjelölve
         title: Viták
     header:
-      title: Mérsékelt
+      title: Moderálás
     menu:
       flagged_comments: Megjegyzések
       flagged_debates: Viták
       flagged_investments: Költségvetési beruházások
       proposals: Javaslatok
-      proposal_notifications: Javaslatokról szóló értesítések
-      users: Blokkolók
+      proposal_notifications: Értesítések az ajánlatokról
+      users: Felhasználók letiltása
     proposals:
       index:
-        block_authors: Block szerzők
+        block_authors: A szerzők letiltása
         filter: Szűrő
         filters:
-          all: Valamennyi
-          pending_flag_review: Függőben
-          with_ignored_flag: Megjelölt
+          all: Minden
+          pending_flag_review: Függőben levő
+          with_ignored_flag: Megtekintettként megjelölve
         headers:
-          moderate: Közepes
-        hide: A javaslatok elrejtése
-        ignore_flags: A megtekintés szerinti jelölés
+          moderate: Mérsékelt
+        hide: Javaslatok elrejtése
+        ignore_flags: Megjelölés megtekintettként
         orders:
-          created_at: Utolsó
-          flags: A legtöbb megjelölés
+          created_at: Legutóbbi
+          flags: A legtöbb megjelölve
         title: Javaslatok
-    users:
-      index:
-        block: Blokk
-        confirm_block: Biztos? Ez elrejti a felhasználó "%{name}"és az összes tartalmukat.
-        confirm_hide: Biztos? Ez elrejti a felhasználó "%{name}"anélkül, hogy elrejtenék a tartalmukat.
-        hide: Elrejtés
-        search_placeholder: e-mail vagy a felhasználó neve
-        title: Blokkolók
-      notice_block: A felhasználó le van zárva. Minden tartalom, amit ez a felhasználó készített, rejtve van.
-      notice_hide: A felhasználó el volt rejtve. A felhasználó által készített tartalom még mindig elérhető.
     budget_investments:
       index:
-        block_authors: Block szerzők
+        block_authors: A szerzők letiltása
         filter: Szűrő
         filters:
-          all: Valamennyi
-          pending_flag_review: Függőben
-          with_ignored_flag: Megjelölt
+          all: Minden
+          pending_flag_review: Függőben levő
+          with_ignored_flag: Megtekintettként megjelölve
         hide: Költségvetési beruházások elrejtése
-        ignore_flags: A megtekintés szerinti jelölés
+        ignore_flags: Megjelölés megtekintettként
         orders:
-          created_at: Utolsó
-          flags: A legtöbb megjelölés
+          created_at: Legutóbbi
+          flags: A legtöbb megjelölve
         title: Költségvetési beruházások
     proposal_notifications:
       index:
-        block_authors: Block szerzők
+        block_authors: A szerzők letiltása
         filter: Szűrő
         filters:
-          all: Valamennyi
-          pending_review: Függőben
-          ignored: Megjelölt
-        hide: A javaslatok elrejtése
-        ignore_flags: A megtekintés szerinti jelölés
+          all: Minden
+          pending_review: Függőben levő
+          ignored: Megtekintettként megjelölve
+        hide: Javaslatok elrejtése
+        ignore_flags: Megjelölés megtekintettként
         orders:
-          created_at: Utolsó
-          moderated: Mérsékelt
-        title: A javaslatról szóló értesítések
+          created_at: Legutóbbi
+          moderated: Moderálva
+        title: Ajánlatértesítések
+    users:
+      index:
+        block: Tömb
+        confirm_block: Biztos vagy benne? Ezzel elrejti a "%{name}" felhasználót és annak összes tartalmát.
+        confirm_hide: Biztos vagy benne? Ezzel elrejti a "%{name}" felhasználót anélkül, hogy elrejtené a tartalmát.
+        hide: Elrejt
+        search_placeholder: e-mail cím vagy a felhasználó neve
+        title: Felhasználók letiltása
+      notice_block: A felhasználót letiltották. A felhasználó által írt összes tartalom el lett rejtve.
+      notice_hide: A felhasználó el lett rejtve. A felhasználó által készített tartalom továbbra is elérhető.

@@ -4,65 +4,65 @@ hu:
       title: Értékelés
     menu:
       title: Értékelés
-      budgets: Közösségi költségvetések
+      budgets: közösségi költségvetések
     budgets:
       index:
-        title: Közösségi költségvetések
+        title: közösségi költségvetések
         filters:
-          current: Megnyitás
-          finished: Befejezve
+          current: Nyitott
+          finished: Befejezett
         table_name: Név
         table_phase: Fázis
-        table_assigned_investments_valuation_open: Nyitott értékelésű beruházási projektek
-        table_actions: Intézkedések
-        evaluate: Értékelés
-        no_budgets: Nincs költségvetés.
+        table_assigned_investments_valuation_open: Az értékeléssel hozzárendelt beruházási projektek nyitva
+        table_actions: Akciók
+        evaluate: Értékelje
+        no_budgets: Nincsenek költségvetések
     budget_investments:
       index:
-        headings_filter_all: Valamennyi rovat
+        headings_filter_all: Minden címsor
         filters:
-          valuation_open: Megnyitás
+          valuation_open: Nyitott
           valuating: Értékelés alatt
-          valuation_finished: Értékelés befejezve
-        assigned_to: 'Címzett: %{valuator}'
+          valuation_finished: Értékelés befejeződött
+        assigned_to: 'Hozzárendelve: %{valuator}'
         title: Beruházási projektek
-        edit: A dokumentáció szerkesztése
-        table_id: Azonosító
+        edit: A dosszié szerkesztése
+        table_id: ID
         table_title: Cím
-        table_heading_name: Címsor
-        table_actions: Intézkedések
+        table_heading_name: Címsor neve
+        table_actions: Akciók
         no_investments: Nincsenek beruházási projektek.
       show:
         back: Vissza
         title: Beruházási projekt
-        info: Szerző info
-        by: 'Elküldte:'
-        sent: 'Elküldött:'
-        heading: Címsor
-        dossier: Gyógyszerész
-        edit_dossier: A dokumentáció szerkesztése
+        info: Szerző információ
+        by: Küldte
+        sent: Elküldve
+        heading: Cím
+        dossier: Dosszié
+        edit_dossier: A dosszié szerkesztése
         price_with_currency: Ár (%{currency})
-        price_first_year_with_currency: Az első év költsége (%{currency})
+        price_first_year_with_currency: Költség az első évben (%{currency})
         feasibility: Megvalósíthatóság
         feasible: Megvalósítható
-        unfeasible: Nem megvalósítható
-        undefined: Nem definiált
-        valuation_finished: Értékelés befejezve
-        duration: Időkör
-        responsibles: Felelősségek
-        assigned_admin: Címzett admin
-        assigned_valuators: Címzett értékbecslők
-        preview: Befektetési előrejelzés
+        unfeasible: Megvalósíthatatlan
+        undefined: Nincs meghatározva
+        valuation_finished: Értékelés befejeződött
+        duration: Időtartam
+        responsibles: Felelősök
+        assigned_admin: Hozzárendelt adminisztrátor
+        assigned_valuators: Kijelölt értékbecslő
+        preview: Befektetési előnézet
       edit:
-        dossier: Gyógyszerész
+        dossier: Dosszié
         price: Ár (%{currency})
-        price_first_year: Az első év költsége (%{currency}) <small>(választható, adatok nem nyilvánosak)</small>
+        price_first_year: Költség az első évben (%{currency}) <small> (opcionális, az adatok nem nyilvánosak)</small>
         feasibility: Megvalósíthatóság
-        valuation_finished_alert: Biztos vagy benne, hogy ezt a jelentést befejezettnek akarod jelölni? Ha megteszed, már
-          nem lehet módosítani.
-        not_feasible_alert: Egy e-mailt azonnal elküldünk a projekt szerzőjének a megvalósíthatatlanságról szóló jelentéssel.
-        save: Változások mentése
+        valuation_finished_alert: Biztosan készként kívánja megjelölni ezt a jelentést? Ha megteszed, akkor már nem lehet
+          módosítani.
+        not_feasible_alert: A megvalósíthatatlanságról szóló jelentést azonnal e-mailben küldjük a projekt szerzőjének.
+        save: Módosítások mentése
       notice:
-        valuate: Frissítve
-      valuation_comments: Értékelési észrevételek
-      not_in_valuating_phase: A beruházások csak akkor értékelhetők, ha a költségvetés értékelési szakaszban van
+        valuate: A dosszié frissítve
+      valuation_comments: Értékelési megjegyzések
+      not_in_valuating_phase: A befektetéseket csak akkor lehet értékelni, ha a költségvetés értékelési fázisban van

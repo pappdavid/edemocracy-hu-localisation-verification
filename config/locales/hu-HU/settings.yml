@@ -1,301 +1,308 @@
 hu:
   settings:
-    comments_body_max_length: Hozzászólások test max hossza
-    comments_body_max_length_description: A karakterek száma
+    comments_body_max_length: Megjegyzések test max hossz
+    comments_body_max_length_description: A karakterek számában
     official_level_1_name: 1. szintű köztisztviselő
-    official_level_1_name_description: Tag, amely megjelenik a felhasználók jelölt 1. szintű hivatalos pozíció
+    official_level_1_name_description: Címke, amely az 1. szintű hivatalos pozícióként megjelölt felhasználóknál fog megjelenni
     official_level_2_name: 2. szintű köztisztviselő
-    official_level_2_name_description: Tag, amely megjelenik a felhasználók jelölt szint 2 hivatalos pozíció
+    official_level_2_name_description: Címke, amely a 2. szintű hivatalos pozícióként megjelölt felhasználóknál fog megjelenni
     official_level_3_name: 3. szintű köztisztviselő
-    official_level_3_name_description: A 3. szintű hivatalos pozícióként megjelölt felhasználókon megjelenő elem
+    official_level_3_name_description: Címke, amely a 3. szintű hivatalos pozícióként megjelölt felhasználóknál fog megjelenni
     official_level_4_name: 4. szintű köztisztviselő
-    official_level_4_name_description: A 4. szintű hivatalos pozícióként megjelölt felhasználókon megjelenő elem
+    official_level_4_name_description: Címke, amely a 4. szintű hivatalos pozícióként megjelölt felhasználóknál fog megjelenni
     official_level_5_name: 5. szintű köztisztviselő
-    official_level_5_name_description: Tag, amely megjelenik a felhasználók jelölt szint 5 hivatalos pozíció
-    max_ratio_anon_votes_on_debates: Az anonim szavazatok maximális aránya véleményenként
-    max_ratio_anon_votes_on_debates_description: Névtelen szavazatok regisztrált felhasználók egy ellenőrizetlen fiók
-    max_votes_for_proposal_edit: Azon támogatások száma, amelyekből a javaslat már nem szerkeszthető
-    max_votes_for_proposal_edit_description: Ebből a számú támogatás a szerző a javaslat már nem szerkeszteni
+    official_level_5_name_description: Címke, amely az 5. szintű hivatalos pozícióként megjelölt felhasználóknál fog megjelenni
+    max_ratio_anon_votes_on_debates: Az anonim szavazatok maximális aránya vitánként
+    max_ratio_anon_votes_on_debates_description: Az anonim szavazatokat nem ellenőrzött fiókkal rendelkező regisztrált felhasználók
+      adják
+    max_votes_for_proposal_edit: Azon támogatások száma, amelyekből a Javaslat már nem szerkeszthető
+    max_votes_for_proposal_edit_description: Ettől a támogatási számtól a Javaslat szerzője már nem szerkesztheti azt
     max_votes_for_debate_edit: Azon szavazatok száma, amelyekből a vita már nem szerkeszthető
-    max_votes_for_debate_edit_description: Ebből a szavazatszámból a vita szerzője már nem szerkesztheti
-    proposal_code_prefix: Előtag a javaslathoz
-    proposal_code_prefix_description: Ez az előtag jelenik meg a Javaslatokban a létrehozás időpontja és azonosítója előtt
-    featured_proposals_number: A kiválasztott pályázatok száma
-    featured_proposals_number_description: A kiemelt javaslatok száma, amelyek akkor jelennek meg, ha a Kiemelt pályázatok
+    max_votes_for_debate_edit_description: Ettől a számú szavazattól a vita szerzője már nem szerkesztheti azt
+    proposal_code_prefix: Az ajánlati kódok előtagja
+    proposal_code_prefix_description: Ez az előtag a létrehozás dátuma és azonosítója előtt fog megjelenni az ajánlatokban
+    featured_proposals_number: Kiemelt javaslatok száma
+    featured_proposals_number_description: Azon kiemelt ajánlatok száma, amelyek akkor jelennek meg, ha a Kiemelt ajánlatok
       funkció aktív
-    votes_for_proposal_success: A javaslat jóváhagyásához szükséges támogatás száma
-    votes_for_proposal_success_description: Amikor egy javaslat eléri ezt a számú támogatást, nem lesz képes több támogatást
-      kapni, és azt sikeresnek tekintik
-    months_to_archive_proposals: Hónapok archívum Javaslatok
-    months_to_archive_proposals_description: E hónapok után a javaslatok archiválásra kerülnek, és többé nem kapnak támogatást.
-    email_domain_for_officials: Köztisztviselőkre vonatkozó e-mail domain
-    email_domain_for_officials_description: Az e domain-ben regisztrált összes felhasználó fiókját a regisztráció során ellenőrzik.
+    votes_for_proposal_success: A Javaslat jóváhagyásához szükséges támogatások száma
+    votes_for_proposal_success_description: Ha egy pályázat eléri ezt a támogatottságot, akkor már nem kaphat több támogatást,
+      és sikeresnek minősül
+    months_to_archive_proposals: Hónapok a javaslatok archiválására
+    months_to_archive_proposals_description: Ennyi hónap elteltével a Pályázatok archiválásra kerülnek, és a továbbiakban
+      nem kaphatnak támogatást
+    email_domain_for_officials: E-mail domain köztisztviselők számára
+    email_domain_for_officials_description: A domainhez regisztrált összes felhasználó fiókját a regisztrációkor ellenőrizni
+      fogják
     twitter_handle: Twitter fogantyú
-    twitter_handle_description: Ha kitöltik, megjelenik a láblécben.
+    twitter_handle_description: Ha kitöltötte, megjelenik a láblécben
+    twitter_hashtag: Twitter-hashtag
+    twitter_hashtag_description: Hashtag, amely akkor jelenik meg, amikor tartalmat oszt meg a Twitteren
+    facebook_handle: Facebook fogantyú
+    facebook_handle_description: Ha kitöltötte, megjelenik a láblécben
+    youtube_handle: Youtube fogantyú
+    youtube_handle_description: Ha kitöltötte, megjelenik a láblécben
+    telegram_handle: Távirat fogantyú
+    telegram_handle_description: Ha kitöltötte, megjelenik a láblécben
+    instagram_handle: Instagram fogantyú
+    instagram_handle_description: Ha kitöltötte, megjelenik a láblécben
+    org_name: Webhely neve
+    org_name_description: Ez a név megjelenik a levelek tárgyában, a súgóoldalakon...
+    related_content_score_threshold: Kapcsolódó tartalom pontszámának küszöbértéke
+    related_content_score_threshold_description: A kapcsolódó tartalom szavazatainak értékelése szerint elrejti a felhasználók
+      által nem kapcsolódóként megjelölt tartalmakat
+    hot_score_period_in_days: A „legaktívabb” szűrő által használt időszak (napokban)
+    hot_score_period_in_days_description: A több szakaszban használt „legaktívabb” szűrő az elmúlt X nap szavazatai alapján
+      történik
+    mailer_from_name: Feladó e-mail neve
+    mailer_from_name_description: Ez a név a feladó neveként jelenik meg az alkalmazásból küldött e-mailekben
+    mailer_from_address: Feladó e-mail címe
+    mailer_from_address_description: Ez az e-mail cím megjelenik az alkalmazásból küldött e-mailekben
+    meta_title: Webhely címe (SEO)
+    meta_title_description: A webhely címe <title>, a SEO fejlesztésére szolgál
+    meta_description: Webhely leírása (SEO)
+    meta_description_description: Webhely leírása <meta name="description">, a SEO javítására szolgál
+    meta_keywords: Kulcsszavak (SEO)
+    meta_keywords_description: A keresőoptimalizálás javítására használt kulcsszavak <meta name="keywords">
+    min_age_to_participate: A részvételhez szükséges minimális életkor
+    min_age_to_participate_description: Az ennél idősebb felhasználók részt vehetnek minden olyan folyamatban, ahol felhasználói
+      igazolt fiókra van szükség
+    postal_codes: Irányítószámok
+    postal_codes_description: 'Az érvényes irányítószámok vesszővel elválasztott listája; kettősponttal elválasztott tartományokat
+      is bevezethet. Példa: 00001:00010,00024,AB3 45FG,00031:00035 engedélyezi a 00001 és 00010 közötti irányítószámokat,
+      a 00024 irányítószámot, az AB3 45FG irányítószámot és a 00031 és 00031 közötti irányítószámokat üresen hagyja. érvényes
+      legyen.'
     proposals:
       successful_proposal_id: Sikeres javaslat
-      successful_proposal_id_description: Ez a javaslat szolgál hivatkozási alapként egy sikeres javaslathoz a támogatás számában,
-        és megjelenik a műszerfal grafikonján.
+      successful_proposal_id_description: Ez az ajánlat hivatkozási alapként szolgál egy sikeres pályázathoz a támogatások
+        számában, és megjelenik az irányítópult grafikonján.
       poll_short_title: Szavazások
-      poll_short_title_description: A felmérés rövid leírása. Lehetővé teszi a felhasználók számára, hogy felméréseket készítsenek
-        egy javaslatról
-      poll_description: A szavazatok leírása
-      poll_description_description: A felmérés jellemzőinek részletes leírása
-      poll_link: További információk
-      poll_link_description: További információs link hozzáadása a felmérési funkcióhoz
+      poll_short_title_description: A felmérés funkciójának rövid leírása. Lehetővé teszi a felhasználók számára, hogy felméréseket
+        készítsenek egy ajánlatról
+      poll_description: Szavazás leírása
+      poll_description_description: A felmérés funkciójának részletes leírása
+      poll_link: További információ link
+      poll_link_description: További információs hivatkozást ad a felmérés funkcióhoz
       email_short_title: E-mail
       email_short_title_description: Az e-mail funkció rövid leírása. Lehetővé teszi a felhasználók számára, hogy e-mailt
-        küldjenek javaslatuk népszerűsítésére. Az e-mail összes tartalma megtalálható a "/ app / nézettség / műszerfal / mailer
-        / forward.html.erb" -ban
-      email_description: E-mail leírás
+        küldjenek ajánlatuk népszerűsítésére. Az e-mail teljes tartalma a "/app/views/dashboard/mailer/forward.html.erb" címen
+        található.
+      email_description: Leírás e-mailben
       email_description_description: Az e-mail funkció részletes leírása
-      poster_short_title: Plakát
-      poster_short_title_description: Rövid leírása a plakát funkció. Lehetővé teszi a felhasználók számára, hogy letöltsenek
-        egy posztert PDF formátumban, hogy népszerűsítsék javaslatukat. A plakát összes tartalma megtalálható a "/ app / nézettség
-        / műszerfal / poszter / index.pdf.erb" -ban
-      poster_description: A plakátok leírása
+      poster_short_title: Poszter
+      poster_short_title_description: A poszter funkció rövid leírása. Lehetővé teszi a felhasználók számára, hogy PDF formátumban
+        posztert töltsenek le ajánlatuk népszerűsítésére. A poszter teljes tartalma megtalálható a "/app/views/dashboard/poster/index.pdf.erb"
+        címen.
+      poster_description: Plakát leírása
       poster_description_description: A plakát funkciójának részletes leírása
     analytics_url: Analitikai URL
-    proposal_notification_minimum_interval_in_days: Minimális időintervallum (napokban) az új javaslattételi értesítések megküldésére
-      irányuló pályázatok szerzőinek
-    proposal_notification_minimum_interval_in_days_description: A napok száma felhasználó küldhet értesítést minden követője
-      a javaslatot
-    direct_message_max_per_day: Közvetlen üzenet max. napi száma
-    direct_message_max_per_day_description: Az egy felhasználó által naponta küldhető közvetlen üzenetek maximuma
+    proposal_notification_minimum_interval_in_days: Minimális időköz (napokban), ameddig az ajánlatok szerzői új pályázati
+      értesítést küldhetnek
+    proposal_notification_minimum_interval_in_days_description: Az a napok száma, ameddig a felhasználó értesítést küldhet
+      ajánlata minden követőjének
+    direct_message_max_per_day: Közvetlen üzenetek maximális száma naponta
+    direct_message_max_per_day_description: Egy felhasználó által naponta elküldhető maximális közvetlen üzenetek száma
     feature:
       twitter_login: Twitter bejelentkezés
-      twitter_login_description: Lehetővé teszi a felhasználók számára, hogy feliratkozzanak Twitter fiókjukra
+      twitter_login_description: Lehetővé teszi a felhasználók számára, hogy regisztráljanak Twitter-fiókjukkal
       facebook_login: Facebook bejelentkezés
-      facebook_login_description: Lehetővé teszi a felhasználók számára, hogy feliratkozzanak a Facebook fiókjukra
+      facebook_login_description: Lehetővé teszi a felhasználók számára, hogy regisztráljanak Facebook-fiókjukkal
       google_login: Google bejelentkezés
-      google_login_description: Lehetővé teszi a felhasználók számára, hogy feliratkozzanak a Google Fiók
+      google_login_description: Engedélyezze a felhasználóknak, hogy regisztráljanak Google-fiókjukkal
       wordpress_login: Wordpress bejelentkezés
-      wordpress_login_description: Lehetővé teszi a felhasználók számára, hogy jelentkezzen a Wordpress Fiók
-      oidc_login: OpenID Csatlakozás bejelentkezés
-      remote_translations_description: Megjelenít egy gombot, amely lehetővé teszi a felhasználók számára, hogy fordítást
-        kérjenek, ha nincs tartalom a nyelvükön.
-      translation_interface: Fordítási felület
-      translation_interface_description: Megjeleníti a manuális fordítási felület, amely lehetővé teszi a felhasználók számára,
-        hogy adja meg a tartalmát minden alkalmazás rendelkezésre álló nyelven. Ez az opció csak a felhasználói igénylőlapokat
-        érinti, és függetlenül mindig aktív lesz az adagolópanelben.
-      remote_census: Kapcsolat beállítása távoli népszámláláshoz (SOAP)
-      remote_census_description: Lehetővé teszi az egyes intézmények távoli népszámlálásához való kapcsolat beállítását
-      valuation_comment_notification: Az értékelésről szóló értesítés
-      valuation_comment_notification_description: Küldjön e-mailt az összes kapcsolódó felhasználónak, kivéve a költségvetési
-        beruházásokhoz való értékelési kommentárt, amikor új értékelési megjegyzés jön létre
-      graphql_api: GrafQL API
-      dashboard:
-        notification_emails: A műszerfal értesítési levelei
-        notification_emails_description: A műszerfal értesítési üzeneteinek küldése a pályázat szerzőinek
-      remove_investments_supports: A költségvetési beruházások támogatásának megszüntetése
-      remove_investments_supports_description: Lehetővé teszi a felhasználók számára, hogy a projektek kiválasztásának szakaszában
-        eltávolítsák a részvételi költségvetésbe történő beruházásokkal kapcsolatos támogatást.
-      sdg: SDG
-      sdg_description: A fenntartható fejlesztési célok szakaszainak engedélyezése az adminisztrációs menüben és a globális
-        beállításokban.
-      cookies_consent: Sütik beleegyezése banner
-      cookies_consent_description: Engedélyezze a cookie-k hozzájárulását banner, hogy tájékoztassa a felhasználók a cookie-k
-        az alkalmazás használ.
-      gdpr:
-        require_consent_for_notifications: Az értesítések kifejezett jóváhagyása
-        require_consent_for_notifications_description: Az általános adatvédelmi rendelet (GDPR) által előírt hírlevelek és
-          hasonló információk elküldéséhez kifejezett felhasználói hozzájárulás szükséges.
-      oidc_login_description: Lehetővé teszi a felhasználók számára, hogy jelentkezzen OpenID Connect (OIDC)
-      saml_login: SAML-bejelentkezés
-      saml_login_description: Lehetővé teszi a felhasználók számára, hogy feliratkozzanak SAML
+      wordpress_login_description: Lehetővé teszi a felhasználók számára, hogy regisztráljanak Wordpress fiókjukkal
+      oidc_login: OpenID Connect bejelentkezés
+      oidc_login_description: A felhasználók regisztrálhatnak az OpenID Connect (OIDC) szolgáltatással
+      saml_login: SAML bejelentkezés
+      saml_login_description: Lehetővé teszi a felhasználók számára, hogy SAML-lel regisztráljanak
       featured_proposals: Kiemelt javaslatok
-      featured_proposals_description: Az indexjavaslatok oldalán szereplő javaslatok megjelenítése
-      signature_sheets: Aláírás
-      signature_sheets_description: Lehetővé teszi, hogy az adminisztrációs testület által a helyszínen gyűjtött aláírások
-        bekerüljenek a részt vevő költségvetések javaslataiba és beruházási projektjeibe
+      featured_proposals_description: Megjeleníti a kiemelt ajánlatokat az ajánlatok indexoldalán
+      signature_sheets: Aláíró lapok
+      signature_sheets_description: Lehetővé teszi az adminisztrációs panelről a helyszínen összegyűjtött aláírások hozzáadását
+        a közösségi költségvetések javaslataihoz és beruházási projektjeihez
       user:
         recommendations: Ajánlások
-        recommendations_description: A felhasználók ajánlásainak megjelenítése a honlapon az alábbi elemek címkéin
-        skip_verification: A felhasználó általi ellenőrzés kihagyása
-        skip_verification_description: Ez letiltja a felhasználói hitelesítést, és minden regisztrált felhasználó részt vehet
-          minden folyamatban.
-        recommendations_on_debates: A vitákra vonatkozó ajánlások
-        recommendations_on_debates_description: Ajánlások mutatása a felhasználók számára a vita oldalon alapján a címkék
-          a következő elemek
-        recommendations_on_proposals: Ajánlások a javaslatokra vonatkozóan
-        recommendations_on_proposals_description: Ajánlásokat mutat be a felhasználóknak a következő elemek címkéi alapján
-      community: Közösségi javaslatok és beruházások
-      community_description: Engedélyezi a közösségi részt a részvételi költségvetés javaslataiban és beruházási projektjeiben
+        recommendations_description: Felhasználói ajánlásokat jelenít meg a kezdőlapon a következő elemek címkéi alapján
+        skip_verification: A felhasználói ellenőrzés kihagyása
+        skip_verification_description: Ezzel letiltja a felhasználói ellenőrzést, és minden regisztrált felhasználó részt
+          vehet majd az összes folyamatban
+        recommendations_on_debates: Javaslatok a vitákhoz
+        recommendations_on_debates_description: Felhasználói ajánlásokat jelenít meg a felhasználóknak a vitaoldalon a követett
+          elemek címkéi alapján
+        recommendations_on_proposals: Javaslatok a javaslatokhoz
+        recommendations_on_proposals_description: Javaslatokat jelenít meg a felhasználók számára az ajánlatok oldalon a követett
+          elemek címkéi alapján
+      community: javaslatokról és beruházásokról
+      community_description: Engedélyezi a közösségi részt a közösségi költségvetések javaslataiban és beruházási projektjeiben
       machine_learning: AI / gépi tanulás
-      machine_learning_description: Engedélyezze az AI / Machine Learning részt a python szkriptek futtatásához és a tartalom
+      machine_learning_description: Engedélyezze az AI / Machine Learning szakaszt a python-szkriptek futtatásához és a tartalom
         automatikus gazdagításához.
-      map: Javaslatok és költségvetési beruházások földrajzi elhelyezkedése
-      map_description: A pályázatok és beruházási projektek földrajzi elhelyezkedésének lehetővé tétele
-      allow_images: Feltöltés és képek megjelenítése
+      map: Javaslatok és költségvetési beruházások földrajzi helymeghatározása
+      map_description: Lehetővé teszi a javaslatok és beruházási projektek földrajzi elhelyezkedését
+      allow_images: Képek feltöltésének és megjelenítésének engedélyezése
       allow_images_description: Lehetővé teszi a felhasználók számára, hogy képeket töltsenek fel, amikor javaslatokat és
-        beruházási projekteket hoznak létre a részvételi költségvetésből
-      allow_attached_documents: A csatolt dokumentumok feltöltésének és bemutatásának engedélyezése
-      allow_attached_documents_description: Lehetővé teszi a felhasználók számára, hogy dokumentumokat töltsenek fel, amikor
-        javaslatokat és beruházási projekteket hoznak létre a részvételi költségvetésből
-      guides: Javaslatok vagy beruházási projektek létrehozására vonatkozó útmutatók
-      guides_description: Útmutató megjelenítése a pályázatok és a beruházási projektek közötti különbségekről, amennyiben
-        aktív részvételi költségvetés áll rendelkezésre
+        beruházási projekteket hoznak létre a közösségi költségvetésből
+      allow_attached_documents: A csatolt dokumentumok feltöltésének és megjelenítésének engedélyezése
+      allow_attached_documents_description: Lehetővé teszi a felhasználók számára dokumentumok feltöltését, amikor javaslatokat
+        és beruházási projekteket hoznak létre a közösségi költségvetésből
+      guides: Útmutatók javaslatok vagy beruházási projektek létrehozásához
+      guides_description: Útmutatót jelenít meg az ajánlatok és a beruházási projektek közötti különbségekről, ha van aktív
+        közösségi költségvetés
       help_page: Súgó oldal
-      help_page_description: Megjelenít egy Súgó menü, amely tartalmaz egy oldalt egy info szakasz minden engedélyezett funkció.
-        Egyéni oldalak és menük is létrehozhatók a "Egyéni oldalak" és a "Egyéni tartalomblokkok" szekciókban
-      remote_translations: Távoli fordítás
+      help_page_description: Megjelenít egy Súgó menüt, amely egy oldalt tartalmaz az egyes engedélyezett funkciók információs
+        részével. Az „Egyéni oldalak” és az „Egyéni tartalomblokkok” részben egyéni oldalak és menük is létrehozhatók.
+      remote_translations: Távfordítás
+      remote_translations_description: Megjelenít egy gombot, amely lehetővé teszi a felhasználók számára, hogy fordítást
+        kérjenek, ha nincs tartalom az ő nyelvükön.
+      translation_interface: Fordító felület
+      translation_interface_description: Megjeleníti a kézi fordítási felületet, amely lehetővé teszi a felhasználók számára,
+        hogy az alkalmazásban elérhető összes nyelven beírják a tartalmat. Ez az opció csak a felhasználói jelentkezési űrlapokat
+        érinti, és ettől függetlenül mindig aktív lesz az adminisztrációs panelen.
+      remote_census: Távoli népszámlálási (SOAP) kapcsolat konfigurálása
+      remote_census_description: Lehetővé teszi az egyes intézmények távoli népszámlálásához való kapcsolat konfigurálását
+      valuation_comment_notification: Értékelési megjegyzés értesítés
+      valuation_comment_notification_description: Ha új értékelési megjegyzés jön létre, küldjön e-mailt az összes társított
+        felhasználónak, kivéve a költségvetési befektetéshez tartozó értékelési megjegyzést
+      graphql_api: GraphQL API
+      dashboard:
+        notification_emails: Az irányítópult értesítő e-mailjei
+        notification_emails_description: Engedélyezze az irányítópultról értesítő e-mailek küldését az ajánlat szerzőinek
+      remove_investments_supports: A költségvetési beruházások támogatásának megszüntetése
+      remove_investments_supports_description: Lehetővé teszi a felhasználóknak, hogy eltávolítsák a közösségi költségvetési
+        befektetések támogatását a projektek kiválasztásának szakaszában.
+      sdg: SDG
+      sdg_description: Engedélyezze a Fenntartható Fejlődési Célok szakaszokat az adminisztrációs menüben és a Globális beállításokban.
+      cookies_consent: Cookie-k beleegyezését banner
+      cookies_consent_description: Engedélyezze a cookie-khoz való hozzájárulást kérő szalaghirdetést, hogy tájékoztassa a
+        felhasználókat az alkalmazás által használt cookie-król.
+      gdpr:
+        require_consent_for_notifications: Kifejezett hozzájárulás az értesítésekhez
+        require_consent_for_notifications_description: A felhasználó kifejezett hozzájárulása szükséges ahhoz, hogy hírleveleket
+          és hasonló információkat küldhessen nekik az Általános Adatvédelmi Rendelet (GDPR) szerint.
     remote_census:
       general:
         endpoint: Végpont
-        endpoint_description: A törzsnév, ahol a népszámlálási szolgáltatás rendelkezésre áll (wsdl)
+        endpoint_description: Gazdanév, ahol a népszámlálási szolgáltatás elérhető (wsdl)
       request:
-        method_name: A módszernév kérése
-        method_name_description: A módszer nevét a City Census WebService elfogadta.
+        method_name: Kérje a metódus nevét
+        method_name_description: A Városszámlálási WebService által elfogadott kérési mód neve.
         structure: Kérelem szerkezete
-        structure_description: 'A Városi Tanács népszámlálási webszervéhez küldendő kérelem felépítése. A kérelem "statikus"
-          értékeit ki kell tölteni. A dokumentum típusához, a dokumentum számához, a születési és postai kódhoz kapcsolódó
-          értékeket nullára kell állítani. Példa egy érvényes formátumra: {"request": {"codigo _ institución": 1, "codigo
-          _ portal": 1, "codigo _ usuario": 1, "documento": null, "tipo _ documento": null, "codigo _ idioma": 102, "nivel":
-          3}'
-        document_type: A dokumentum típusa
-        document_type_description: A dokumentum típusát elküldő kérésstruktúra menete. NE FILL IN, ha a WebService nem írja
-          elő, hogy a dokumentum típusa ellenőrizze a felhasználó.
-        document_number: A dokumentum száma
-        document_number_description: A dokumentum számát elküldő kérésstruktúra menete. NE FILL IN, ha a WebService nem írja
-          elő, hogy a dokumentum szám ellenőrizze a felhasználó.
-        date_of_birth: Útvonal a születési időponthoz
-        date_of_birth_description: Útvonal a kérési struktúra, amely elküldi a születési dátum. NE FILL IN, ha a WebService
-          nem írja elő a születési dátumot, hogy ellenőrizze a felhasználó.
-        postal_code: A postai irányítószám útja
-        postal_code_description: Útvonal a megkeresési struktúrában, amely elküldi a postai kódot. NE FILL IN, ha a WebService
-          nem írja elő, hogy a postai kód ellenőrizze a felhasználó.
+        structure_description: 'A Városi Tanács Népszámlálási WebSzolgálatához benyújtandó kérelem felépítése. A kérés "statikus"
+          értékeit ki kell tölteni. A dokumentumtípushoz, a bizonylatszámhoz, a születési dátumhoz és az irányítószámhoz kapcsolódó
+          értékeknek nullának kell lenniük. Példa érvényes formátumra: { "request": { "codigo_institucion": 1, "codigo_portal":
+          1, "codigo_usuario": 1, "documento": null, "tipo_documento": null, "codigo_idioma": 102, "nivel" }: 3 }'
+        document_type: A dokumentumtípus elérési útja
+        document_type_description: Útvonal a kérelem struktúrájában, amely elküldi a dokumentumtípust. NE TÖLTSE KI, ha a
+          WebService nem kéri a Dokumentumtípust a felhasználó ellenőrzéséhez.
+        document_number: A dokumentumszám elérési útja
+        document_number_description: Útvonal a kérelem struktúrájában, amely elküldi a dokumentumszámot. NE TÖLTSE KI, ha
+          a WebService nem kéri a dokumentumszámot a felhasználó ellenőrzéséhez.
+        date_of_birth: Születési dátum elérési útja
+        date_of_birth_description: Útvonal a kérelem struktúrájában, amely elküldi a születési dátumot. NE TÖLTSE KI, ha a
+          WebService nem kéri a születési dátumot a felhasználó ellenőrzéséhez.
+        postal_code: Az irányítószám elérési útja
+        postal_code_description: Útvonal a kérésstruktúrában, amely elküldi az irányítószámot. NE TÖLTSE KI, ha a WebService
+          nem kéri az irányítószámot a felhasználó igazolásához.
       response:
-        date_of_birth: Útvonal a születési időponthoz
-        date_of_birth_description: A válasz melyik útvonalán van a felhasználó születési dátuma?
-        postal_code: A postai irányítószám útja
-        postal_code_description: A válasz melyik útvonalán van a felhasználó irányítószáma?
-        district: Körzeti útvonal
-        district_description: A válasz melyik útján van a felhasználó körzete?
-        gender: A nemek közötti egyenlőség útja
-        gender_description: Milyen módon reagál a felhasználó neme?
-        name: Név
-        name_description: A válasz melyik útján van a felhasználó neve?
+        date_of_birth: Születési dátum elérési útja
+        date_of_birth_description: A válasz melyik útvonalában található a felhasználó születési dátuma?
+        postal_code: Az irányítószám elérési útja
+        postal_code_description: A válasz melyik útvonalán található a felhasználó irányítószáma?
+        district: Út a kerülethez
+        district_description: Milyen úton halad a válaszadás során a felhasználó körzete?
+        gender: Útvonal a nemhez
+        gender_description: Milyen válaszútban van a felhasználó neme?
+        name: Útvonal a névhez
+        name_description: A válasz melyik útvonalán található a felhasználó neve?
         surname: A vezetéknév elérési útja
-        surname_description: Milyen irányban van a válasz a felhasználó vezetékneve?
-        valid: Az érvényes válasz észlelésének feltétele
-        valid_description: Milyen válaszútról kell tájékoztatni, hogy érvényes válasznak minősüljön, és a felhasználó ellenőrizte
-    twitter_hashtag: Twitter-címke
-    twitter_hashtag_description: Hashtag, hogy megjelenik, amikor megosztja a tartalmat a Twitteren
-    facebook_handle: Facebook fogantyú
-    facebook_handle_description: Ha kitöltik, megjelenik a láblécben.
-    youtube_handle: YouTube fogantyú
-    youtube_handle_description: Ha kitöltik, megjelenik a láblécben.
-    telegram_handle: Telegram fogantyú
-    telegram_handle_description: Ha kitöltik, megjelenik a láblécben.
-    instagram_handle: Instagram fogantyú
-    instagram_handle_description: Ha kitöltik, megjelenik a láblécben.
-    org_name: Webhely neve
-    org_name_description: Ez a név megjelenik a mailereken, a segédlapokon...
-    related_content_score_threshold: Kapcsolódó tartalom pontszám küszöbérték
-    related_content_score_threshold_description: A vonatkozó tartalmak szavazatok szerinti értékelése szerint, olyan tartalom
-      elrejtése, amelyet a felhasználók nem azonosítanak
-    hot_score_period_in_days: A "legaktívabb" szűrő által használt időszak (napok)
-    hot_score_period_in_days_description: A több szakaszban használt "legaktívabb" szűrő az X napok szavazatain alapul.
-    mailer_from_name: Feladó e-mail neve
-    mailer_from_name_description: Ez a név jelenik meg a feladó neve e-mailekben küldött alkalmazás
-    mailer_from_address: Feladó e- mail címe
-    mailer_from_address_description: Ez az e-mail cím jelenik meg az e-mail küldött alkalmazás
-    meta_title: Webhely címe (SEO)
-    meta_title_description: A helyszín címe <title>a SEO javítására használják
-    meta_description: A terület leírása (SEO)
-    meta_description_description: Webhely leírása <meta name="description">a SEO javítására használják
-    meta_keywords: Kulcsszavak (SEO)
-    meta_keywords_description: Kulcsszavak <meta name="keywords">a SEO javítására használják
-    min_age_to_participate: A részvételhez szükséges minimális életkor
-    min_age_to_participate_description: Ebben a korban a felhasználók minden olyan folyamatban részt vehetnek, ahol egy felhasználó
-      által ellenőrzött számlára van szükség.
-    postal_codes: Postai kódok
-    postal_codes_description: 'A comma- elválasztott listája érvényes postai kódok; akkor is be tartományok elválasztva a
-      vastagbél. Példa: 00001: 00010,00024, AB3 45FG, 00031: 00035 lehetővé teszi a 00001 és 00010 közötti postai kódokat,
-      a 00024-es postai kódot, az AB3 45FG irányítószámot, valamint a 00031 és 00035 közötti postai kódokat. Ha üresen hagyod,
-      minden postai kód érvényes lesz.'
+        surname_description: A válasz melyik útvonalán található a felhasználó vezetékneve?
+        valid: Érvényes válasz észlelésének feltétele
+        valid_description: Milyen válaszútvonalat kell megadni ahhoz, hogy az érvényes válasznak minősüljön, és a felhasználó
+          ellenőriztesse
     map:
       feature:
-        marker_clustering: Jelölőcsoportosítás
-        marker_clustering_description: Engedélyezi a térképek klaszterezését. Hasznos, ha sok jelölőt kell mutatni.
-      latitude: Földrajzi szélesség
-      latitude_description: A térkép helyzetének megjelenítése
-      longitude: Földrajzi hosszúság
-      longitude_description: A térkép helyzetének megjelenítése
-      zoom: Nagyítás
-      zoom_description: A térkép pozíciójának megjelenítése
+        marker_clustering: Marker klaszterezés
+        marker_clustering_description: Lehetővé teszi a térképjelzők csoportosítását. Hasznos, ha sok jelölőt kell megjeleníteni.
+      latitude: Szélesség
+      latitude_description: Szélesség a térkép pozíciójának megjelenítéséhez
+      longitude: Hosszúság
+      longitude_description: Hosszúság a térkép helyzetének megjelenítéséhez
+      zoom: Zoomolás
+      zoom_description: Nagyítás a térkép pozíciójának megjelenítéséhez
     process:
       debates: Viták
-      debates_description: A polgárok vitatere mindenkit megcéloz, aki olyan kérdéseket tud előterjeszteni, amelyek őket érintik,
-        és amelyekről másokkal is meg akarják osztani nézeteiket.
+      debates_description: A polgári vitatér mindenkit megcéloz, aki olyan témákat tud felmutatni, amelyek foglalkoztatják,
+        és meg akarják osztani véleményüket másokkal
       proposals: Javaslatok
-      proposals_description: A polgárok javaslatai lehetőséget kínálnak a szomszédoknak és a kollektíváknak arra, hogy közvetlenül
-        döntsenek arról, hogyan kívánják társadalmukat, miután megfelelő támogatást kaptak, és a polgárok szavazatához folyamodtak.
+      proposals_description: A polgárok javaslatai lehetőséget adnak a szomszédok és a kollektívák számára, hogy közvetlenül
+        eldöntsék, milyennek akarják a társadalmukat, miután elegendő támogatást kaptak és alávetik magukat a polgárok szavazatának.
       polls: Szavazások
-      polls_description: A polgárok közvélemény-kutatása olyan részvételi mechanizmus, amellyel a szavazati joggal rendelkező
+      polls_description: A polgári szavazások olyan részvételi mechanizmusok, amelyek révén a szavazati joggal rendelkező
         polgárok közvetlen döntéseket hozhatnak
-      budgets: Közösségi költségvetés
-      budgets_description: A részvételi költségvetéssel a polgárok döntik el, hogy a szomszédjaik által benyújtott projektek
-        mely részét kapják meg a költségvetésnek
-      legislation: Együttműködési jogszabályok
+      budgets: közösségi költségvetés
+      budgets_description: A közösségi költségvetéssel a polgárok döntik el, hogy a szomszédaik által benyújtott projektek
+        közül melyik kapja meg a költségvetés egy részét
+      legislation: Együttműködő jogalkotás
       legislation_description: A részvételi folyamatokban a polgárok lehetőséget kapnak arra, hogy részt vegyenek a társadalmat
-        érintő szabályozások kidolgozásában és módosításában, és véleményt nyilvánítsanak a tervezett egyes intézkedésekről.
-    sdg:
-      process:
-        polls: Kapcsolódó fenntartható fejlesztési célok a felmérések során
-        polls_description: A közvélemény-kutatások összekapcsolása a fenntartható fejlesztési célokkal
-        budgets: Kapcsolódó fenntartható fejlesztési célok a részleges költségvetésekben
-        budgets_description: Lehetővé kell tenni a részvételi költségvetések összekapcsolását a fenntartható fejlesztési célokkal
-        legislation: Kapcsolódó fenntartható fejlesztési célok az együttműködési jogszabályokban
-        legislation_description: Lehetővé kell tenni az együttműködési jogszabályok összekapcsolását a fenntartható fejlesztési
-          célokkal
-        debates: Kapcsolódó fenntartható fejlesztési célok a viták során
-        debates_description: A viták összekapcsolása a fenntartható fejlesztési célokkal
-        proposals: A kapcsolódó fenntartható fejlesztési célok a javaslatokban
-        proposals_description: A javaslatok összekapcsolása a fenntartható fejlesztési célokkal
-    cookies_consent:
-      more_info_link: A sütikre vonatkozó politika linkje
-      more_info_link_description: Link látható a hozzájárulás banner a cookie politika oldalon.
-      version_name: Verzió neve
-      version_name_description: Változtassa meg a verziónevet, hogy rákényszerítse az összes felhasználót, hogy újra végigmenjen
-        a cookie hozzájárulási eljáráson. Ez a funkció hasznos lehet, amikor drasztikus cookie-politikai változtatásokat vezet
-        be, amelyek új felhasználói elismerést igényelnek.
-    llm:
-      title: LLM beállítások
-      provider: LLM-szolgáltató
-      provider_description: A szolgáltatók mindaddig ki lesznek tiltva, amíg a megbízólevelek be nem kerülnek a titkokba.
-      use_llm_for_translations: Tartalomfordítás
-      use_llm_for_translations_description: Használd az LLM-et tartalmi fordításokhoz, és elsőbbséget élvezz a Microsoft fordítási
-        szolgáltatásaival szemben.
-      model: Minta
-      model_description: Az LLM modell.
-      use_ai_image_suggestions: A képre vonatkozó javaslatok
-      use_ai_image_suggestions_description: Lehetővé teszi a felhasználók számára, hogy az MI-t a Pexels képeinek feltöltése
-        helyett használják.
+        érintő szabályozások kidolgozásában, módosításában, véleményt nyilvánítsanak egyes tervezett intézkedésekről.
     html:
-      per_page_code_head: Minden oldalon feltüntetendő kód (<head>)
-      per_page_code_head_description: Ez a kód megjelenik belül a <head> címke. Hasznos az egyedi forgatókönyvek, analitika...
-      per_page_code_body: Minden oldalon feltüntetendő kód (<body>)
-      per_page_code_body_description: Ez a kód megjelenik belül a <body> címke. Hasznos az egyedi forgatókönyvek, analitika...
+      per_page_code_head: Minden oldalon fel kell tüntetni a kódot (<head>)
+      per_page_code_head_description: Ez a kód az <head> címkén belül fog megjelenni. Hasznos egyéni szkriptek beviteléhez,
+        elemzésekhez...
+      per_page_code_body: Minden oldalon fel kell tüntetni a kódot (<body>)
+      per_page_code_body_description: Ez a kód az <body> címkén belül fog megjelenni. Hasznos egyéni szkriptek beviteléhez,
+        elemzésekhez...
     uploads:
       images:
-        min_width: A kép legkisebb szélessége
+        min_width: A kép minimális szélessége
         min_width_description: A feltöltött kép minimális szélessége (pixelben)
-        min_height: A kép legkisebb magassága
-        min_height_description: A feltöltött kép legkisebb magassága (pixelben)
-        max_size: A kép maximális mérete
-        max_size_description: Feltöltött kép maximális mérete (Megabytes / MB-ben)
-        content_types: Elfogadott tartalomtípusok képekhez
+        min_height: A kép minimális magassága
+        min_height_description: A feltöltött kép minimális megengedett magassága (pixelben)
+        max_size: Kép maximális mérete
+        max_size_description: A feltöltött kép maximális mérete (megabájt/MB-ban)
+        content_types: Elfogadott tartalomtípusok a képekhez
         content_types_description: Válassza ki a feltöltött képekhez engedélyezett összes tartalomtípust
         title:
-          min_length: A kép címe minimális hossza
+          min_length: A kép címének minimális hossza
           min_length_description: A felhasználó által a kép feltöltésekor megadott cím (alt HTML attribútumként használva)
-          max_length: A kép címe maximális hossza
+          max_length: A kép címének maximális hossza
           max_length_description: A felhasználó által a kép feltöltésekor megadott cím (alt HTML attribútumként használva)
       documents:
-        max_amount: A dokumentumok maximális száma
-        max_amount_description: A javaslathoz csatolható dokumentumok maximális száma, beruházás...
+        max_amount: Dokumentumok maximális száma
+        max_amount_description: Javaslathoz, beruházáshoz csatolható dokumentumok maximális száma...
         max_size: A dokumentum maximális mérete
-        max_size_description: Feltöltött dokumentum maximális mérete (Megabytes / MB-ben)
-        content_types: A dokumentumok elfogadott tartalomtípusai
+        max_size_description: A feltöltött dokumentum maximális mérete (megabájt/MB-ban)
+        content_types: A dokumentumokhoz elfogadott tartalomtípusok
         content_types_description: Válassza ki a feltöltött dokumentumokhoz engedélyezett összes tartalomtípust
+    sdg:
+      process:
+        debates: Kapcsolódó SDG a vitákban
+        debates_description: Engedélyezze a viták összekapcsolását a Fenntartható Fejlődési Célokkal
+        proposals: Kapcsolódó SDG a javaslatokban
+        proposals_description: Engedélyezze a javaslatok Fenntartható Fejlődési Célokhoz kapcsolódását
+        polls: Kapcsolódó SDG a szavazásokban
+        polls_description: Engedélyezze a szavazások összekapcsolását a Fenntartható Fejlődési Célokkal
+        budgets: Kapcsolódó SDG a közösségi költségvetésekben
+        budgets_description: Engedélyezze a közösségi költségvetések fenntartható fejlődési célokkal való összekapcsolását
+        legislation: Kapcsolódó SDG az együttműködési jogalkotásban
+        legislation_description: Engedélyezze, hogy az együttműködésen alapuló jogszabályok kapcsolódjanak a fenntartható
+          fejlődési célokhoz
+    cookies_consent:
+      more_info_link: Link a cookie-kra vonatkozó szabályzathoz
+      more_info_link_description: A hozzájárulási szalaghirdetésben látható link a cookie-kra vonatkozó szabályzat oldalára.
+      version_name: Verzió neve
+      version_name_description: Módosítsa a verzió nevét, hogy az összes felhasználót ismét át kelljen mennie a cookie-k beleegyezési
+        folyamatán. Ez a funkció hasznos lehet, ha olyan drasztikus változtatásokat vezet be a cookie-kra vonatkozó szabályzatban,
+        amelyek új felhasználói jóváhagyást igényelnek.
+    llm:
+      title: LLM beállítások
+      provider: LLM szolgáltató
+      provider_description: A szolgáltatók mindaddig le lesznek tiltva, amíg a hitelesítési adatokat nem konfigurálják a secrets.yml
+        fájlban.
+      use_llm_for_translations: Tartalom fordítása
+      use_llm_for_translations_description: Használja az LLM-et a tartalomfordításokhoz, és élvezze az elsőbbséget a Microsoft
+        fordítói szolgáltatásaival szemben.
+      model: Modell
+      model_description: A használható LLM modell.
+      use_ai_image_suggestions: AI képjavaslatok
+      use_ai_image_suggestions_description: Engedélyezze a felhasználóknak, hogy a sajátjuk feltöltése helyett a mesterséges
+        intelligencia segítségével javasoljanak képeket a Pexelsről.

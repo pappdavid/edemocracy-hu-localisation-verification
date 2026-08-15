@@ -2,37 +2,37 @@ hu:
   legislation:
     annotations:
       comments:
-        see_all: Lásd az összes
-        see_complete: Teljes
+        see_all: Az összes megtekintése
+        see_complete: Lásd teljes
         replies_count:
           one: '%{count} válasz'
-          other: '%{count} válaszok'
-        cancel: Törlés
-        publish_comment: Megjegyzés
+          other: '%{count} válaszol'
+        cancel: Mégsem
+        publish_comment: Megjegyzés közzététele
       form:
-        phase_not_open: Ez a szakasz még nincs nyitva.
+        phase_not_open: Ez a fázis nem nyitott
       index:
         title: Megjegyzések
-        comments_about: Megjegyzések
-        see_in_context: Lásd az összefüggésben
+        comments_about: Hozzászólások kb
+        see_in_context: Lásd összefüggésben
       show:
         title: Megjegyzés
       version_chooser:
-        seeing_version: Fordítás
+        seeing_version: Megjegyzések a verzióhoz
         see_text: Lásd a szövegtervezetet
     draft_versions:
       changes:
         title: Változások
-        seeing_changelog_version: Felülvizsgálati módosítások összefoglalása
+        seeing_changelog_version: Változásmódosítások összefoglalója
         see_text: Lásd a szövegtervezetet
       show:
-        loading_comments: Hozzászólások betöltése
-        seeing_version: A vázlatot látod.
-        select_draft_version: A vázlat kiválasztása
+        loading_comments: Megjegyzések betöltése
+        seeing_version: Piszkozat verziót lát
+        select_draft_version: Válassza ki a piszkozatot
         select_version_submit: lásd
         updated_at: 'frissítve: %{date}'
-        see_changes: lásd a változások összefoglalását
-        see_comments: Lásd az összes megjegyzést
+        see_changes: lásd a változások összefoglalóját
+        see_comments: Az összes megjegyzés megtekintése
         text_toc: Tartalomjegyzék
         text_body: Szöveg
         text_comments: Megjegyzések
@@ -40,96 +40,96 @@ hu:
       header:
         additional_info: További információk
         description: Leírás
-        more_info: További információk és háttér
+        more_info: További információ és kontextus
       proposals:
-        empty_proposals: Nincsenek javaslatok.
+        empty_proposals: Nincsenek javaslatok
         filters:
-          random: Véletlenszerű
+          random: Véletlen
           winners: Kiválasztott
       debate:
-        empty_questions: Nincs kérdés.
+        empty_questions: Nincsenek kérdések
       index:
         filter: Szűrő
         filters:
-          open: Nyílt eljárások
-          past: Előző
-        no_open_processes: Nincsenek nyílt folyamatok.
-        no_past_processes: Nincsenek korábbi folyamatok.
+          open: Nyitott folyamatok
+          past: Elmúlt
+        no_open_processes: Nincsenek nyitott folyamatok
+        no_past_processes: Nincsenek múltbeli folyamatok
         section_header:
-          icon_alt: Együttműködő jogi ikon
-          title: Együttműködés
-          help: Segítségnyújtás az együttműködésen alapuló jogalkotásban
+          icon_alt: Együttműködési jogszabályok ikonra
+          title: Együttműködési jogszabályok
+          help: Segítség az együttműködésen alapuló törvényhozásban
         section_footer:
-          title: Segítségnyújtás az együttműködésen alapuló jogalkotásban
-          description: Az új rendeletek vagy stratégiák jóváhagyását megelőzően vegyenek részt a vitákban és folyamatokban.
-            Megfontoljuk a véleményét.
+          title: Segítség az együttműködésen alapuló törvényhozásban
+          description: Vegyen részt az új szabályozások vagy stratégiák jóváhagyását megelőző vitákban és folyamatokban. Az
+            Ön véleményét figyelembe vesszük.
       phase_not_open:
-        not_open: Ez a szakasz még nem nyitott.
+        not_open: Ez a fázis még nem nyitott
       phase_empty:
-        empty: Még nem jelent meg.
+        empty: Még semmi sem jelent meg
       process:
-        see_latest_comments: Lásd a legfrissebb észrevételeket.
-        see_latest_comments_title: Megjegyzés erről a folyamatról
+        see_latest_comments: Lásd a legújabb megjegyzéseket
+        see_latest_comments_title: Írjon megjegyzést ehhez a folyamathoz
       shared:
         key_dates: Részvételi szakaszok
-        homepage: Honlap
+        homepage: Kezdőlap
         debate_dates: Vita
         draft_publication_date: Kiadványtervezet
         allegations_dates: Megjegyzések
-        result_publication_date: Végleges eredmény közzététel
+        result_publication_date: A végeredmény publikálása
         milestones_date: Következő
         proposals_dates: Javaslatok
     questions:
       comments:
-        comment_button: Kiadói válasz
-        comments_title: Válaszok megnyitása
+        comment_button: Válasz közzététele
+        comments_title: Nyitott válaszok
         comments_closed: Zárt fázis
         form:
-          leave_comment: Hagyd meg a válaszod.
+          leave_comment: Hagyja a választ
       question:
         debate: Vita
       show:
-        answer_question: Válasz benyújtása
+        answer_question: Válasz elküldése
         next_question: Következő kérdés
         first_question: Első kérdés
-        share: Megosztás
-        title: Együttható jogalkotási eljárás
+        share: Részesedés
+        title: Együttműködő jogalkotási folyamat
       participation:
-        phase_not_open: Ez a szakasz még nincs nyitva.
-        organizations: A vitában nem vehetnek részt szervezetek
-        unauthenticated: Muszáj. %{signin} vagy %{signup} részt venni.
+        phase_not_open: Ez a fázis nem nyitott
+        organizations: Szervezetek nem vehetnek részt a vitában
+        unauthenticated: A részvételhez %{signin} vagy %{signup} szükséges.
         verified_only: Csak ellenőrzött felhasználók vehetnek részt, %{verify_account}.
-        debate_phase_not_open: A vita befejeződött, és a válaszokat már nem fogadják el.
-    summary:
-      top_comments:
-        one: '%{count} megjegyzés'
-        other: Főbb megjegyzések
-        zero: Nincs hozzászólás
-      most_voted_comments: A legtöbb szavazott megjegyzés
-      no_allegation: Nincs megjegyzés.
-      process_empty: Ennek a folyamatnak nem voltak részvételi fázisai.
-      title: Összefoglaló
-      votes:
-        zero: '%{count} szavazatok'
-        one: '%{count} szavazás'
-        other: '%{count} szavazatok'
-      debate_phase: Vitaszakasz
-      proposals_phase: Javaslatok
-      allegations_phase: Hozzászólási szakasz
-      debates:
-        zero: Nincs vita
-        one: '%{count} vita'
-        other: '%{count} viták'
-      proposals:
-        zero: Nincs javaslat
-        one: '%{count} javaslat'
-        other: '%{count} javaslatok'
-      download: Összefoglaló letöltése
+        debate_phase_not_open: A vitafázis véget ért, és a válaszokat már nem fogadják el
     shared:
-      share: Megosztás
-      share_comment: Megjegyzés %{version_name} a folyamattervezetből %{process_name}
+      share: Részesedés
+      share_comment: Megjegyzés az %{version_name}-hez az %{process_name} folyamattervezetből
     proposals:
       form:
         tags_label: Kategóriák
-      not_verified: Szavazati javaslatok %{verify_account}.
-      process_title: Együttható jogalkotási eljárás
+      not_verified: Szavazási javaslatokhoz %{verify_account}.
+      process_title: Együttműködő jogalkotási folyamat
+    summary:
+      title: Összegzés
+      votes:
+        zero: '%{count} szavazatok'
+        one: '%{count} szavazat'
+        other: '%{count} szavazatok'
+      debate_phase: Vita fázis
+      proposals_phase: Javaslatok szakasza
+      allegations_phase: Megjegyzések szakasz
+      debates:
+        zero: Nincsenek viták
+        one: '%{count} vita'
+        other: '%{count} viták'
+      proposals:
+        zero: Nincsenek javaslatok
+        one: '%{count} javaslat'
+        other: '%{count} javaslatok'
+      download: Összefoglaló letöltése
+      top_comments:
+        zero: Nincs hozzászólás
+        one: '%{count} megjegyzés'
+        other: Legjobb megjegyzések
+      most_voted_comments: A legtöbb szavazatot kapott hozzászólás
+      no_allegation: Nincsenek megjegyzések
+      process_empty: Ennek a folyamatnak nem volt részvételi fázisa

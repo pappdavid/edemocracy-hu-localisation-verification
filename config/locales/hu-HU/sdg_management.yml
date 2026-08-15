@@ -5,46 +5,46 @@ hu:
     header:
       title: SDG tartalom
     homepage:
-      title: Homepage konfiguráció
+      title: Kezdőlap konfigurációja
       header:
         create: Fejléc létrehozása
-        no_cards: Nincs fejléc.
+        no_cards: Nincs fejléc
         title: Fejléc
-      create_card: Létrehozás %{phase} kártya
-      no_cards: Ehhez a fázishoz nincs kártya.
+      create_card: Hozzon létre %{phase} kártyát
+      no_cards: Ehhez a fázishoz nincs kártya
     menu:
-      budget_investments: Közösségi költségvetések
+      budget_investments: közösségi költségvetések
       debates: Viták
-      legislation_processes: Jogi eljárások
+      legislation_processes: Jogalkotási folyamatok
       legislation_proposals: Jogalkotási javaslatok
       polls: Szavazások
       proposals: Javaslatok
-      sdg_content: Célok és célkitűzések
-      sdg_homepage: SDG honlapja
+      sdg_content: Célok és célok
+      sdg_homepage: SDG honlap
     local_targets:
       create:
-        notice: A helyi cél sikeresen létrehozva
+        notice: Helyi cél sikeresen létrehozva
       destroy:
-        notice: A helyi célpontot sikeresen törölték
+        notice: Helyi cél sikeresen törölve
       edit:
         title: Helyi cél szerkesztése
       form:
-        code: A kódnak a kijelölt célkóddal kell kezdődnie, amit egy pont követ
-        description: Ez a leírás a felhasználóknak nyújtott segítségként jelenik meg.
+        code: A kódnak a kiválasztott célkóddal kell kezdődnie, amelyet egy pont követ
+        description: Ez a leírás segítségként jelenik meg a felhasználók számára.
       index:
         new: Helyi cél létrehozása
       new:
         title: Új helyi cél
       update:
-        notice: A helyi célpont sikeresen frissítve
+        notice: A helyi cél sikeresen frissítve
     relations:
       index:
         filter: Szűrő
         filters:
-          all: Valamennyi
-          pending_sdg_review: Függőben
-          sdg_reviewed: Felülvizsgálva
+          all: Minden
+          pending_sdg_review: Függőben levő
+          sdg_reviewed: Ellenőrzöttként megjelölve
       update:
         notice: '%{relatable} sikeresen frissítve'
       update_and_review:
-        notice: '%{relatable} sikeresen frissítve és felülvizsgálva'
+        notice: Az %{relatable} frissítése sikeresen megtörtént, és áttekintettként lett megjelölve

@@ -1,26 +1,27 @@
 hu:
   images:
-    remove_image: Képek eltávolítása
+    remove_image: Kép eltávolítása
     form:
       title: Leíró kép
-      delete_button: Képek eltávolítása
-      note: 'Feltölthetsz egy képet a következő tartalomtípusokról: %{accepted_content_types}, egészen %{max_file_size} MB.'
-      add_new_image: Képek hozzáadása
+      delete_button: Kép eltávolítása
+      note: 'A következő tartalomtípusokból tölthet fel egy képet: %{accepted_content_types}, legfeljebb %{max_file_size}
+        MB.'
+      add_new_image: Kép hozzáadása
       or_separator: vagy
-      suggest_image_with_ai: Javasoljon képet MI-vel
+      suggest_image_with_ai: Javasoljon egy képet AI-val
       suggested_images_container: Javasolt képek
-      attach_suggested_image: A javasolt kép csatolása
-      attach_suggested_image_aria_label: A javasolt kép csatolása %{index} II. %{count}
-      pick_an_image: 'Válasszon ki egy képet az alábbi javaslatokból:'
-      no_images_found: Nem volt javaslat.
+      attach_suggested_image: Javasolt kép csatolása
+      attach_suggested_image_aria_label: Mellékelje az %{count} képét %{index}
+      pick_an_image: 'Válasszon egy képet az alábbi javaslatok közül:'
+      no_images_found: Nem találhatók javaslatok.
       suggested_image_filename: 'Kép: %{author_name}.jpg'
     actions:
       destroy:
-        notice: A képet sikeresen törölték.
-        alert: Nem sikerült törölni a képet.
+        notice: A kép sikeresen törölve.
+        alert: A kép nem törölhető.
     errors:
       messages:
-        title_and_description_required: Hogy képeket javasoljon, először írjon egy címet és leírást.
-        llm_not_configured: Az LLM nincs megfelelően beállítva. Kérjük, lépjen kapcsolatba az adminisztrátorral.
-        in_between: között kell lennie %{min} és %{max}
-        wrong_content_type: tartalomtípus %{content_type} nem felel meg egyik elfogadott tartalomtípusnak sem %{accepted_content_types}
+        title_and_description_required: Ha képeket szeretne javasolni, először írjon egy címet és leírást.
+        llm_not_configured: Az LLM nincs megfelelően konfigurálva. Kérjük, forduljon egy rendszergazdához.
+        in_between: '%{min} és %{max} között kell lennie'
+        wrong_content_type: az %{content_type} tartalomtípus nem egyezik az elfogadott tartalomtípusok egyikével sem %{accepted_content_types}

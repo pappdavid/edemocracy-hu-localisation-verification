@@ -3,7 +3,7 @@
     "english_leaves": 4629,
     "hungarian_leaves": 4630,
     "missing": 0,
-    "untranslated": 57
+    "untranslated": 80
   },
   "files": [
     {
@@ -18,9 +18,7 @@
       "english_leaves": 445,
       "hungarian_leaves": 445,
       "missing_keys": [],
-      "untranslated_identical_values": [
-        "activerecord.models.milestone/status.one"
-      ]
+      "untranslated_identical_values": []
     },
     {
       "file": "admin.yml",
@@ -28,9 +26,19 @@
       "hungarian_leaves": 1369,
       "missing_keys": [],
       "untranslated_identical_values": [
+        "admin.actions.label",
+        "admin.audits.id",
+        "admin.budget_investments.index.list.id",
         "admin.budgets.index.table_phase_progress",
+        "admin.comments.index.id",
+        "admin.debates.index.id",
         "admin.legislation.proposals.index.id",
-        "admin.site_customization.images.index.dimensions"
+        "admin.milestones.index.table_id",
+        "admin.progress_bars.index.table_id",
+        "admin.proposals.index.id",
+        "admin.proposals.index.list.id",
+        "admin.site_customization.images.index.dimensions",
+        "admin.users.columns.id"
       ]
     },
     {
@@ -83,9 +91,10 @@
         "layouts.footer.copyright",
         "layouts.footer.open_source_url",
         "omniauth.oidc.name",
+        "omniauth.saml.name",
         "omniauth.wordpress_oauth2.name",
-        "polls.show.stats.web",
         "related_content.placeholder",
+        "shared.actions.label",
         "social.facebook",
         "social.instagram",
         "social.telegram",
@@ -180,22 +189,32 @@
       "hungarian_leaves": 153,
       "missing_keys": [],
       "untranslated_identical_values": [
-        "date.abbr_month_names[12]",
+        "date.abbr_month_names[1]",
         "date.formats.default",
+        "date.formats.long",
+        "date.formats.short",
         "date.month_names[11]",
         "date.month_names[12]",
+        "errors.format",
         "number.currency.format.delimiter",
         "number.currency.format.format",
         "number.currency.format.separator",
         "number.currency.format.unit",
         "number.format.delimiter",
         "number.format.separator",
+        "number.human.decimal_units.format",
+        "number.human.storage_units.format",
         "number.human.storage_units.units.gb",
         "number.human.storage_units.units.kb",
         "number.human.storage_units.units.mb",
-        "number.human.storage_units.units.tb",
         "number.percentage.format.format",
-        "support.array.words_connector"
+        "support.array.words_connector",
+        "time.formats.api",
+        "time.formats.datetime",
+        "time.formats.default",
+        "time.formats.long",
+        "time.formats.short",
+        "time.formats.short_datetime"
       ]
     },
     {
@@ -233,14 +252,18 @@
       "english_leaves": 67,
       "hungarian_leaves": 67,
       "missing_keys": [],
-      "untranslated_identical_values": []
+      "untranslated_identical_values": [
+        "seeds.budgets.currency"
+      ]
     },
     {
       "file": "settings.yml",
       "english_leaves": 229,
       "hungarian_leaves": 229,
       "missing_keys": [],
-      "untranslated_identical_values": []
+      "untranslated_identical_values": [
+        "settings.feature.graphql_api"
+      ]
     },
     {
       "file": "social_share_button.yml",
@@ -249,11 +272,12 @@
       "missing_keys": [],
       "untranslated_identical_values": [
         "social_share_button.baidu",
+        "social_share_button.douban",
         "social_share_button.kaixin001",
         "social_share_button.pinterest",
         "social_share_button.plurk",
         "social_share_button.qq",
-        "social_share_button.telegram",
+        "social_share_button.renren",
         "social_share_button.tqq",
         "social_share_button.tumblr",
         "social_share_button.weibo",
@@ -265,16 +289,16 @@
       "english_leaves": 37,
       "hungarian_leaves": 37,
       "missing_keys": [],
-      "untranslated_identical_values": [
-        "stats.polls.web_percentage"
-      ]
+      "untranslated_identical_values": []
     },
     {
       "file": "valuation.yml",
       "english_leaves": 54,
       "hungarian_leaves": 54,
       "missing_keys": [],
-      "untranslated_identical_values": []
+      "untranslated_identical_values": [
+        "valuation.budget_investments.index.table_id"
+      ]
     },
     {
       "file": "verification.yml",
