@@ -1,1 +1,98 @@
 hu:
+  moderation:
+    actions:
+      confirm_action: Biztos? %{action}
+    comments:
+      index:
+        block_authors: Block szerzők
+        filter: Szűrő
+        filters:
+          all: Valamennyi
+          pending_flag_review: Függőben
+          with_ignored_flag: Megjelölt
+        hide: Hozzászólások elrejtése
+        ignore_flags: A megtekintés szerinti jelölés
+        orders:
+          flags: A legtöbb megjelölés
+          newest: Legújabb
+        title: Megjegyzések
+    dashboard:
+      index:
+        title: Mérsékelt
+    debates:
+      index:
+        block_authors: Block szerzők
+        filter: Szűrő
+        filters:
+          all: Valamennyi
+          pending_flag_review: Függőben
+          with_ignored_flag: Megjelölt
+        hide: A viták elrejtése
+        ignore_flags: A megtekintés szerinti jelölés
+        orders:
+          created_at: Legújabb
+          flags: A legtöbb megjelölés
+        title: Viták
+    header:
+      title: Mérsékelt
+    menu:
+      flagged_comments: Megjegyzések
+      flagged_debates: Viták
+      flagged_investments: Költségvetési beruházások
+      proposals: Javaslatok
+      proposal_notifications: Javaslatokról szóló értesítések
+      users: Blokkolók
+    proposals:
+      index:
+        block_authors: Block szerzők
+        filter: Szűrő
+        filters:
+          all: Valamennyi
+          pending_flag_review: Függőben
+          with_ignored_flag: Megjelölt
+        headers:
+          moderate: Közepes
+        hide: A javaslatok elrejtése
+        ignore_flags: A megtekintés szerinti jelölés
+        orders:
+          created_at: Utolsó
+          flags: A legtöbb megjelölés
+        title: Javaslatok
+    users:
+      index:
+        block: Blokk
+        confirm_block: Biztos? Ez elrejti a felhasználó "%{name}"és az összes tartalmukat.
+        confirm_hide: Biztos? Ez elrejti a felhasználó "%{name}"anélkül, hogy elrejtenék a tartalmukat.
+        hide: Elrejtés
+        search_placeholder: e-mail vagy a felhasználó neve
+        title: Blokkolók
+      notice_block: A felhasználó le van zárva. Minden tartalom, amit ez a felhasználó készített, rejtve van.
+      notice_hide: A felhasználó el volt rejtve. A felhasználó által készített tartalom még mindig elérhető.
+    budget_investments:
+      index:
+        block_authors: Block szerzők
+        filter: Szűrő
+        filters:
+          all: Valamennyi
+          pending_flag_review: Függőben
+          with_ignored_flag: Megjelölt
+        hide: Költségvetési beruházások elrejtése
+        ignore_flags: A megtekintés szerinti jelölés
+        orders:
+          created_at: Utolsó
+          flags: A legtöbb megjelölés
+        title: Költségvetési beruházások
+    proposal_notifications:
+      index:
+        block_authors: Block szerzők
+        filter: Szűrő
+        filters:
+          all: Valamennyi
+          pending_review: Függőben
+          ignored: Megjelölt
+        hide: A javaslatok elrejtése
+        ignore_flags: A megtekintés szerinti jelölés
+        orders:
+          created_at: Utolsó
+          moderated: Mérsékelt
+        title: A javaslatról szóló értesítések

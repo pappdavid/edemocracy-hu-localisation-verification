@@ -39,3 +39,8 @@ tmp/
 # Test results
 /spec/examples.txt
 /coverage/
+
+# Checkpointed local machine-translation work; reproducible, not source-controlled.
+/artifacts/complete_hu_translation_state/
+/artifacts/complete_hu_translation_state_offline/
+/scripts/__pycache__/

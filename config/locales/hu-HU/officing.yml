@@ -1,1 +1,86 @@
 hu:
+  officing:
+    header:
+      title: Szavazás
+    dashboard:
+      index:
+        title: Poll office
+        info: Itt érvényesítheti a felhasználói dokumentumokat és tárolhatja a szavazási eredményeket
+        no_shifts: Ma nincs hivatalos műszakja.
+    menu:
+      voters: A dokumentum jóváhagyása
+      total_recounts: Összes bevétel és eredmény
+    polls:
+      final:
+        title: A szavazatok készen állnak a végleges összefoglalásra
+        no_polls: Nem végzed el a zárójelentést semmilyen aktív felmérésben.
+        select_poll: A felmérés kiválasztása
+        add_results: Eredmények hozzáadása
+    poll_budgets:
+      see_ballot_sheets: Lásd a szavazólapok listáját
+      index:
+        title: '%{poll_budget} - Ballot lapok listája'
+        ballot_sheet: Ballot lap %{id}
+        ballot_sheet_name: Név
+        ballot_sheet_author: Szerző
+        ballot_sheet_creation_date: Létrehozás dátuma
+        empty_results: A szavazáshoz még nincs szavazólap.
+      new:
+        title: '%{poll_budget} - Új szavazólap'
+        booth: Booth.
+        select_booth: A stand kiválasztása
+        csv_data: CSV-adatok
+        submit: Mentés
+      show:
+        created_at: Létrehozás dátuma
+        author: Szerző
+        data: CSV-adatok
+    booth:
+      new:
+        title: Válassza ki a standot
+    results:
+      flash:
+        create: Eredmények elmentve
+        error_wrong_booth: Rossz fülke. NEM mentett eredmények.
+      new:
+        title: '%{poll} - Eredmények hozzáadása'
+        not_allowed: Nem szabad eredményeket adni ehhez a felméréshez
+        booth: Booth.
+        date: Időpont
+        select_booth: A stand kiválasztása
+        ballots_white: Teljesen üres szavazólapok
+        ballots_null: Érvénytelen szavazatok
+        ballots_total: Érvényes szavazatok
+        submit: Mentés
+        results_list: Az eredmények
+        see_results: Lásd az eredményeket
+      index:
+        no_results: Nincs eredmény
+        results: Eredmények
+        table_whites: Teljesen üres szavazólapok
+        table_nulls: Érvénytelen szavazatok
+        table_total: Érvényes szavazatok
+    voters:
+      can_vote:
+        submit_disable_with: Várj, megerősítem a szavazást...
+      new:
+        title: Szavazások
+        table_poll: Szavazás
+        table_status: A szavazatok státusa
+        table_actions: Intézkedések
+        not_to_vote: A személy úgy döntött, hogy most nem szavaz.
+      show:
+        can_vote: Szavazategyenlőség
+        cannot_vote: Az érintett személy nem szavazhat, mivel nem szerepel a szavazás helye szerinti körzet (ok) ban.
+        error_already_voted: Már részt vett a szavazáson.
+        submit: A szavazás megerősítése
+        success: Szavazzon!
+    residence:
+      flash:
+        create: Az összeírás ellenőrzése
+        not_allowed: Ma nincs irodai műszakod.
+      new:
+        title: A dokumentum jóváhagyása
+        submit: A dokumentum jóváhagyása
+        error_verifying_census: A népszámlálás nem tudta ellenőrizni ezt a dokumentumot.
+        form_errors: a dokumentum ellenőrzésének megakadályozása

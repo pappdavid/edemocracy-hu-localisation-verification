@@ -1,1 +1,42 @@
 hu:
+  flash:
+    actions:
+      create:
+        notice: '%{resource_name} sikeresen létrehozva.'
+        debate: A vita sikeresen jött létre.
+        direct_message: Az üzenetét sikeresen elküldtük.
+        poll: A közvélemény-kutatás sikeresen jött létre.
+        poll_booth: Booth sikeresen létrehozta.
+        poll_question_option: Sikeresen létrehozott válasz
+        poll_question_option_video: Sikeresen létrehozott videó
+        poll_question_option_image: A feltöltött kép
+        poll_voter: Köszönöm a szavazást!
+        poll_voter_blank: Köszönöm a szavazást! Az ön szavazata üres szavazat.
+        proposal: A javaslat sikeresen született.
+        proposal_notification: Az üzenetét helyesen küldték.
+        budget_investment: A költségvetési beruházás sikeresen jött létre.
+        signature_sheet: Sikeresen létrehozott aláírási lap
+        support: Sikeresen támogatott beruházások
+        topic: A téma sikeresen létrehozva.
+        valuator_group: Valuator csoport sikeresen létrehozva
+        vote: Sikeresen szavazott
+      save_changes:
+        notice: Változások mentve
+      update:
+        notice: '%{resource_name} sikeresen frissítve.'
+        debate: A vita sikeresen frissült.
+        poll: A közvélemény-kutatás sikeresen frissítve.
+        poll_booth: Booth sikeresen frissítve.
+        active_poll: A szavazatok leírása sikeresen frissítve.
+        proposal: A javaslatot sikeresen frissítettük.
+        budget_investment: A beruházási projekt sikeresen frissült.
+        topic: A téma sikeresen frissítve.
+        valuator_group: Az értékbecslő csoport sikeresen frissítve
+        translation: Fordítás frissítve sikeresen
+      destroy:
+        budget_investment: A beruházási projektet sikeresen törölték.
+        topic: A témakört sikeresen törölték.
+        poll_question_option_image: A kép sikeresen törlődött.
+        poll_question_option_video: Válasz videó törölve sikeresen.
+        valuator_group: Az értékbecslési csoport törlése sikeresen megtörtént
+        vote: Sikeresen törölve

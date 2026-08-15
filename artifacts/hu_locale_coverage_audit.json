@@ -1,0 +1,287 @@
+{
+  "totals": {
+    "english_leaves": 4629,
+    "hungarian_leaves": 4630,
+    "missing": 0,
+    "untranslated": 57
+  },
+  "files": [
+    {
+      "file": "activemodel.yml",
+      "english_leaves": 28,
+      "hungarian_leaves": 28,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "activerecord.yml",
+      "english_leaves": 445,
+      "hungarian_leaves": 445,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "activerecord.models.milestone/status.one"
+      ]
+    },
+    {
+      "file": "admin.yml",
+      "english_leaves": 1369,
+      "hungarian_leaves": 1369,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "admin.budgets.index.table_phase_progress",
+        "admin.legislation.proposals.index.id",
+        "admin.site_customization.images.index.dimensions"
+      ]
+    },
+    {
+      "file": "budgets.yml",
+      "english_leaves": 175,
+      "hungarian_leaves": 175,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "budgets.ballots.show.amount_progress",
+        "budgets.investments.form.subtitle",
+        "budgets.investments.form.subtitle_without_price"
+      ]
+    },
+    {
+      "file": "community.yml",
+      "english_leaves": 29,
+      "hungarian_leaves": 29,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "devise.yml",
+      "english_leaves": 48,
+      "hungarian_leaves": 48,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "devise_views.yml",
+      "english_leaves": 86,
+      "hungarian_leaves": 86,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "documents.yml",
+      "english_leaves": 15,
+      "hungarian_leaves": 15,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "general.yml",
+      "english_leaves": 733,
+      "hungarian_leaves": 734,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "dashboard.menu.mailing",
+        "layouts.footer.consul_url",
+        "layouts.footer.copyright",
+        "layouts.footer.open_source_url",
+        "omniauth.oidc.name",
+        "omniauth.wordpress_oauth2.name",
+        "polls.show.stats.web",
+        "related_content.placeholder",
+        "social.facebook",
+        "social.instagram",
+        "social.telegram",
+        "social.twitter",
+        "social.youtube"
+      ]
+    },
+    {
+      "file": "i18n.yml",
+      "english_leaves": 1,
+      "hungarian_leaves": 1,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "images.yml",
+      "english_leaves": 19,
+      "hungarian_leaves": 19,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "kaminari.yml",
+      "english_leaves": 13,
+      "hungarian_leaves": 13,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "legislation.yml",
+      "english_leaves": 95,
+      "hungarian_leaves": 95,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "mailers.yml",
+      "english_leaves": 109,
+      "hungarian_leaves": 109,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "mailers.evaluation_comment.commenter_info"
+      ]
+    },
+    {
+      "file": "management.yml",
+      "english_leaves": 99,
+      "hungarian_leaves": 99,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "milestones.yml",
+      "english_leaves": 4,
+      "hungarian_leaves": 4,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "moderation.yml",
+      "english_leaves": 68,
+      "hungarian_leaves": 68,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "officing.yml",
+      "english_leaves": 61,
+      "hungarian_leaves": 61,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "pages.yml",
+      "english_leaves": 115,
+      "hungarian_leaves": 115,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "pages.accessibility.keyboard_shortcuts.browser_table.rows[1].browser_column",
+        "pages.accessibility.keyboard_shortcuts.browser_table.rows[2].browser_column",
+        "pages.accessibility.keyboard_shortcuts.browser_table.rows[3].browser_column",
+        "pages.accessibility.keyboard_shortcuts.browser_table.rows[4].browser_column",
+        "pages.accessibility.textsize.browser_settings_table.rows[1].browser_column",
+        "pages.accessibility.textsize.browser_settings_table.rows[2].browser_column",
+        "pages.accessibility.textsize.browser_settings_table.rows[3].browser_column",
+        "pages.accessibility.textsize.browser_settings_table.rows[4].browser_column"
+      ]
+    },
+    {
+      "file": "rails.yml",
+      "english_leaves": 153,
+      "hungarian_leaves": 153,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "date.abbr_month_names[12]",
+        "date.formats.default",
+        "date.month_names[11]",
+        "date.month_names[12]",
+        "number.currency.format.delimiter",
+        "number.currency.format.format",
+        "number.currency.format.separator",
+        "number.currency.format.unit",
+        "number.format.delimiter",
+        "number.format.separator",
+        "number.human.storage_units.units.gb",
+        "number.human.storage_units.units.kb",
+        "number.human.storage_units.units.mb",
+        "number.human.storage_units.units.tb",
+        "number.percentage.format.format",
+        "support.array.words_connector"
+      ]
+    },
+    {
+      "file": "rails_date_order.yml",
+      "english_leaves": 3,
+      "hungarian_leaves": 3,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "responders.yml",
+      "english_leaves": 35,
+      "hungarian_leaves": 35,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "sdg.yml",
+      "english_leaves": 426,
+      "hungarian_leaves": 426,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "sdg.related_list_selector.goal_identifier"
+      ]
+    },
+    {
+      "file": "sdg_management.yml",
+      "english_leaves": 30,
+      "hungarian_leaves": 30,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "seeds.yml",
+      "english_leaves": 67,
+      "hungarian_leaves": 67,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "settings.yml",
+      "english_leaves": 229,
+      "hungarian_leaves": 229,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "social_share_button.yml",
+      "english_leaves": 18,
+      "hungarian_leaves": 18,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "social_share_button.baidu",
+        "social_share_button.kaixin001",
+        "social_share_button.pinterest",
+        "social_share_button.plurk",
+        "social_share_button.qq",
+        "social_share_button.telegram",
+        "social_share_button.tqq",
+        "social_share_button.tumblr",
+        "social_share_button.weibo",
+        "social_share_button.whatsapp_app"
+      ]
+    },
+    {
+      "file": "stats.yml",
+      "english_leaves": 37,
+      "hungarian_leaves": 37,
+      "missing_keys": [],
+      "untranslated_identical_values": [
+        "stats.polls.web_percentage"
+      ]
+    },
+    {
+      "file": "valuation.yml",
+      "english_leaves": 54,
+      "hungarian_leaves": 54,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    },
+    {
+      "file": "verification.yml",
+      "english_leaves": 65,
+      "hungarian_leaves": 65,
+      "missing_keys": [],
+      "untranslated_identical_values": []
+    }
+  ]
+}

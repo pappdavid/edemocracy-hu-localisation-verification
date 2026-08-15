@@ -1,1 +1,135 @@
 hu:
+  legislation:
+    annotations:
+      comments:
+        see_all: Lásd az összes
+        see_complete: Teljes
+        replies_count:
+          one: '%{count} válasz'
+          other: '%{count} válaszok'
+        cancel: Törlés
+        publish_comment: Megjegyzés
+      form:
+        phase_not_open: Ez a szakasz még nincs nyitva.
+      index:
+        title: Megjegyzések
+        comments_about: Megjegyzések
+        see_in_context: Lásd az összefüggésben
+      show:
+        title: Megjegyzés
+      version_chooser:
+        seeing_version: Fordítás
+        see_text: Lásd a szövegtervezetet
+    draft_versions:
+      changes:
+        title: Változások
+        seeing_changelog_version: Felülvizsgálati módosítások összefoglalása
+        see_text: Lásd a szövegtervezetet
+      show:
+        loading_comments: Hozzászólások betöltése
+        seeing_version: A vázlatot látod.
+        select_draft_version: A vázlat kiválasztása
+        select_version_submit: lásd
+        updated_at: 'frissítve: %{date}'
+        see_changes: lásd a változások összefoglalását
+        see_comments: Lásd az összes megjegyzést
+        text_toc: Tartalomjegyzék
+        text_body: Szöveg
+        text_comments: Megjegyzések
+    processes:
+      header:
+        additional_info: További információk
+        description: Leírás
+        more_info: További információk és háttér
+      proposals:
+        empty_proposals: Nincsenek javaslatok.
+        filters:
+          random: Véletlenszerű
+          winners: Kiválasztott
+      debate:
+        empty_questions: Nincs kérdés.
+      index:
+        filter: Szűrő
+        filters:
+          open: Nyílt eljárások
+          past: Előző
+        no_open_processes: Nincsenek nyílt folyamatok.
+        no_past_processes: Nincsenek korábbi folyamatok.
+        section_header:
+          icon_alt: Együttműködő jogi ikon
+          title: Együttműködés
+          help: Segítségnyújtás az együttműködésen alapuló jogalkotásban
+        section_footer:
+          title: Segítségnyújtás az együttműködésen alapuló jogalkotásban
+          description: Az új rendeletek vagy stratégiák jóváhagyását megelőzően vegyenek részt a vitákban és folyamatokban.
+            Megfontoljuk a véleményét.
+      phase_not_open:
+        not_open: Ez a szakasz még nem nyitott.
+      phase_empty:
+        empty: Még nem jelent meg.
+      process:
+        see_latest_comments: Lásd a legfrissebb észrevételeket.
+        see_latest_comments_title: Megjegyzés erről a folyamatról
+      shared:
+        key_dates: Részvételi szakaszok
+        homepage: Honlap
+        debate_dates: Vita
+        draft_publication_date: Kiadványtervezet
+        allegations_dates: Megjegyzések
+        result_publication_date: Végleges eredmény közzététel
+        milestones_date: Következő
+        proposals_dates: Javaslatok
+    questions:
+      comments:
+        comment_button: Kiadói válasz
+        comments_title: Válaszok megnyitása
+        comments_closed: Zárt fázis
+        form:
+          leave_comment: Hagyd meg a válaszod.
+      question:
+        debate: Vita
+      show:
+        answer_question: Válasz benyújtása
+        next_question: Következő kérdés
+        first_question: Első kérdés
+        share: Megosztás
+        title: Együttható jogalkotási eljárás
+      participation:
+        phase_not_open: Ez a szakasz még nincs nyitva.
+        organizations: A vitában nem vehetnek részt szervezetek
+        unauthenticated: Muszáj. %{signin} vagy %{signup} részt venni.
+        verified_only: Csak ellenőrzött felhasználók vehetnek részt, %{verify_account}.
+        debate_phase_not_open: A vita befejeződött, és a válaszokat már nem fogadják el.
+    summary:
+      top_comments:
+        one: '%{count} megjegyzés'
+        other: Főbb megjegyzések
+        zero: Nincs hozzászólás
+      most_voted_comments: A legtöbb szavazott megjegyzés
+      no_allegation: Nincs megjegyzés.
+      process_empty: Ennek a folyamatnak nem voltak részvételi fázisai.
+      title: Összefoglaló
+      votes:
+        zero: '%{count} szavazatok'
+        one: '%{count} szavazás'
+        other: '%{count} szavazatok'
+      debate_phase: Vitaszakasz
+      proposals_phase: Javaslatok
+      allegations_phase: Hozzászólási szakasz
+      debates:
+        zero: Nincs vita
+        one: '%{count} vita'
+        other: '%{count} viták'
+      proposals:
+        zero: Nincs javaslat
+        one: '%{count} javaslat'
+        other: '%{count} javaslatok'
+      download: Összefoglaló letöltése
+    shared:
+      share: Megosztás
+      share_comment: Megjegyzés %{version_name} a folyamattervezetből %{process_name}
+    proposals:
+      form:
+        tags_label: Kategóriák
+      not_verified: Szavazati javaslatok %{verify_account}.
+      process_title: Együttható jogalkotási eljárás
