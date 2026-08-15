@@ -1,82 +1,222 @@
-![CONSUL DEMOCRACY logo](https://raw.githubusercontent.com/consuldemocracy/consuldemocracy/master/public/consul_logo.png)
+# eDemocracy Hungary — CONSUL Democracy 2.5.0 remediation donor
 
-# CONSUL DEMOCRACY
+This repository is the **reference implementation and remediation donor** for the Hungarian eDemocracy deployment built on CONSUL Democracy.
 
-Citizen Participation and Open Government Application
+It is intentionally pinned to **CONSUL Democracy 2.5.0**. The goal is to implement and verify portable fixes here, then rebase/cherry-pick/port them onto the company deployment fork when that fork becomes available.
 
-[![DPG Badge](https://img.shields.io/badge/Verified-DPG-3333AB?logo=data:image/svg%2bxml;base64,PHN2ZyB3aWR0aD0iMzEiIGhlaWdodD0iMzMiIHZpZXdCb3g9IjAgMCAzMSAzMyIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjIwMDggMjEuMzY3OEwxMC4xNzM2IDE4LjAxMjRMMTEuNTIxOSAxNi40MDAzTDEzLjk5MjggMTguNDU5TDE5LjYyNjkgMTIuMjExMUwyMS4xOTA5IDEzLjYxNkwxNC4yMDA4IDIxLjM2NzhaTTI0LjYyNDEgOS4zNTEyN0wyNC44MDcxIDMuMDcyOTdMMTguODgxIDUuMTg2NjJMMTUuMzMxNCAtMi4zMzA4MmUtMDVMMTEuNzgyMSA1LjE4NjYyTDUuODU2MDEgMy4wNzI5N0w2LjAzOTA2IDkuMzUxMjdMMCAxMS4xMTc3TDMuODQ1MjEgMTYuMDg5NUwwIDIxLjA2MTJMNi4wMzkwNiAyMi44Mjc3TDUuODU2MDEgMjkuMTA2TDExLjc4MjEgMjYuOTkyM0wxNS4zMzE0IDMyLjE3OUwxOC44ODEgMjYuOTkyM0wyNC44MDcxIDI5LjEwNkwyNC42MjQxIDIyLjgyNzdMMzAuNjYzMSAyMS4wNjEyTDI2LjgxNzYgMTYuMDg5NUwzMC42NjMxIDExLjExNzdMMjQuNjI0MSA5LjM1MTI3WiIgZmlsbD0id2hpdGUiLz4KPC9zdmc+Cg==)](https://www.digitalpublicgoods.net/r/consul-democracy)
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
-[![Accessibility conformance](https://img.shields.io/badge/accessibility-WAI:AA-green.svg)](https://www.w3.org/WAI/eval/Overview)
+> **Baseline rule:** do not upgrade this repository to CONSUL Democracy 2.5.1. `baseline/consul-2.5.0` is the immutable three-way merge/rebase anchor.
 
-![Build status](https://github.com/consuldemocracy/consuldemocracy/workflows/tests/badge.svg)
-[![Coverage Status](https://coveralls.io/repos/github/consuldemocracy/consuldemocracy/badge.svg)](https://coveralls.io/github/consuldemocracy/consuldemocracy?branch=master)
-[![Crowdin](https://d322cqt584bo4o.cloudfront.net/consul/localized.svg)](https://translate.consuldemocracy.org/)
-[![Knapsack Pro Parallel CI builds for RSpec tests](https://img.shields.io/badge/Knapsack%20Pro-Parallel%20/%20RSpec%20tests-%230074ff)](https://knapsackpro.com/dashboard/organizations/176/projects/202/test_suites/318/builds?utm_campaign=organization-id-176&utm_content=test-suite-id-318&utm_medium=readme&utm_source=knapsack-pro-badge&utm_term=project-id-202)
+## Branch structure
 
-[![Help wanted](https://img.shields.io/badge/help-wanted-brightgreen.svg?style=flat-square)](https://github.com/consuldemocracy/consuldemocracy/issues?q=is%3Aopen+label%3A"help+wanted")
+| Branch | Purpose | State |
+|---|---|---|
+| `baseline/consul-2.5.0` | Pristine official CONSUL Democracy 2.5.0 at `43704021e78b202af335ab93a5483610a8e039f0` | Reference only |
+| `main` | Current eDemocracy integration branch | Active |
+| `feature/hu-localisation-ux-verification` | Broad Hungarian catalogue, editorial rewrite, verification UX, preview helpers and evidence | Completed source workstream, preserved |
+| `feature/ui-localisation-regression` | Screenshot-backed UI/localisation remediation, focused regression tests and evidence | Completed, pending reconciliation into `main` |
+| `feature/*` | Portable engineering work intended for later company-fork porting | Active work |
+| `poc/*` | Experimental work that must remain isolated until explicitly accepted | Proof of concept |
 
-This is the opensource code repository of the eParticipation website CONSUL DEMOCRACY, originally developed for the Madrid City government eParticipation website, and currently maintained by the open source software community in collaboration with the CONSUL DEMOCRACY Foundation.
+The two completed localisation branches diverged after the shared remediation base. Their history is intentionally preserved instead of being rewritten into one opaque commit pile. `main` currently follows the broader Hungarian catalogue/editorial line; the focused UI-regression branch still needs an explicit reconciliation pass before its extra evidence/tests are merged.
 
-## Documentation
+## Current status
 
-Check the [ongoing documentation](https://docs.consuldemocracy.org/index) to learn more about how to start your own CONSUL DEMOCRACY fork, install it, customize it and learn to use it as an administrator/maintainer.
+### Completed / established
 
-## CONSUL DEMOCRACY Foundation and project website
+- [x] Preserve the official CONSUL Democracy 2.5.0 baseline.
+- [x] Move the project default/integration work onto `main` while keeping the pristine baseline separately.
+- [x] Initial Hungarian verification localisation and UX fixes.
+- [x] Hungarian verification-facing labels and document terminology cleanup.
+- [x] Full Hungarian locale catalogue generation against the 2.5.0 source tree.
+- [x] Hungarian catalogue validation and coverage audit.
+- [x] Natural Hungarian civic-language editorial rewrite.
+- [x] Translation/editorial changelog generation.
+- [x] Hungarian localisation validator and production-hardening validator.
+- [x] Screenshot-backed UI/localisation regression workstream completed on `feature/ui-localisation-regression`.
+- [x] Focused UI/localisation regression verification completed there with **8 examples, 0 failures** and **0 blocking critical-surface localisation regressions**.
+- [x] Original issue evidence/proof protocol documented.
+- [x] Local/runtime preview helper scripts added to the broad Hungarian remediation branch.
 
-You can access the main website of the project at [http://consuldemocracy.org](http://consuldemocracy.org) where you can find information about the use of the platform, the CONSUL DEMOCRACY Foundation, the global community of users and local partners, news, and ways to get more support or get in touch.
+### Integration work still required
 
-## Configuration for development and test environments
+- [ ] Reconcile `feature/ui-localisation-regression` into `main` after reviewing overlapping locale/validator changes.
+- [ ] Preserve the stronger screenshot evidence and focused regression specs during that reconciliation.
+- [ ] Add donor-specific CI for `main`, `feature/**`, `fix/**` and pull requests.
+- [ ] Make the Hungarian validator + focused system specs mandatory donor acceptance checks.
+- [ ] Add an exact regression reproduction for original issue #17, verified-user registration HTTP 422.
+- [ ] Reconcile the original 17-item issue tracker into verified fixed / reopened / blocked / obsolete states.
 
-**NOTE**:
-The installation process will vary depending on your operating system. Please make sure to follow the [Local Installation Guide](docs/en/installation/local_installation.md) appropriate for your OS.
+## Master technical checklist
 
-Prerequisites: install git, Ruby 3.3.11, CMake, pkg-config, Node.js 20.20.2, ImageMagick and PostgreSQL (>=13).
+### A. Hungarian UI and localisation
 
-**Note**: The `bin/setup` command below might fail if you've configured a username and password for PostgreSQL. If that's the case, edit the lines containing `username:` and `password:` (adding your credentials) in the `config/database.yml` file and run `bin/setup` again.
+- [x] Full 2.5.0 Hungarian catalogue exists.
+- [x] Critical public-facing Hungarian wording has been remediated.
+- [x] Civic terminology received an editorial rewrite.
+- [x] Localisation coverage/validation tooling exists.
+- [x] Screenshot-backed regression package exists on its completed feature branch.
+- [ ] Merge the extra UI-regression evidence/specs into `main` without losing the broader catalogue/editorial work.
+- [ ] Keep translation correctness separate from institutional/policy copy.
+- [ ] Continue non-blocking editorial review of low-priority catalogue strings as needed.
+
+### B. Application acceptance and runtime verification
+
+- [ ] Create the project-specific end-to-end acceptance suite.
+- [ ] Registration → confirmation → login/logout.
+- [ ] Debate creation/read/comment journey.
+- [ ] Proposal creation/support journey.
+- [ ] Residence-verification journey with synthetic residents.
+- [ ] Verified-user voting journey.
+- [ ] Poll-officer/officing journey.
+- [ ] Negative tests for census mismatch, wrong DOB/postcode, duplicate identity, wrong geozone and duplicate voting.
+- [ ] Emit screenshots/evidence for failed acceptance tests.
+- [ ] Use this suite later as the company-fork port acceptance gate.
+
+### C. Local Census and remote census test layer
+
+- [ ] Build synthetic Hungarian resident fixtures/factories.
+- [ ] Test Local Census CSV import and matching behavior.
+- [ ] Cover malformed input, duplicates, Unicode/whitespace and not-found cases.
+- [ ] Build a deterministic fake remote-census service.
+- [ ] Cover found / not found / `district_code` / timeout / provider error / malformed response.
+- [ ] Document the exact CONSUL 2.5.0 census-adapter contract.
+- [ ] Ensure census identity fields are not leaked to logs.
+
+### D. Geozones
+
+- [ ] Characterize stock `Geozone.census_code` behavior.
+- [ ] Prove eligible vs. ineligible residents with a synthetic `district_code`.
+- [ ] Keep the optional Local Census `district_code` implementation on an isolated `poc/*` branch.
+- [ ] Do not merge a Local Census schema extension until the real census backend is known.
+
+### E. Tenant isolation
+
+- [ ] Test tenant-local data isolation.
+- [ ] Test tenant-local admin boundaries.
+- [ ] Test settings, branding, locale/content, polls, proposals and debates across tenants.
+- [ ] Test host routing.
+- [ ] Re-run the same isolation suite after the later company-fork port.
+
+### F. Ballot/privacy characterization
+
+- [ ] Characterize the stock `Poll::Answer -> author` relationship in executable tests.
+- [ ] Trace admin/API/export visibility of voter-answer linkage.
+- [ ] Characterize online voting separately from officing/onsite voting.
+- [ ] Characterize account erasure after verification and voting.
+- [ ] Document what identity/voting relationships remain after normal erasure.
+- [ ] Do not redesign ballot anonymity until the required secrecy model is explicitly decided.
+
+### G. PII and logging safety
+
+- [ ] Test that document number, DOB, phone number and SMS codes do not leak into logs.
+- [ ] Prevent full census payload logging.
+- [ ] Add structured non-identifying error codes.
+- [ ] Verify Rails sensitive-parameter filtering.
+
+### H. Email / SMS / deployment-independent integration tests
+
+- [ ] Add transactional-mail test doubles and tenant/locale/link checks.
+- [ ] Add fake SMS adapter with success/error/timeout/invalid/expired-code cases.
+- [ ] Keep real SMTP/SMS provider configuration outside portable donor commits.
+
+### I. Security/configuration
+
+- [x] Initial HTTPS/HSTS hardening exists as a deployment-sensitive change.
+- [ ] Keep HSTS/force-SSL assumptions separate from portable application fixes.
+- [ ] Add static security-header checks.
+- [ ] Add secret/config presence validation and repository secret scanning.
+- [ ] Prepare CSP report-only validation before any production enforcement.
+
+### J. Company-fork portability
+
+- [ ] Add `scripts/compare_target_fork.sh`.
+- [ ] Add `scripts/check_portability.py`.
+- [ ] Add a machine-readable donor change manifest.
+- [ ] Document changed files, baseline hashes, portability, conflict risk and required tests per patch.
+- [ ] When the company fork arrives, compare it against `baseline/consul-2.5.0` before porting changes.
+- [ ] Prefer narrow cherry-picks/ports over one giant merge.
+- [ ] Run the donor acceptance suite after every port batch.
+
+### K. AWS KYC / identity-verification PoC — parallel track
+
+This work is a **parallel PoC track**, not yet the production municipal identity-verification system.
+
+- [x] Deterministic synthetic KYC core implemented.
+- [x] Hungarian personal-ID validation implemented.
+- [x] MRZ parsing/checksum validation implemented.
+- [x] Name and cross-document DOB consistency checks implemented.
+- [x] Textract integration path implemented.
+- [x] Rekognition `CompareFaces` integration path implemented.
+- [x] Synthetic AWS-shaped mocks, redacted result model, FastAPI backend and test fixtures implemented.
+- [~] Live AWS verification is waiting for AWS account/service verification to propagate so Textract can be exercised.
+- [ ] Run real Textract document extraction after AWS activation.
+- [ ] Run real Rekognition comparison/liveness validation after AWS activation.
+- [ ] Test the PoC on an explicitly experimental/private route on the project owner's site before any CONSUL integration.
+- [ ] Keep identity verification, residence verification and voting authorization as separate layers.
+- [ ] Keep real biometric municipal-user use behind a legal/data-processing decision gate.
+
+## External decision gates
+
+The following are intentionally **not** engineering decisions:
+
+- [ ] Final privacy-policy wording.
+- [ ] Final terms-of-service wording.
+- [ ] Lawful basis and controller/processor model for municipal census data.
+- [ ] Retention rules for identity/census/verification data.
+- [ ] Required ballot-secrecy model and whether operator/database-linkable votes are acceptable.
+- [ ] Geographic eligibility for the real pilot.
+- [ ] Whether a poll/result is advisory or binding and what consequence it has.
+- [ ] Final municipal governance/help wording.
+- [ ] Whether biometric KYC will be used for real municipal users and under what retention model.
+
+## Verification and evidence
+
+Useful project-specific files currently on `main` include:
+
+- `docs/complete_hungarian_localisation.md`
+- `docs/hungarian_localisation_editorial_changelog.md`
+- `docs/hungarian_localisation_editorial_changes.tsv`
+- `docs/hungarian_localisation_editorial_manual_changes.tsv`
+- `docs/edemocracy_hu_test_plan.md`
+- `docs/issue-fix-evidence-audit.md`
+- `docs/issue-proof-protocol.md`
+- `artifacts/hu_locale_coverage_audit.json`
+
+The completed screenshot-backed workstream additionally contains `docs/evidence/` and its focused system specs on `feature/ui-localisation-regression` until reconciliation is complete.
+
+Typical focused checks:
 
 ```bash
-git clone https://github.com/consuldemocracy/consuldemocracy.git
-cd consuldemocracy
-bin/setup
-bin/rake db:dev_seed
+python3 scripts/validate_hu_overlay.py
+bundle exec rspec spec/system/registration_verification_flow_spec.rb
+bundle exec rspec spec/system/verification/hungarian_residence_spec.rb
 ```
 
-Run the app locally:
+Do not interpret a generated translation or a recorded tracker result as verification by itself. A remediation is considered closed when its expected behavior is reproduced by a test or documented evidence against the applicable branch/runtime.
 
-```bash
-bin/rails s
+## Later company-fork porting model
+
+```text
+baseline/consul-2.5.0
+        |\
+        | \__ company fork ............. future deployment target
+        |
+        \____ main ..................... verified donor remediation
+                 |
+                 +-- feature/* ......... portable workstreams
+                 +-- poc/* ............. isolated experiments
 ```
 
-You can run the tests with:
+When the company fork becomes available, use the pristine baseline as the common ancestor, classify downstream differences, then port the verified donor changes with their tests/evidence.
 
-```bash
-bin/rspec
-```
+## Upstream CONSUL Democracy
 
-Note: running the whole test suite on your machine might take more than an hour, so it's strongly recommended that you setup a Continuous Integration system in order to run them using parallel jobs every time you open or modify a pull request (if you use GitHub Actions or GitLab CI, this is already configured in `.github/workflows/tests.yml` and `.gitlab-ci.yml`) and only run tests related to your current task while developing on your machine. When you configure the application for the first time, it's recommended that you run at least one test in `spec/models/` and one test in `spec/system/` to check your machine is properly configured to run the tests.
+This repository is based on [CONSUL Democracy](https://github.com/consuldemocracy/consuldemocracy), an open-source citizen participation and open-government platform.
 
-You can use the default admin user from the seeds file:
+Upstream documentation: <https://docs.consuldemocracy.org/>
 
- **user:** admin@consul.dev
- **pass:** 12345678
-
-But for some actions like voting, you will need a verified user, the seeds file also includes one:
-
- **user:** verified@consul.dev
- **pass:** 12345678
-
-## Configuration for production environments
-
-See [installer](https://github.com/consuldemocracy/installer)
-
-## Current state
-
-Development started on [2015 July 15th](https://github.com/consuldemocracy/consuldemocracy/commit/8db36308379accd44b5de4f680a54c41a0cc6fc6). Code was deployed to production on 2015 september 7th to [decide.madrid.es](https://decide.madrid.es). Since then new features are added often. You can take a look at the current features at the [project's website](http://consuldemocracy.org/) and future features at the [Roadmap](https://github.com/orgs/consuldemocracy/projects/2) and [open issues list](https://github.com/consuldemocracy/consuldemocracy/issues).
+The baseline used here is **CONSUL Democracy 2.5.0**.
 
 ## License
 
-Code published under AFFERO GPL v3 (see [LICENSE-AGPLv3.txt](LICENSE-AGPLv3.txt))
-
-## Contributions
-
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+CONSUL Democracy and this derivative repository are published under the **GNU Affero General Public License v3 (AGPL-3.0)**. See `LICENSE-AGPLv3.txt`.
