@@ -1,0 +1,24 @@
+{
+  "name": "edemocracy-aws-kyc-liveness-poc",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "check": "tsc --noEmit",
+    "test": "vitest run",
+    "test:live": "vitest run server/identity/awsPreflight.live.test.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-rekognition": "^3.1111.0",
+    "@aws-sdk/client-s3": "^3.693.0",
+    "@aws-sdk/client-sts": "^3.1111.0",
+    "@aws-sdk/client-textract": "^3.1111.0",
+    "nanoid": "^5.1.5",
+    "sharp": "^0.35.3"
+  },
+  "devDependencies": {
+    "@types/node": "^24.7.0",
+    "typescript": "5.9.3",
+    "vitest": "^2.1.4"
+  }
+}

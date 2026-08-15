@@ -1,0 +1,10 @@
+{
+  "note": "Environment values are runtime-only. Do not commit .env files or credentials. This file intentionally contains names only.",
+  "required_runtime_names": [
+    "AWS_REGION",
+    "AWS_KYC_TEMP_BUCKET",
+    "AWS_KYC_LIVENESS_THRESHOLD",
+    "AWS_KYC_FACE_MATCH_THRESHOLD"
+  ],
+  "optional_runtime_names": ["AWS_KYC_TEMP_KMS_KEY_ID"]
+}

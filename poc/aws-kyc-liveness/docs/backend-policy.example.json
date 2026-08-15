@@ -1,0 +1,32 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "RunKycServices",
+      "Effect": "Allow",
+      "Action": [
+        "sts:GetCallerIdentity",
+        "textract:AnalyzeID",
+        "rekognition:CreateFaceLivenessSession",
+        "rekognition:GetFaceLivenessSessionResults",
+        "rekognition:CompareFaces",
+        "rekognition:DetectFaces",
+        "rekognition:DetectText"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "TemporaryLivenessObjects",
+      "Effect": "Allow",
+      "Action": ["s3:PutObject", "s3:GetObject", "s3:DeleteObject", "s3:AbortMultipartUpload"],
+      "Resource": "arn:aws:s3:::REPLACE_WITH_TEMP_BUCKET/liveness/*"
+    },
+    {
+      "Sid": "ListTemporaryLivenessPrefix",
+      "Effect": "Allow",
+      "Action": "s3:ListBucket",
+      "Resource": "arn:aws:s3:::REPLACE_WITH_TEMP_BUCKET",
+      "Condition": { "StringLike": { "s3:prefix": "liveness/*" } }
+    }
+  ]
+}
